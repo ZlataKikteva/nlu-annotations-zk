@@ -1,5 +1,5 @@
-altair==4.0
-psycopg2-binary==2.9.10
+altair
+psycopg2-binary==
 python-dotenv==1.0.1
 streamlit==1.41.1
 streamlit-annotation-tools==1.0.1
