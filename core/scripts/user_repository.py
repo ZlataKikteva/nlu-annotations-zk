@@ -23,7 +23,7 @@ def get_user(user_id: str):
     # conn.close()
     return user
 
-def create_user(user_id: str, task: str = "ambiguity_task", data: dict = {}):
+def create_user(user_id: str, task: str = "example_task", data: dict = {}):
     """
     Creates a user with the specified user id.
 
