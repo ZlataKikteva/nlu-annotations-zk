@@ -1,0 +1,39 @@
+{
+    "1": {
+        "sentence": "She asked her friend to help her get rid of the bugs.",
+        "word": "bug",
+        "meaning1": "general term for insects",
+        "meaning2": "a fault in a computer program or machine",
+        "focus_meaning": "a fault in a computer program or machine",
+        "grouping": 0,
+        "precontexts": [
+            "She had been dealing with strange little problems all week and finally admitted she couldn’t handle them alone.",
+            "That morning, she discovered that the situation had gotten noticeably worse. She realized she needed someone else to look at what was happening before it spiraled further.",
+            "She had spent the whole evening trying to figure out why things around her felt off, but nothing she tried made it any better. By the time the sun came up, she was exhausted and increasingly frustrated. She finally decided it was time to reach out to someone who might see what she was missing."
+        ],
+        "endings": [
+            "She watched nervously as her friend examined the situation and told her he had a plan.",
+            "Her friend took a deep breath and said they’d have to start by looking more closely at where the trouble began. She nodded, hoping it wouldn’t take all night.",
+            "They moved to the corner where she said the problem kept showing up, and he crouched down to inspect it. After a moment, he asked her to bring over a small box he’d left by the door. She hesitated, wondering if this would finally put an end to everything."
+        ]
+
+    },
+    "2": {
+        "sentence": "She asked her friend to help her get rid of the bugs.",
+        "word": "bug",
+        "meaning1": "general term for insects",
+        "meaning2": "a fault in a computer program or machine",
+        "focus_meaning": "general term for insects",
+        "grouping": 0,
+        "precontexts": [
+            "She had been dealing with strange little problems all week and finally admitted she couldn’t handle them alone.",
+            "That morning, she discovered that the situation had gotten noticeably worse. She realized she needed someone else to look at what was happening before it spiraled further.",
+            "She had spent the whole evening trying to figure out why things around her felt off, but nothing she tried made it any better. By the time the sun came up, she was exhausted and increasingly frustrated. She finally decided it was time to reach out to someone who might see what she was missing."
+        ],
+        "endings": [
+            "She watched nervously as her friend examined the situation and told her he had a plan.",
+            "Her friend took a deep breath and said they’d have to start by looking more closely at where the trouble began. She nodded, hoping it wouldn’t take all night.",
+            "They moved to the corner where she said the problem kept showing up, and he crouched down to inspect it. After a moment, he asked her to bring over a small box he’d left by the door. She hesitated, wondering if this would finally put an end to everything."
+        ]
+    }
+}

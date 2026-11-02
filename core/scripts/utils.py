@@ -6,163 +6,168 @@ import streamlit as st
 from core.scripts import user_repository, database_repository
 
 TASK_INFO = {
-    "ambiguity_task": {
-        "annotation_filepath": "ambiguity_task/resources/pilot_samples.json",
-        "qualification_filepath": "ambiguity_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 8
-    },
     "example_task": {
         "annotation_filepath": "example_task/resources/samples.json",
         "qualification_filepath": "example_task/resources/qualification_samples.json",
-        "number_of_annotator_groups": 2,
-    },
-    "ambistory_task": {
-        "annotation_filepath": "ambistory_task/resources/story_samples.json",
-        "qualification_filepath": "ambistory_task/resources/qualification_questions.json",
         "number_of_annotator_groups": 1
     },
-    "ambisentence_task": {
-        "annotation_filepath": "ambisentence_task/resources/word_senses.json",
-        "qualification_filepath": "ambisentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "eval_ambisentence_task": {
-        "annotation_filepath":  "eval_ambisentence_task/resources/human_samples.json",
-        "qualification_filepath": "eval_ambisentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "ambistory2_task": {
-        "annotation_filepath": "ambistory2_task/resources/story_samples.json",
-        "qualification_filepath": "ambistory2_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "ending_task": {
-        "annotation_filepath": "ending_task/resources/story_samples.json",
-        "qualification_filepath": "ending_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 4,
-        "group_assignment": "post-qualification"
-    },
-    "eval_ending_task": {
-        "annotation_filepath": "eval_ending_task/resources/story_samples.json",
-        "qualification_filepath": "eval_ending_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 4,
-        "group_assignment": "post-qualification"
-    },
-    "big_ambisentence_task": {
-        "annotation_filepath": "big_ambisentence_task/resources/word_senses.json",
-        "qualification_filepath": "big_ambisentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "big_ending_task": {
-        "annotation_filepath": "big_ending_task/resources/annotation_samples.json",
-        "qualification_filepath": "big_ending_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 65,
-        "group_assignment": "post-qualification"
-    },
-    "big_ending_task_round2": {
-        "annotation_filepath": "big_ending_task_round2/resources/big_ending_annotations_round2.json",
-        "qualification_filepath": "big_ending_task_round2/resources/qualification_questions.json",
-        "number_of_annotator_groups": 35,
-        "group_assignment": "post-qualification"
-    },
-    "big_eval_ending_task": {
-        "annotation_filepath": "big_eval_ending_task/resources/annotation_samples.json",
-        "qualification_filepath": "big_eval_ending_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 130
-    },
-    "big_eval_sentence_task": {
-        "annotation_filepath": "big_eval_sentence_task/resources/annotation_samples.json",
-        "qualification_filepath": "big_eval_sentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 30,
-        "group_assignment": "post-qualification"
-    },
-    "var_ending_test": {
-        "annotation_filepath": "var_ending_test/resources/new_samples.json",
-        "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
-        "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 15,
-        "group_assignment": "post-qualification"
-    },
-    "var_ending_test2": {
-        "annotation_filepath": "var_ending_test2/resources/new_samples.json",
-        "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
-        "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 15,
-        "group_assignment": "post-qualification"
-    },
-    "var_sentence_task": {
-        "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
-        "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "var_sentence_task2": {
-        "annotation_filepath": "var_sentence_task2/resources/sense_pairs.json",
-        "qualification_filepath": "var_sentence_task2/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "adv_sentence_task": {
-        "annotation_filepath": "adv_sentence_task/resources/sense_pairs.json",
-        "qualification_filepath": "adv_sentence_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    },
-    "adv_ending_task": {
-        "annotation_filepath": "adv_ending_task/resources/contexts.json",
-        "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
-        "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 40,
-        "group_assignment": "post-qualification"
-    },
-    "adv_ending_task2": {
-        "annotation_filepath": "adv_ending_task2/resources/contexts.json",
-        "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
-        "tutorial_filepath": "adv_ending_task2/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 40,
-        "group_assignment": "post-qualification"
-    },
-    "adv_ending_task3": {
-        "annotation_filepath": "adv_ending_task3/resources/contexts_redo.json",
-        "qualification_filepath": "adv_ending_task3/resources/qualification_questions.json",
-        "tutorial_filepath": "adv_ending_task3/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 40,
-        "group_assignment": "post-qualification"
-    },
-    "adv_ending_task4": {
-        "annotation_filepath": "adv_ending_task4/resources/contexts_redo.json",
-        "qualification_filepath": "adv_ending_task4/resources/qualification_questions.json",
-        "tutorial_filepath": "adv_ending_task4/resources/tutorial_questions.json",
-        "number_of_annotator_groups": 40,
-        "group_assignment": "post-qualification"
-    },
-    "expertise_task": {
-        "annotation_filepath": "expertise_task/resources/expertise_words.json",
-        "number_of_annotator_groups": 1
-    },
-    "expertise_task2": {
-        "annotation_filepath": "expertise_task2/resources/expertise_words.json",
-        "qualification_filepath": "expertise_task2/resources/qualification_test.json",
-        "number_of_annotator_groups": 1
-    },
-    "adv_eval_ending_task": {
-        "annotation_filepath": "adv_eval_ending_task/resources/plausibility_story_samples.json",
-        "annotation_filepath2": "adv_eval_ending_task/resources/expertise_words.json",
-        "qualification_filepath": "adv_eval_ending_task/resources/qualification_questions.json",
-        "qualification_filepath2": "adv_eval_ending_task/resources/qualification_connections.json",
-        "number_of_annotator_groups": 8,
-        "group_assignment": "post-qualification"
-    },
-    "adv_eval_ending_task2": {
-        "annotation_filepath": "adv_eval_ending_task2/resources/stage2_samples.json",
-        "annotation_filepath2": "adv_eval_ending_task2/resources/expertise_words.json",
-        "qualification_filepath": "adv_eval_ending_task2/resources/qualification_questions.json",
-        "qualification_filepath2": "adv_eval_ending_task2/resources/qualification_connections.json",
-        "number_of_annotator_groups": 40,
-        "group_assignment": "post-qualification"
-    },
-    "span_task": {
-        "annotation_filepath": "span_task/resources/stage2_samples.json",
-        "qualification_filepath": "span_task/resources/qualification_questions.json",
-        "number_of_annotator_groups": 1
-    }
+    # "ambiguity_task": {
+    #     "annotation_filepath": "ambiguity_task/resources/pilot_samples.json",
+    #     "qualification_filepath": "ambiguity_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 8
+    # },
+    # "example_task": {
+    #     "annotation_filepath": "example_task/resources/samples.json",
+    #     "qualification_filepath": "example_task/resources/qualification_samples.json",
+    #     "number_of_annotator_groups": 2,
+    # },
+    # "ambistory_task": {
+    #     "annotation_filepath": "ambistory_task/resources/story_samples.json",
+    #     "qualification_filepath": "ambistory_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "ambisentence_task": {
+    #     "annotation_filepath": "ambisentence_task/resources/word_senses.json",
+    #     "qualification_filepath": "ambisentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "eval_ambisentence_task": {
+    #     "annotation_filepath":  "eval_ambisentence_task/resources/human_samples.json",
+    #     "qualification_filepath": "eval_ambisentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "ambistory2_task": {
+    #     "annotation_filepath": "ambistory2_task/resources/story_samples.json",
+    #     "qualification_filepath": "ambistory2_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "ending_task": {
+    #     "annotation_filepath": "ending_task/resources/story_samples.json",
+    #     "qualification_filepath": "ending_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 4,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "eval_ending_task": {
+    #     "annotation_filepath": "eval_ending_task/resources/story_samples.json",
+    #     "qualification_filepath": "eval_ending_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 4,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "big_ambisentence_task": {
+    #     "annotation_filepath": "big_ambisentence_task/resources/word_senses.json",
+    #     "qualification_filepath": "big_ambisentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "big_ending_task": {
+    #     "annotation_filepath": "big_ending_task/resources/annotation_samples.json",
+    #     "qualification_filepath": "big_ending_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 65,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "big_ending_task_round2": {
+    #     "annotation_filepath": "big_ending_task_round2/resources/big_ending_annotations_round2.json",
+    #     "qualification_filepath": "big_ending_task_round2/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 35,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "big_eval_ending_task": {
+    #     "annotation_filepath": "big_eval_ending_task/resources/annotation_samples.json",
+    #     "qualification_filepath": "big_eval_ending_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 130
+    # },
+    # "big_eval_sentence_task": {
+    #     "annotation_filepath": "big_eval_sentence_task/resources/annotation_samples.json",
+    #     "qualification_filepath": "big_eval_sentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 30,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "var_ending_test": {
+    #     "annotation_filepath": "var_ending_test/resources/new_samples.json",
+    #     "qualification_filepath": "var_ending_test/resources/qualification_questions.json",
+    #     "tutorial_filepath": "var_ending_test/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 15,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "var_ending_test2": {
+    #     "annotation_filepath": "var_ending_test2/resources/new_samples.json",
+    #     "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
+    #     "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 15,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "var_sentence_task": {
+    #     "annotation_filepath": "var_sentence_task/resources/sense_pairs.json",
+    #     "qualification_filepath": "var_sentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "var_sentence_task2": {
+    #     "annotation_filepath": "var_sentence_task2/resources/sense_pairs.json",
+    #     "qualification_filepath": "var_sentence_task2/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "adv_sentence_task": {
+    #     "annotation_filepath": "adv_sentence_task/resources/sense_pairs.json",
+    #     "qualification_filepath": "adv_sentence_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "adv_ending_task": {
+    #     "annotation_filepath": "adv_ending_task/resources/contexts.json",
+    #     "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
+    #     "tutorial_filepath": "var_ending_test2/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 40,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "adv_ending_task2": {
+    #     "annotation_filepath": "adv_ending_task2/resources/contexts.json",
+    #     "qualification_filepath": "var_ending_test2/resources/qualification_questions.json",
+    #     "tutorial_filepath": "adv_ending_task2/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 40,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "adv_ending_task3": {
+    #     "annotation_filepath": "adv_ending_task3/resources/contexts_redo.json",
+    #     "qualification_filepath": "adv_ending_task3/resources/qualification_questions.json",
+    #     "tutorial_filepath": "adv_ending_task3/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 40,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "adv_ending_task4": {
+    #     "annotation_filepath": "adv_ending_task4/resources/contexts_redo.json",
+    #     "qualification_filepath": "adv_ending_task4/resources/qualification_questions.json",
+    #     "tutorial_filepath": "adv_ending_task4/resources/tutorial_questions.json",
+    #     "number_of_annotator_groups": 40,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "expertise_task": {
+    #     "annotation_filepath": "expertise_task/resources/expertise_words.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "expertise_task2": {
+    #     "annotation_filepath": "expertise_task2/resources/expertise_words.json",
+    #     "qualification_filepath": "expertise_task2/resources/qualification_test.json",
+    #     "number_of_annotator_groups": 1
+    # },
+    # "adv_eval_ending_task": {
+    #     "annotation_filepath": "adv_eval_ending_task/resources/plausibility_story_samples.json",
+    #     "annotation_filepath2": "adv_eval_ending_task/resources/expertise_words.json",
+    #     "qualification_filepath": "adv_eval_ending_task/resources/qualification_questions.json",
+    #     "qualification_filepath2": "adv_eval_ending_task/resources/qualification_connections.json",
+    #     "number_of_annotator_groups": 8,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "adv_eval_ending_task2": {
+    #     "annotation_filepath": "adv_eval_ending_task2/resources/stage2_samples.json",
+    #     "annotation_filepath2": "adv_eval_ending_task2/resources/expertise_words.json",
+    #     "qualification_filepath": "adv_eval_ending_task2/resources/qualification_questions.json",
+    #     "qualification_filepath2": "adv_eval_ending_task2/resources/qualification_connections.json",
+    #     "number_of_annotator_groups": 40,
+    #     "group_assignment": "post-qualification"
+    # },
+    # "span_task": {
+    #     "annotation_filepath": "span_task/resources/stage2_samples.json",
+    #     "qualification_filepath": "span_task/resources/qualification_questions.json",
+    #     "number_of_annotator_groups": 1
+    # }
 }
 
 def read_json_from_file(path: str) -> dict:

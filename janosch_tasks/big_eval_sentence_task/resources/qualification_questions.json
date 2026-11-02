@@ -1,0 +1,72 @@
+{
+    "1": {
+        "story_id": "0",
+        "word": "hard",
+        "judged_meaning": "solid; not soft",
+        "precontext": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+        "sentence": "It was a hard puzzle.",
+        "ending": "",
+        "sentence_info": {
+            "author": "admin",
+            "ID": -1,
+            "meaning1": "solid; not soft",
+            "meaning2": "difficult to understand or solve",
+            "meaning1_example": "The stone floor is hard.",
+            "meaning2_example": "Math is hard.",
+            "original_sentence": ""
+        },
+        "ending_info": {
+            "original_ending": "",
+            "comment": "",
+            "intended_meaning": "difficult to understand or solve"
+        },
+        "correct_answer": [1, 2]
+    },
+    "2": {
+        "story_id": "1",
+        "sentence": "The service there was really lousy.",
+        "ending": "",
+        "judged_meaning": "very bad",
+        "word": "lousy",
+        "sentence_info": {
+            "meaning1": "infested with lice",
+            "meaning2": "very bad",
+            "meaning1_example": "My hair feels lousy and won't stop itching.",
+            "meaning2_example": "That movie was lousy!" 
+        },
+        "ending_info": {},
+        "precontext": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
+        "correct_answer": [3, 4, 5]
+    },
+    "3": {
+        "story_id": "2",
+        "sentence": "If he had a fan, the heat would be bearable.",
+        "word": "fan",
+        "judged_meaning": "an enthusiastic follower or admirer",
+        "ending": "",
+        "sentence_info": {
+            "meaning1": "a device for creating a current of air",
+            "meaning2": "an enthusiastic follower or admirer",
+            "meaning1_example": "I bought a fan at the electronics store.",
+            "meaning2_example": "I am a huge fan of this actress."
+        },
+        "ending_info": {},
+        "precontext": "Max started sweating in the summer heat. His entire house felt like a sauna.",
+        "correct_answer": [1, 2]
+    },
+    "4": {
+        "story_id": 3,
+        "sentence": "In the end, Mia beat him in the race.",
+        "word": "beat",
+        "judged_meaning": "come out better in a competition, race or conflict",
+        "ending": "",
+        "sentence_info": {
+            "meaning1": "strike a person violently",
+            "meaning2": "come out better in a competition, race, or conflict",
+            "meaning1_example": "It's usually not a good idea to beat your kids.",
+            "meaning2_example": "No one can beat John at chess."            
+        },
+        "precontext": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
+        "correct_answer": [4, 5]    
+    }
+}

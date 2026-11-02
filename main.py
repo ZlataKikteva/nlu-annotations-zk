@@ -42,219 +42,219 @@ example_annotation_page = st.Page(
 )
 
 
-# Big Ambisentence Task Pages
-big_ambisentence_start_page = st.Page(
-    "big_ambisentence_task/pages/introduction_page.py", title="Ambiguous Writing Intro", icon="❓"
-)
-big_ambisentence_qualification_page = st.Page(
-    "big_ambisentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-big_ambisentence_annotation_page = st.Page(
-    "big_ambisentence_task/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
+# # Big Ambisentence Task Pages
+# big_ambisentence_start_page = st.Page(
+#     "big_ambisentence_task/pages/introduction_page.py", title="Ambiguous Writing Intro", icon="❓"
+# )
+# big_ambisentence_qualification_page = st.Page(
+#     "big_ambisentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# big_ambisentence_annotation_page = st.Page(
+#     "big_ambisentence_task/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
 
-big_ending_start_page = st.Page(
-    "big_ending_task/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-big_ending_qualification_page = st.Page(
-    "big_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-big_ending_annotation_page = st.Page(
-    "big_ending_task/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
+# big_ending_start_page = st.Page(
+#     "big_ending_task/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# big_ending_qualification_page = st.Page(
+#     "big_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# big_ending_annotation_page = st.Page(
+#     "big_ending_task/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
 
-big_ending_round2_start_page = st.Page(
-    "big_ending_task_round2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-big_ending_round2_qualification_page = st.Page(
-    "big_ending_task_round2/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-big_ending_round2_annotation_page = st.Page(
-    "big_ending_task_round2/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
+# big_ending_round2_start_page = st.Page(
+#     "big_ending_task_round2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# big_ending_round2_qualification_page = st.Page(
+#     "big_ending_task_round2/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# big_ending_round2_annotation_page = st.Page(
+#     "big_ending_task_round2/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
 
-big_eval_ending_start_page = st.Page(
-    "big_eval_ending_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
-)
-big_eval_ending_qualification_page = st.Page(
-    "big_eval_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-big_eval_ending_annotation_page = st.Page(
-    "big_eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
-)
-
-
-big_eval_sentence_start_page = st.Page(
-    "big_eval_sentence_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
-)
-big_eval_sentence_qualification_page = st.Page(
-    "big_eval_sentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-big_eval_sentence_annotation_page = st.Page(
-    "big_eval_sentence_task/pages/annotation_page.py", title="Annotation", icon="🏭"
-)
-
-var_ending_test_start_page = st.Page(
-    "var_ending_test/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-var_ending_test_qualification_page = st.Page(
-    "var_ending_test/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-var_ending_test_annotation_page = st.Page(
-    "var_ending_test/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-var_ending_test_tutorial_page = st.Page(
-    "var_ending_test/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
-
-var_ending_test2_start_page = st.Page(
-    "var_ending_test2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-var_ending_test2_qualification_page = st.Page(
-    "var_ending_test2/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-var_ending_test2_annotation_page = st.Page(
-    "var_ending_test2/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-var_ending_test2_tutorial_page = st.Page(
-    "var_ending_test2/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
-
-var_sentence_task2_start_page = st.Page(
-    "var_sentence_task2/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
-)
-var_sentence_task2_qualification_page = st.Page(
-    "var_sentence_task2/pages/qualification_page.py", title="Qualification",  icon="🔑" 
-)
-var_sentence_task2_annotation_page = st.Page(
-    "var_sentence_task2/pages/annotation_page.py", title="Annotation",  icon="✏️" 
-)
-
-adv_sentence_task_start_page = st.Page(
-    "adv_sentence_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
-)
-adv_sentence_task_qualification_page = st.Page(
-    "adv_sentence_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
-)
-adv_sentence_task_annotation_page = st.Page(
-    "adv_sentence_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
-)
-
-adv_ending_task_start_page = st.Page(
-    "adv_ending_task/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-adv_ending_task_qualification_page = st.Page(
-    "adv_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-adv_ending_task_annotation_page = st.Page(
-    "adv_ending_task/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-adv_ending_task_tutorial_page = st.Page(
-    "adv_ending_task/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
-
-adv_ending_task2_start_page = st.Page(
-    "adv_ending_task2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-adv_ending_task2_qualification_page = st.Page(
-    "adv_ending_task2/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-adv_ending_task2_annotation_page = st.Page(
-    "adv_ending_task2/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-adv_ending_task2_tutorial_page = st.Page(
-    "adv_ending_task2/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
+# big_eval_ending_start_page = st.Page(
+#     "big_eval_ending_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
+# )
+# big_eval_ending_qualification_page = st.Page(
+#     "big_eval_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# big_eval_ending_annotation_page = st.Page(
+#     "big_eval_ending_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+# )
 
 
-adv_ending_task3_start_page = st.Page(
-    "adv_ending_task3/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-adv_ending_task3_qualification_page = st.Page(
-    "adv_ending_task3/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-adv_ending_task3_annotation_page = st.Page(
-    "adv_ending_task3/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-adv_ending_task3_tutorial_page = st.Page(
-    "adv_ending_task3/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
+# big_eval_sentence_start_page = st.Page(
+#     "big_eval_sentence_task/pages/introduction_page.py", title="Story Interpretation Task Intro", icon="📖"
+# )
+# big_eval_sentence_qualification_page = st.Page(
+#     "big_eval_sentence_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# big_eval_sentence_annotation_page = st.Page(
+#     "big_eval_sentence_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+# )
 
-adv_ending_task4_start_page = st.Page(
-    "adv_ending_task4/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
-)
-adv_ending_task4_qualification_page = st.Page(
-    "adv_ending_task4/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
-adv_ending_task4_annotation_page = st.Page(
-    "adv_ending_task4/pages/annotation_page.py", title="Annotation", icon="✏️"
-)
-adv_ending_task4_tutorial_page = st.Page(
-    "adv_ending_task4/pages/tutorial_page.py", title="Tutorial",icon="📖"
-)
+# var_ending_test_start_page = st.Page(
+#     "var_ending_test/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# var_ending_test_qualification_page = st.Page(
+#     "var_ending_test/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# var_ending_test_annotation_page = st.Page(
+#     "var_ending_test/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# var_ending_test_tutorial_page = st.Page(
+#     "var_ending_test/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
 
-expertise_task_annotation_page = st.Page(
-    "expertise_task/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
-)
-expertise_task2_annotation_page = st.Page(
-    "expertise_task2/pages/annotation_page.py", title="Main Study", icon="📙"
-)
-expertise_task2_qualification_page = st.Page(
-    "expertise_task2/pages/qualification_page.py", title="Qualification Test", icon="🔑"
-)
+# var_ending_test2_start_page = st.Page(
+#     "var_ending_test2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# var_ending_test2_qualification_page = st.Page(
+#     "var_ending_test2/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# var_ending_test2_annotation_page = st.Page(
+#     "var_ending_test2/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# var_ending_test2_tutorial_page = st.Page(
+#     "var_ending_test2/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
 
-adv_eval_ending_start_page = st.Page(
-    "adv_eval_ending_task/pages/introduction_page.py", title="Introduction",  icon="📙"
-)
-adv_eval_ending_qualification1_page = st.Page(
-    "adv_eval_ending_task/pages/qualification_page.py", title="Qualification (Part 1)", icon="🔑"
-)
+# var_sentence_task2_start_page = st.Page(
+#     "var_sentence_task2/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+# )
+# var_sentence_task2_qualification_page = st.Page(
+#     "var_sentence_task2/pages/qualification_page.py", title="Qualification",  icon="🔑" 
+# )
+# var_sentence_task2_annotation_page = st.Page(
+#     "var_sentence_task2/pages/annotation_page.py", title="Annotation",  icon="✏️" 
+# )
 
-adv_eval_ending_qualification2_page = st.Page(
-    "adv_eval_ending_task/pages/expertise_qualification_page.py", title="Qualification (Part 2)", icon="🔑"
-)
+# adv_sentence_task_start_page = st.Page(
+#     "adv_sentence_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+# )
+# adv_sentence_task_qualification_page = st.Page(
+#     "adv_sentence_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
+# )
+# adv_sentence_task_annotation_page = st.Page(
+#     "adv_sentence_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
+# )
 
-adv_eval_ending_annotation1_page = st.Page(
-    "adv_eval_ending_task/pages/annotation_page.py", title="Main Study Part 1: Plausibility", icon="✏️"
-)
+# adv_ending_task_start_page = st.Page(
+#     "adv_ending_task/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# adv_ending_task_qualification_page = st.Page(
+#     "adv_ending_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# adv_ending_task_annotation_page = st.Page(
+#     "adv_ending_task/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# adv_ending_task_tutorial_page = st.Page(
+#     "adv_ending_task/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
 
-adv_eval_ending_annotation2_page = st.Page(
-    "adv_eval_ending_task/pages/expertise_page.py", title="Main Study Part 2: Connection", icon="✏️"
-)
+# adv_ending_task2_start_page = st.Page(
+#     "adv_ending_task2/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# adv_ending_task2_qualification_page = st.Page(
+#     "adv_ending_task2/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# adv_ending_task2_annotation_page = st.Page(
+#     "adv_ending_task2/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# adv_ending_task2_tutorial_page = st.Page(
+#     "adv_ending_task2/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
 
 
+# adv_ending_task3_start_page = st.Page(
+#     "adv_ending_task3/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# adv_ending_task3_qualification_page = st.Page(
+#     "adv_ending_task3/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# adv_ending_task3_annotation_page = st.Page(
+#     "adv_ending_task3/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# adv_ending_task3_tutorial_page = st.Page(
+#     "adv_ending_task3/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
+
+# adv_ending_task4_start_page = st.Page(
+#     "adv_ending_task4/pages/introduction_page.py", title="Story Ending Task Intro",  icon="📙", url_path="ending_task_intro" 
+# )
+# adv_ending_task4_qualification_page = st.Page(
+#     "adv_ending_task4/pages/qualification_page.py", title="Qualification", icon="🔑"
+# )
+# adv_ending_task4_annotation_page = st.Page(
+#     "adv_ending_task4/pages/annotation_page.py", title="Annotation", icon="✏️"
+# )
+# adv_ending_task4_tutorial_page = st.Page(
+#     "adv_ending_task4/pages/tutorial_page.py", title="Tutorial",icon="📖"
+# )
+
+# expertise_task_annotation_page = st.Page(
+#     "expertise_task/pages/annotation_page.py", title="Term Familarity Task", icon="📙"
+# )
+# expertise_task2_annotation_page = st.Page(
+#     "expertise_task2/pages/annotation_page.py", title="Main Study", icon="📙"
+# )
+# expertise_task2_qualification_page = st.Page(
+#     "expertise_task2/pages/qualification_page.py", title="Qualification Test", icon="🔑"
+# )
+
+# adv_eval_ending_start_page = st.Page(
+#     "adv_eval_ending_task/pages/introduction_page.py", title="Introduction",  icon="📙"
+# )
+# adv_eval_ending_qualification1_page = st.Page(
+#     "adv_eval_ending_task/pages/qualification_page.py", title="Qualification (Part 1)", icon="🔑"
+# )
+
+# adv_eval_ending_qualification2_page = st.Page(
+#     "adv_eval_ending_task/pages/expertise_qualification_page.py", title="Qualification (Part 2)", icon="🔑"
+# )
+
+# adv_eval_ending_annotation1_page = st.Page(
+#     "adv_eval_ending_task/pages/annotation_page.py", title="Main Study Part 1: Plausibility", icon="✏️"
+# )
+
+# adv_eval_ending_annotation2_page = st.Page(
+#     "adv_eval_ending_task/pages/expertise_page.py", title="Main Study Part 2: Connection", icon="✏️"
+# )
 
 
 
-adv_eval_ending2_start_page = st.Page(
-    "adv_eval_ending_task2/pages/introduction_page.py", title="Introduction",  icon="📙"
-)
-adv_eval_ending2_qualification1_page = st.Page(
-    "adv_eval_ending_task2/pages/qualification_page.py", title="Qualification (Part 1)", icon="🔑"
-)
-
-adv_eval_ending2_qualification2_page = st.Page(
-    "adv_eval_ending_task2/pages/expertise_qualification_page.py", title="Qualification (Part 2)", icon="🔑"
-)
-
-adv_eval_ending2_annotation1_page = st.Page(
-    "adv_eval_ending_task2/pages/annotation_page.py", title="Main Study Part 1: Plausibility", icon="✏️"
-)
-
-adv_eval_ending2_annotation2_page = st.Page(
-    "adv_eval_ending_task2/pages/expertise_page.py", title="Main Study Part 2: Connection", icon="✏️"
-)
 
 
-span_task_start_page = st.Page(
-    "span_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
-)
-span_task_qualification_page = st.Page(
-    "span_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
-)
-span_task_annotation_page = st.Page(
-    "span_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
-)
+# adv_eval_ending2_start_page = st.Page(
+#     "adv_eval_ending_task2/pages/introduction_page.py", title="Introduction",  icon="📙"
+# )
+# adv_eval_ending2_qualification1_page = st.Page(
+#     "adv_eval_ending_task2/pages/qualification_page.py", title="Qualification (Part 1)", icon="🔑"
+# )
+
+# adv_eval_ending2_qualification2_page = st.Page(
+#     "adv_eval_ending_task2/pages/expertise_qualification_page.py", title="Qualification (Part 2)", icon="🔑"
+# )
+
+# adv_eval_ending2_annotation1_page = st.Page(
+#     "adv_eval_ending_task2/pages/annotation_page.py", title="Main Study Part 1: Plausibility", icon="✏️"
+# )
+
+# adv_eval_ending2_annotation2_page = st.Page(
+#     "adv_eval_ending_task2/pages/expertise_page.py", title="Main Study Part 2: Connection", icon="✏️"
+# )
+
+
+# span_task_start_page = st.Page(
+#     "span_task/pages/introduction_page.py", title="Ambiguous Writing Task Intro",  icon="📙" 
+# )
+# span_task_qualification_page = st.Page(
+#     "span_task/pages/qualification_page.py", title="Qualification",  icon="🔑" 
+# )
+# span_task_annotation_page = st.Page(
+#     "span_task/pages/annotation_page.py", title="Annotation",  icon="✏️" 
+# )
 
 
 # Create navigation bar
@@ -269,76 +269,80 @@ elif st.session_state.user_id:
     available_pages = {
         "Home": [main_page]
     }
-    if utils.authenticate_id("big_ambisentence_task", st.session_state.user_id):
-        available_pages["Ambiguous Sentence Task"] = [big_ambisentence_start_page, big_ambisentence_qualification_page, big_ambisentence_annotation_page]
 
-    elif utils.authenticate_id("var_sentence_task2", st.session_state.user_id):
-        available_pages["Ambiguous Sentence Task"] = [var_sentence_task2_start_page, var_sentence_task2_qualification_page, var_sentence_task2_annotation_page]
+    if utils.authenticate_id("example_task", st.session_state.user_id):
+         available_pages["Example Task"] = [example_start_page, example_qualification_page, example_annotation_page]
 
-    elif utils.authenticate_id("big_ending_task", st.session_state.user_id):
-        available_pages["Story Ending Task"] = [big_ending_start_page, big_ending_qualification_page, big_ending_annotation_page]
+    # if utils.authenticate_id("big_ambisentence_task", st.session_state.user_id):
+    #     available_pages["Ambiguous Sentence Task"] = [big_ambisentence_start_page, big_ambisentence_qualification_page, big_ambisentence_annotation_page]
 
-    elif utils.authenticate_id("big_ending_task_round2", st.session_state.user_id):
-        available_pages["Story Ending Task"] = [big_ending_round2_start_page, big_ending_round2_qualification_page, big_ending_round2_annotation_page]
+    # elif utils.authenticate_id("var_sentence_task2", st.session_state.user_id):
+    #     available_pages["Ambiguous Sentence Task"] = [var_sentence_task2_start_page, var_sentence_task2_qualification_page, var_sentence_task2_annotation_page]
 
-    elif utils.authenticate_id("var_ending_test", st.session_state.user_id):
-        available_pages["Story Building Task"] = [var_ending_test_qualification_page, var_ending_test_tutorial_page, var_ending_test_annotation_page]
+    # elif utils.authenticate_id("big_ending_task", st.session_state.user_id):
+    #     available_pages["Story Ending Task"] = [big_ending_start_page, big_ending_qualification_page, big_ending_annotation_page]
 
-    elif utils.authenticate_id("var_ending_test2", st.session_state.user_id):
-        available_pages["Story Building Task"] = [var_ending_test2_qualification_page, var_ending_test2_tutorial_page, var_ending_test2_annotation_page]
+    # elif utils.authenticate_id("big_ending_task_round2", st.session_state.user_id):
+    #     available_pages["Story Ending Task"] = [big_ending_round2_start_page, big_ending_round2_qualification_page, big_ending_round2_annotation_page]
 
-    elif utils.authenticate_id("adv_ending_task", st.session_state.user_id):
-        available_pages["Story Building Task"] = [adv_ending_task_qualification_page, adv_ending_task_tutorial_page, adv_ending_task_annotation_page]
+    # elif utils.authenticate_id("var_ending_test", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [var_ending_test_qualification_page, var_ending_test_tutorial_page, var_ending_test_annotation_page]
 
-    elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
-        available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
+    # elif utils.authenticate_id("var_ending_test2", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [var_ending_test2_qualification_page, var_ending_test2_tutorial_page, var_ending_test2_annotation_page]
 
-    elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
-        available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
+    # elif utils.authenticate_id("adv_ending_task", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [adv_ending_task_qualification_page, adv_ending_task_tutorial_page, adv_ending_task_annotation_page]
 
-    elif utils.authenticate_id("adv_ending_task3", st.session_state.user_id):
-        available_pages["Story Building Task"] = [adv_ending_task3_qualification_page, adv_ending_task3_tutorial_page, adv_ending_task3_annotation_page]
+    # elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
 
-    elif utils.authenticate_id("adv_ending_task4", st.session_state.user_id):
-        available_pages["Story Building Task"] = [adv_ending_task4_qualification_page, adv_ending_task4_tutorial_page, adv_ending_task4_annotation_page]
+    # elif utils.authenticate_id("adv_ending_task2", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [adv_ending_task2_qualification_page, adv_ending_task2_tutorial_page, adv_ending_task2_annotation_page]
 
+    # elif utils.authenticate_id("adv_ending_task3", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [adv_ending_task3_qualification_page, adv_ending_task3_tutorial_page, adv_ending_task3_annotation_page]
 
-
-    elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):
-        if user_repository.get_qualification() != 1:
-            available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page]
-        else:
-            available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page, big_eval_ending_annotation_page]
-
-    elif utils.authenticate_id("big_eval_sentence_task", st.session_state.user_id):
-        if user_repository.get_qualification() != 1:
-            available_pages["Sentence Interpretation Task"] = [big_eval_sentence_start_page,
-                                                            big_eval_sentence_qualification_page]
-        else:
-            available_pages["Sentence Interpretation Task"] = [big_eval_sentence_start_page,
-                                                            big_eval_sentence_qualification_page,
-                                                            big_eval_sentence_annotation_page]
-
-    elif utils.authenticate_id("adv_sentence_task", st.session_state.user_id):
-        available_pages["Ambiguous Sentence Task"] = [adv_sentence_task_start_page, adv_sentence_task_qualification_page, adv_sentence_task_annotation_page]
-
-    elif utils.authenticate_id("expertise_task", st.session_state.user_id):
-        available_pages["Term Familiarity Task"] = [expertise_task_annotation_page]
+    # elif utils.authenticate_id("adv_ending_task4", st.session_state.user_id):
+    #     available_pages["Story Building Task"] = [adv_ending_task4_qualification_page, adv_ending_task4_tutorial_page, adv_ending_task4_annotation_page]
 
 
-    elif utils.authenticate_id("expertise_task2", st.session_state.user_id):
-        available_pages["Term Familiarity Task"] = [expertise_task2_qualification_page, expertise_task2_annotation_page]
 
-    elif utils.authenticate_id("adv_eval_ending_task", st.session_state.user_id):
-        available_pages["Plausibility+Connection Task"] = [adv_eval_ending_start_page, adv_eval_ending_qualification1_page, adv_eval_ending_qualification2_page, 
-                                                           adv_eval_ending_annotation1_page, adv_eval_ending_annotation2_page]
+    # elif utils.authenticate_id("big_eval_ending_task", st.session_state.user_id):
+    #     if user_repository.get_qualification() != 1:
+    #         available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page]
+    #     else:
+    #         available_pages["Story Interpretation Task"] = [big_eval_ending_start_page, big_eval_ending_qualification_page, big_eval_ending_annotation_page]
 
-    elif utils.authenticate_id("adv_eval_ending_task2", st.session_state.user_id):
-        available_pages["Plausibility+Connection Task"] = [adv_eval_ending2_start_page, adv_eval_ending2_qualification1_page, adv_eval_ending2_qualification2_page, 
-                                                           adv_eval_ending2_annotation1_page, adv_eval_ending2_annotation2_page]
+    # elif utils.authenticate_id("big_eval_sentence_task", st.session_state.user_id):
+    #     if user_repository.get_qualification() != 1:
+    #         available_pages["Sentence Interpretation Task"] = [big_eval_sentence_start_page,
+    #                                                         big_eval_sentence_qualification_page]
+    #     else:
+    #         available_pages["Sentence Interpretation Task"] = [big_eval_sentence_start_page,
+    #                                                         big_eval_sentence_qualification_page,
+    #                                                         big_eval_sentence_annotation_page]
 
-    elif utils.authenticate_id("span_task", st.session_state.user_id):
-        available_pages["Ambiguity Explanation Task"] = [span_task_qualification_page, span_task_annotation_page]
+    # elif utils.authenticate_id("adv_sentence_task", st.session_state.user_id):
+    #     available_pages["Ambiguous Sentence Task"] = [adv_sentence_task_start_page, adv_sentence_task_qualification_page, adv_sentence_task_annotation_page]
+
+    # elif utils.authenticate_id("expertise_task", st.session_state.user_id):
+    #     available_pages["Term Familiarity Task"] = [expertise_task_annotation_page]
+
+
+    # elif utils.authenticate_id("expertise_task2", st.session_state.user_id):
+    #     available_pages["Term Familiarity Task"] = [expertise_task2_qualification_page, expertise_task2_annotation_page]
+
+    # elif utils.authenticate_id("adv_eval_ending_task", st.session_state.user_id):
+    #     available_pages["Plausibility+Connection Task"] = [adv_eval_ending_start_page, adv_eval_ending_qualification1_page, adv_eval_ending_qualification2_page, 
+    #                                                        adv_eval_ending_annotation1_page, adv_eval_ending_annotation2_page]
+
+    # elif utils.authenticate_id("adv_eval_ending_task2", st.session_state.user_id):
+    #     available_pages["Plausibility+Connection Task"] = [adv_eval_ending2_start_page, adv_eval_ending2_qualification1_page, adv_eval_ending2_qualification2_page, 
+    #                                                        adv_eval_ending2_annotation1_page, adv_eval_ending2_annotation2_page]
+
+    # elif utils.authenticate_id("span_task", st.session_state.user_id):
+    #     available_pages["Ambiguity Explanation Task"] = [span_task_qualification_page, span_task_annotation_page]
 
 
     available_pages["Other"] = [logout_page]

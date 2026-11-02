@@ -1,0 +1,19 @@
+{
+    "1": {
+        "sentence": "I was looking for the mouse.",
+        "word": "mouse",
+        "meaning1": "a small rodent",
+        "meaning2": "a hand-operated electronic device controlling a cursor",
+        "focus_meaning": "a hand-operated electronic device controlling a cursor",
+        "grouping": 0,
+        "precontexts": [
+            "There was a hole in the wall of my apartment. I peeked inside.",
+            "I set up my desk at work. I connected my mouse to my PC."
+        ],
+        "endings": [
+            "But I never found it.",
+            "I knew I found it when I heard squeaking."
+        ]
+    }
+}
+    

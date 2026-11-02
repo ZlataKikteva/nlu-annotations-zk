@@ -1,0 +1,34 @@
+{    
+    "1": {
+        "sentence": "It was a [hard] puzzle.",
+        "word": "hard",
+        "meaning1": "difficult to understand or solve",
+        "meaning2": "solid; not soft",
+        "precontext": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+        "correct_answer": [1, 0]
+    },
+    "2": {
+        "sentence": "The service there was really [lousy].",
+        "word": "lousy",
+        "meaning1": "infested with lice",
+        "meaning2": "very bad",
+        "precontext": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
+        "correct_answer": [0, 1]
+    },
+    "3": {
+        "sentence": "If he had a [fan], the heat would be bearable.",
+        "word": "fan",
+        "meaning1": "a device for creating a current of air",
+        "meaning2": "an enthusiastic devotee of sports",
+        "precontext": "Max started sweating in the summer heat. His entire house felt like a sauna.",
+        "correct_answer": [1, 0]
+    },
+    "4": {
+        "sentence": "In the end, Mia [beat] him in the race.",
+        "word": "beat",
+        "meaning1": "strike a person violently",
+        "meaning2": "come out better in a competition, race, or conflict",
+        "precontext": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
+        "correct_answer": [0, 1]      
+    }
+}

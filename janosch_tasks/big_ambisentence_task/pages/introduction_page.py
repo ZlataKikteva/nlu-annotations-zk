@@ -1,0 +1,15 @@
+import streamlit as st
+
+st.session_state.page = "big_ambisentence_task_introduction_page"
+
+with open("big_ambisentence_task/resources/intro_text.md", "r") as f:
+    intro_text = f.read()
+
+if not st.session_state.user_id:
+    st.markdown("""
+Note: You are **not logged in** in this tab, so the qualification and writing task do not show up in the sidebar.  
+
+---
+""")
+
+st.markdown(intro_text)

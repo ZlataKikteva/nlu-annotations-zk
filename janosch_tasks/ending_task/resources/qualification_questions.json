@@ -1,0 +1,26 @@
+{    
+    "1": {
+        "sentence": "In the end, I couldn't sleep at all because of the loud [racket].",
+        "word": "racket",
+        "meaning1": "a loud and disturbing noise",
+        "meaning2": "a sports implement used for hitting balls in various sports (e.g. tennis racket)",
+        "precontext": "After a long day at work, all I wanted was to relax. At home, I noticed my neighbour was throwing a party. I could hear them dancing and talking all night.",
+        "correct_answer": [1, 0]
+    },
+    "2": {
+        "sentence": "This was her last [shot].",
+        "word": "shot",
+        "meaning1": "a solid missile discharged from a firearm",
+        "meaning2": "a chance to do something",
+        "precontext": "Anna was getting ready for her big performance. Despite her previous blunders, she was allowed to perform again. She knew that she would not be forgiven if she messed this up.",
+        "correct_answer": [0, 1]
+    },
+    "3": {
+        "sentence": "I have to say, this was probably the best [season] yet!",
+        "word": "season",
+        "meaning1": "each of the four divisions of the year (spring, summer, autumn, and winter)",
+        "meaning2": "a set or sequence of related television programmes; a series",
+        "precontext": "It was cold outside, so I stayed at home watching TV. I haven't kept up with my favorite TV series lately. I sat down and watched the latest episodes.",
+        "correct_answer": [0, 1]
+    }
+}

@@ -1,0 +1,262 @@
+[
+    {
+        "word": "lousy",
+        "sense1": "lousy%5:00:00:bad:00",
+        "sense2": "lousy%5:00:00:dirty:01",
+        "gloss1": "very bad",
+        "gloss2": "infested with lice",
+        "example1": "That movie was really lousy.",
+        "example2": "His lousy clothes were full of holes."
+    },
+    
+    {
+        "word": "calves",
+        "sense1": "calf%1:05:00::",
+        "sense2": "calf%1:08:00::",
+        "gloss1": "young of domestic cattle",
+        "gloss2": "the muscular back part of the shank",
+        "example1": "The farmer watched the calf play.",
+        "example2": "He felt a cramp in his calf."
+    },
+
+    {
+        "word": "snapped",
+        "sense1": "snap%2:32:00::",
+        "sense2": "snap%2:32:01::",
+        "gloss1": "utter in an angry, sharp, or abrupt tone",
+        "gloss2": "record on photographic film",
+        "example1": "\"She snapped at him unexpectedly.\"",
+        "example2": "I took a quick snap of the sunset."
+    },
+    {
+        "word": "fly",
+        "sense1": "fly%1:05:00::",
+        "sense2": "fly%1:06:00::",
+        "gloss1": "two-winged insects characterized by active flight",
+        "gloss2": "an opening in a garment that is closed by a zipper or by buttons concealed under a fold of cloth",
+        "example1": "The fly landed on the table.",
+        "example2": "Adjust the fly of your pants."
+    },
+
+    {
+        "word": "goal",
+        "sense1": "goal%1:09:00::",
+        "sense2": "goal%1:04:00::",
+        "gloss1": "the state of affairs that a plan is intended to achieve and that (when achieved) terminates behavior intended to achieve it",
+        "gloss2": "a successful attempt at scoring",
+        "example1": "Achieving your goal is essential for success.",
+        "example2": "She scored the winning goal yesterday."
+    },
+    {
+        "word": "driving",
+        "sense1": "drive%2:41:02::",
+        "sense2": "drive%2:38:01::",
+        "gloss1": "to compel or force or urge relentlessly or exert coercive pressure on, or motivate strongly",
+        "gloss2": "operate or control a vehicle",
+        "example1": "Her ambition drives her to succeed.",
+        "example2": "I will drive to the store."
+    },
+    {
+        "word": "dough",
+        "sense1": "dough%1:13:00::",
+        "sense2": "dough%1:21:00::",
+        "gloss1": "a flour mixture stiff enough to knead or roll",
+        "gloss2": "informal terms for money",
+        "example1": "He rolled out the dough carefully.",
+        "example2": "I need some dough to buy that."
+    },
+    {
+        "word": "volume",
+        "sense1": "volume%1:07:03::",
+        "sense2": "volume%1:07:02::",
+        "gloss1": "the property of something that is great in magnitude",
+        "gloss2": "the magnitude of sound (usually in a specified direction)",
+        "example1": "The volume of water increased rapidly.",
+        "example2": "Please turn down the volume."
+    },
+    {
+        "word": "ring",
+        "sense1": "ring%1:07:00::",
+        "sense2": "ring%1:06:00::",
+        "gloss1": "a characteristic sound",
+        "gloss2": "jewelry consisting of a circlet of precious metal (often set with jewels) worn on the finger",
+        "example1": "Her voice had the ring of truth.",
+        "example2": "She wore a beautiful gold ring."
+    },
+    {
+        "word": "plant",
+        "sense1": "plant%1:18:00::",
+        "sense2": "plant%1:03:00::",
+        "gloss1": "an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience",
+        "gloss2": "(botany) a living organism lacking the power of locomotion",
+        "example1": "The comedian used a plant in the crowd.",
+        "example2": "The garden has a beautiful plant."
+    },
+    {
+        "word": "drive",
+        "sense1": "drive%1:04:00::",
+        "sense2": "drive%1:04:03::",
+        "gloss1": "a journey in a vehicle (usually an automobile)",
+        "gloss2": "hitting a golf ball off of a tee with a driver",
+        "example1": "Let's take a drive through the countryside.",
+        "example2": "He hit a long drive down the fairway."
+    },
+    {
+        "word": "body",
+        "sense1": "body%1:08:01::",
+        "sense2": "body%1:14:02::",
+        "gloss1": "the body excluding the head and neck and limbs",
+        "gloss2": "a collection of particulars considered as a system",
+        "example1": "She gently stretched her tired body.",
+        "example2": "The committee reviewed the body of research."
+    },
+    {
+        "word": "interest",
+        "sense1": "interest%1:09:00::",
+        "sense2": "interest%1:21:00::",
+        "gloss1": "a sense of concern with and curiosity about someone or something",
+        "gloss2": "a fixed charge for borrowing money; usually a percentage of the amount borrowed",
+        "example1": "She has a keen interest in art.",
+        "example2": "How much interest do you owe?"
+    },
+
+    {
+        "word": "raft",
+        "sense1": "raft%1:06:00::",
+        "sense2": "raft%1:23:00::",
+        "gloss1": "a flat float (usually made of logs or planks) that can be used for transport or as a platform for swimmers",
+        "gloss2": "(often followed by 'of') a large number or amount or extent",
+        "example1": "They built a raft to cross the river.",
+        "example2": "A raft of ideas flooded the meeting."
+    },
+
+    {
+        "word": "flexible",
+        "sense1": "flexible%3:00:02::",
+        "sense2": "flexible%3:00:01::",
+        "gloss1": "capable of being changed",
+        "gloss2": "able to flex; able to bend easily",
+        "example1": "She has a flexible work schedule.",
+        "example2": "The flexible branches swayed in the breeze."
+    },
+
+    {
+        "word": "attractive",
+        "sense1": "attractive%3:00:01::",
+        "sense2": "attractive%3:00:02::",
+        "gloss1": "pleasing to the eye or mind especially through beauty or charm",
+        "gloss2": "having the properties of a magnet; the ability to draw or pull",
+        "example1": "She has an attractive smile.",
+        "example2": "The magnet's attractive force amazed everyone."
+    },
+
+    {
+        "word": "cleanly",
+        "sense1": "cleanly%4:02:00::",
+        "sense2": "cleanly%4:02:02::",
+        "gloss1": "in an adroit manner",
+        "gloss2": "in a manner that minimizes dirt and pollution",
+        "example1": "She cut the paper cleanly in half.",
+        "example2": "The engine runs cleanly and efficiently."
+    },
+
+    {
+        "word": "sentence",
+        "sense1": "sentence%1:10:00::",
+        "sense2": "sentence%1:04:00::",
+        "gloss1": "a string of words satisfying the grammatical rules of a language",
+        "gloss2": "(criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed",
+        "example1": "She wrote a perfect sentence.",
+        "example2": "He received a harsh sentence today."
+    },
+
+    {
+        "word": "tension",
+        "sense1": "tension%1:26:01::",
+        "sense2": "tension%1:26:03::",
+        "gloss1": "the physical condition of being stretched or strained",
+        "gloss2": "(psychology) a state of mental or emotional strain or suspense",
+        "example1": "The rope held considerable tension during the pull.",
+        "example2": "She felt a growing tension inside her."
+    },
+
+    {
+        "word": "scales",
+        "sense1": "scale%1:10:00::",
+        "sense2": "scale%1:05:00::",
+        "gloss1": "(music) a series of notes differing in pitch according to a specific scheme (usually within an octave)",
+        "gloss2": "a flattened rigid plate forming part of the body covering of many animals",
+        "example1": "She practiced the C major scale daily.",
+        "example2": "The fish had shiny, vibrant scales."
+    },
+
+    {
+        "word": "stand",
+        "sense1": "stand%2:35:00::",
+        "sense2": "stand%2:31:00::",
+        "gloss1": "be standing; be upright",
+        "gloss2": "put up with something or somebody unpleasant",
+        "example1": "Please stand by the door.",
+        "example2": "I can't stand the noise anymore."
+    },
+
+    {
+        "word": "stand",
+        "sense1": "stand%2:35:00::",
+        "sense2": "stand%2:42:04::",
+        "gloss1": "be standing; be upright",
+        "gloss2": "be in some specified state or condition",
+        "example1": "Please stand by the door.",
+        "example2": "I stand ready for the challenge."
+    },
+
+    {
+        "word": "knockout",
+        "sense1": "knockout%1:18:00::",
+        "sense2": "knockout%1:04:00::",
+        "gloss1": "a very attractive or seductive looking woman",
+        "gloss2": "a blow that renders the opponent unconscious",
+        "example1": "She was a knockout at the party.",
+        "example2": "He delivered a powerful knockout punch."
+    },
+
+    {
+        "word": "trailer",
+        "sense1": "trailer%1:10:00::",
+        "sense2": "trailer%1:06:00::",
+        "gloss1": "an advertisement consisting of short scenes from a motion picture that will appear in the near future",
+        "gloss2": "a wheeled vehicle that can be pulled by a car or truck and is equipped for occupancy",
+        "example1": "I watched the new movie trailer online.",
+        "example2": "They traveled cross-country in their trailer."
+    },
+
+    {
+        "word": "downhill",
+        "sense1": "downhill%4:02:01::",
+        "sense2": "downhill%4:02:00::",
+        "gloss1": "toward a lower or inferior state",
+        "gloss2": "toward the bottom of a hill",
+        "example1": "His health has been going downhill lately.",
+        "example2": "The bike raced downhill with speed."
+    },
+
+    {
+        "word": "steps",
+        "sense1": "steps%1:06:00::",
+        "sense2": "step%1:04:02::",
+        "gloss1": "a flight of stairs or a flight of steps",
+        "gloss2": "any maneuver made as part of progress toward a goal",
+        "example1": "She climbed the steps quickly.",
+        "example2": "Each step brings us closer to success."
+    },
+
+    {
+        "word": "drawing",
+        "sense1": "draw%2:36:00::",
+        "sense2": "draw%2:37:01::",
+        "gloss1": "represent by making a drawing of, as with a pencil, chalk, etc. on a surface",
+        "gloss2": "elicit responses, such as objections, criticism, applause, etc.",
+        "example1": "She will draw a beautiful landscape.",
+        "example2": "Her speech drew enthusiastic applause from the audience."
+    }
+]

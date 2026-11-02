@@ -1,0 +1,37 @@
+{
+    "1": {
+        "sentence": "Anna closed her eyes and let her mind wander. Her [vision] revealed a world both familiar and dreamlike.",
+        "word": "vision",
+        "meaning1": "The ability to see",
+        "meaning2": "The formation of a mental image",
+        "correct_answer": [0, 1]
+    },
+    "2": {
+            "sentence": "The hotel's service was [lousy]. I'm never going there again!",
+            "word": "lousy",
+            "meaning1": "very bad",
+            "meaning2": "infested with lice",
+            "correct_answer": [1, 0]
+        },
+    "3": {
+        "sentence": "The princess was fascinated by the [legend]. She wondered if the story about the dragon and the ancient map was real.",
+        "word": "legend",
+        "meaning1": "a story about mythical or supernatural beings or events",
+        "meaning2": "brief description accompanying an illustration",
+        "correct_answer": [1, 0]
+    },
+    "4": {
+        "sentence": "She waited nervously for her turn on the audition stage. She finally got her [shot] today.",
+        "word": "shot",
+        "meaning1": "a solid missile discharged from a firearm",
+        "meaning2": "the act of putting a liquid into the body by means of a syringe",
+        "correct_answer": [0, 0]
+    },
+    "5": {
+        "sentence": "The letter told me where to meet him. So after reading it, I went to the [bank].",
+        "word": "bank",
+        "meaning1": "sloping land (especially the slope beside a body of water)",
+        "meaning2": "a financial institution that accepts deposits and channels the money into lending activities.",
+        "correct_answer": [1, 1]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "1": {
+        "sentence": "It was a hard puzzle.",
+        "word": "hard",
+        "story_meaning": "solid; not soft",
+        "focus_meaning_gloss": "solid; not soft",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "The stone floor was hard.",
+        "revision": {
+            "part1": "The puzzle pieces were scattered across the table. We spent hours on the puzzle, but each piece seemed to fit nowhere.",
+            "part2": "It was a hard puzzle.",
+            "part3": ""
+        },
+        "context_detailed": [
+            "She sat at the front of the room and smoothed the pages of her notebook.",
+            "After class she stayed behind to ask for another chance to perform. [added: The teacher said that perhaps she could be able to perform at the winter faite.]"
+        ],
+        "context_raw": [
+            "",
+            ""
+        ],
+        "domain_meaning": true,
+        "correct_answer": [1, 2]
+    },
+    "2": {
+        "sentence": "The service there was really lousy.",
+        "word": "lousy",
+        "story_meaning": "very bad",
+        "focus_meaning_gloss": "very bad",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "That movie was lousy!",
+        "revision": {
+            "part1": "The hotel I stayed at last week was the worst. The room was dirty and there was no one at the reception.",
+            "part2": "The service there was really lousy.",
+            "part3": ""
+        },
+        "domain_meaning": true,
+        "correct_answer": [4, 5]
+    },
+    "3": {
+        "sentence": "If he had a fan, the heat would be bearable.",
+        "word": "fan",
+        "story_meaning": "an enthusiastic follower or admirer",
+        "focus_meaning_gloss": "an enthusiastic follower or admirer",
+        "example1": "He is a big fan of this actress.",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "revision": {
+            "part1": "Max started sweating in the summer heat. His entire house felt like a sauna.",
+            "part2": "",
+            "part3": ""
+        },
+        "domain_meaning": true,
+        "correct_answer": [1, 2]
+    },
+    "4": {
+        "sentence": "In the end, Mia beat him in the race.",
+        "word": "beat",
+        "story_meaning": "come out better in a competition, race or conflict",
+        "focus_meaning_gloss": "come out better in a competition, race or conflict",
+        "focus_meaning": "meaning1",
+        "nonfocus_meaning": "meaning2",
+        "domain": "attention_check",
+        "example1": "No one can beat John at chess.",
+        "revision": {
+            "part1": "Mia and Peter were preparing for the big race. Peter was confident in his talent, so he did not train much.",
+            "part2": "",
+            "part3": ""
+        },
+        "domain_meaning": true,
+        "correct_answer": [4, 5]
+    }
+}
