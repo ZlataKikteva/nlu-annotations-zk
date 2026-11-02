@@ -1,4 +1,4 @@
-import sys
+import sysb_connection
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
@@ -33,5 +33,5 @@ else:
     Click on the items in the leftside menu to start the task.
     """)
 
-    #if s := st.selectbox("Set curr user qualification (debug)", options=[-1, 0, 1, 2, 3, 4], index=None):
-    #    user_repository.set_qualification(st.session_state.user_id, s)
+    if s := st.selectbox("Set curr user qualification (debug)", options=[-1, 0, 1, 2, 3, 4], index=None):
+        user_repository.set_qualification(st.session_state.user_id, s)
