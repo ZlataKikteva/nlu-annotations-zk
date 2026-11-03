@@ -17,7 +17,7 @@ def check_if_qualified(annotations: dict):
 
     :param annotations: User annotations, should have a 'qualification' key.
     """
-    qualification_questions = read_json_from_file(TASK_INFO["example_task"]["qualification_filepath"])
+    qualification_questions = read_json_from_file(TASK_INFO["explicitations_qa_task"]["qualification_filepath"])
 
     needed_score = 2
     score = 0
