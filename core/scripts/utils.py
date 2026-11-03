@@ -11,6 +11,11 @@ TASK_INFO = {
         "qualification_filepath": "example_task/resources/qualification_samples.json",
         "number_of_annotator_groups": 1
     },
+    "explicitations_qa_task": {
+        "annotation_filepath": "explicitations_qa_task/resources/samples.json",
+        "qualification_filepath": "explicitations_qa_task/resources/qualification_samples.json",
+        "number_of_annotator_groups": 1
+    }
     # "ambiguity_task": {
     #     "annotation_filepath": "ambiguity_task/resources/pilot_samples.json",
     #     "qualification_filepath": "ambiguity_task/resources/qualification_questions.json",
