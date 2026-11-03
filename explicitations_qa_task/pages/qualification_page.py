@@ -2,7 +2,7 @@ import os
 import streamlit as st
 
 from core.scripts import user_repository, utils
-from example_task.common import utils as example_utils
+from explicitations_qa_task.common import utils as explicitations_qa_utils
 
 
 # qualification progress dictates the current sample to show. Qualifications always need to have it
@@ -27,13 +27,13 @@ else:
         back_button = st.button(label="Back", key = 10 * index + 7)
     
     # print text and widgets
-    question, checkbox, text_input, next_button = example_utils.print_annotation_schema("qualification", index)
+    question, checkbox, text_input, next_button = explicitations_qa_utils.print_annotation_schema("qualification", index)
 
     samples = utils.read_json_from_file(utils.TASK_INFO["explicitations_qa_task"]["qualification_filepath"])
     annotation = {"sentence": question["sentence"], "checkbox": checkbox, "textinput": text_input}
 
     if next_button:
-        utils.handle_next_button(annotation, index, samples, "qualification", example_utils.check_if_qualified)
+        utils.handle_next_button(annotation, index, samples, "qualification", explicitations_qa_utils.check_if_qualified)
 
     if back_button:
         utils.handle_back_button(annotation, index, samples, "qualification")
