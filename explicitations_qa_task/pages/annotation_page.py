@@ -1,7 +1,7 @@
 import streamlit as st
 
 from core.scripts import user_repository, utils
-from example_task.common import utils as example_utils
+from explicitations_qa_task.common import utils as explicitations_qa_utils
 
 if "progress" not in st.session_state:
     st.session_state.progress = user_repository.get_checkpoint("annotation")
@@ -21,13 +21,13 @@ else:
  
     back_button = st.button(label="Back", key=10 * index + 7)
  
-    question, selected, text_input, next_button = example_utils.print_annotation_schema("annotation", index)
+    question, selected, text_input, next_button = explicitations_qa_utils.print_annotation_schema("annotation", index)
     annotation = {
         "id": question["id"],
         "sentence": question["sentence_1"],
         "question": question["generated"]["question"],
-        "answer_version": example_utils.ANSWER_VERSION,                                  # study condition shown
-        "options_order": [label for label, _ in example_utils.get_options(question, index)],  # order seen
+        "answer_version": explicitations_qa_utils.ANSWER_VERSION,                                  # study condition shown
+        "options_order": [label for label, _ in explicitations_qa_utils.get_options(question, index)],  # order seen
         "selected": selected,     # labels, e.g. ["GOLD_ORIGINAL", "PLAUSIBLE_GIVEN_CONTEXT_1"]
         "textinput": text_input,
     }
