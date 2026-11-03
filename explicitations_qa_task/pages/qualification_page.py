@@ -7,7 +7,7 @@ from explicitations_qa_task.common import utils as explicitations_qa_utils
 
 # qualification progress dictates the current sample to show. Qualifications always need to have it
 if "qualification_progress" not in st.session_state:
-    st.session_state.qualification_progress = user_repository.get_checkpoint("qualification")
+    st.session_state.qualification_progress = user_repository.get_checkpoint("qualification") or 1
 st.session_state.page = "explicitations_qa_task_qualification_page_sample" + str(st.session_state.qualification_progress)
 
 # user qualification of -1 or 1 mean that the test was already attempted

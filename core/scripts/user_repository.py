@@ -131,7 +131,7 @@ def get_checkpoint(key, print=True) -> int:
     """
     annotations = st.session_state.user[5]
 
-    if key not in annotations or len(annotations[key]) == 0:  # Did not even start the task, lead to first sample
+    if key not in annotations:  # Did not even start the task, lead to first sample
         return 0
     
     if print:

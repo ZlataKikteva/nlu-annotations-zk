@@ -4,7 +4,7 @@ from core.scripts import user_repository, utils
 from explicitations_qa_task.common import utils as explicitations_qa_utils
 
 if "progress" not in st.session_state:
-    st.session_state.progress = user_repository.get_checkpoint("annotation")
+    st.session_state.progress = user_repository.get_checkpoint("annotation") or 1
 st.session_state.page = "explicitations_qa_task_annotation_page_sample" + str(st.session_state.progress)
 
 
