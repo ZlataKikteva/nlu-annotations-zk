@@ -81,7 +81,7 @@
       "question": "What might your teacher be very strict about if you get in trouble a lot?",
       "answer_options": {
         "GOLD_ORIGINAL": "With your punishment.",
-        "GOLD_PARAPHASED": "With the penalty you receive.",
+        "GOLD_PARAPHRASED": "With the penalty you receive.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "With your classroom behavior.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "With your apologies afterward.",
         "PLAUSIBLE_DIFF_CONTEXT": "With your essay formatting.",
@@ -132,7 +132,7 @@
       "question": "What is the purpose of applying tea tree oil?",
       "answer_options": {
         "GOLD_ORIGINAL": "To kill bacteria.",
-        "GOLD_PARAPHASED": "To eliminate germs.",
+        "GOLD_PARAPHRASED": "To eliminate germs.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "To reduce excess oil.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "To soothe irritated skin.",
         "PLAUSIBLE_DIFF_CONTEXT": "To repel mosquitoes.",
@@ -183,7 +183,7 @@
       "question": "Why might the girl feel uncomfortable with constant physical closeness?",
       "answer_options": {
         "GOLD_ORIGINAL": "Merely because she's with her parents.",
-        "GOLD_PARAPHASED": "Simply because she's around her mom and dad.",
+        "GOLD_PARAPHRASED": "Simply because she's around her mom and dad.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Because she prefers to take things slowly.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Because she dislikes frequent physical affection.",
         "PLAUSIBLE_DIFF_CONTEXT": "Because she's at a crowded school dance.",
@@ -234,7 +234,7 @@
       "question": "When should you put your social media on private?",
       "answer_options": {
         "GOLD_ORIGINAL": "If he's still pursuing you.",
-        "GOLD_PARAPHASED": "If he keeps trying to get close to you.",
+        "GOLD_PARAPHRASED": "If he keeps trying to get close to you.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "If his friends start contacting you.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "If he starts sharing your posts publicly.",
         "PLAUSIBLE_DIFF_CONTEXT": "If you're applying for a new job.",
@@ -285,7 +285,7 @@
       "question": "Why might explaining your case thoughtfully make your parents feel more comfortable?",
       "answer_options": {
         "GOLD_ORIGINAL": "Because you will seem mature and knowledgeable about what you want.",
-        "GOLD_PARAPHASED": "Because you will appear responsible and well-informed about what you are requesting.",
+        "GOLD_PARAPHRASED": "Because you will appear responsible and well-informed about what you are requesting.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Because you will give them time to consider your request without pressure.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Because you will show that you have considered their concerns.",
         "PLAUSIBLE_DIFF_CONTEXT": "Because you will show that you have completed your school assignment.",
@@ -336,7 +336,7 @@
       "question": "What is it important for your instructors to know, even if telling them feels uncomfortable?",
       "answer_options": {
         "GOLD_ORIGINAL": "Your situation.",
-        "GOLD_PARAPHASED": "Your circumstances.",
+        "GOLD_PARAPHRASED": "Your circumstances.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Your accommodation status.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Your difficulties with coursework.",
         "PLAUSIBLE_DIFF_CONTEXT": "Your plans to change majors.",
@@ -387,7 +387,7 @@
       "question": "Why might the end of the date be a good time to initiate a kiss?",
       "answer_options": {
         "GOLD_ORIGINAL": "They would be ready because they are expecting it.",
-        "GOLD_PARAPHASED": "They would be prepared because they anticipate it.",
+        "GOLD_PARAPHRASED": "They would be prepared because they anticipate it.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "They would feel more comfortable after spending time together.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "They would be standing close while saying goodbye.",
         "PLAUSIBLE_DIFF_CONTEXT": "They would have just finished watching a movie together.",
@@ -438,7 +438,7 @@
       "question": "To what extent are eccentric women described as followers?",
       "answer_options": {
         "GOLD_ORIGINAL": "Not by any means.",
-        "GOLD_PARAPHASED": "Not in any respect.",
+        "GOLD_PARAPHRASED": "Not in any respect.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Only when they trust someone else's judgment.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Only when established rules require it.",
         "PLAUSIBLE_DIFF_CONTEXT": "Only when choosing fashionable outfits.",
@@ -490,7 +490,7 @@
       "question": "Where does laminating the stencil help prevent paint from bleeding?",
       "answer_options": {
         "GOLD_ORIGINAL": "Into the rest of your cap.",
-        "GOLD_PARAPHASED": "Onto other parts of your graduation hat.",
+        "GOLD_PARAPHRASED": "Onto other parts of your graduation hat.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Onto the paper stencil itself.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Onto the surface beneath your cap.",
         "PLAUSIBLE_DIFF_CONTEXT": "Onto the surrounding canvas.",
@@ -541,7 +541,7 @@
       "question": "When might parents start giving advice or feedback?",
       "answer_options": {
         "GOLD_ORIGINAL": "Before you've finished speaking.",
-        "GOLD_PARAPHASED": "While you're still talking.",
+        "GOLD_PARAPHRASED": "While you're still talking.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Once you've asked for their opinion.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "After they've thought about what you said.",
         "PLAUSIBLE_DIFF_CONTEXT": "When they see your report card.",
@@ -592,7 +592,7 @@
       "question": "What is the purpose of putting the players’ phones in a basket during the game?",
       "answer_options": {
         "GOLD_ORIGINAL": "So everyone is present.",
-        "GOLD_PARAPHASED": "So all players are attentive.",
+        "GOLD_PARAPHRASED": "So all players are attentive.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "So nobody can look up answers.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "So nobody interrupts play with calls.",
         "PLAUSIBLE_DIFF_CONTEXT": "So the phones can charge together.",
@@ -643,7 +643,7 @@
       "question": "Besides themselves, what do many people enjoy talking about?",
       "answer_options": {
         "GOLD_ORIGINAL": "What they think.",
-        "GOLD_PARAPHASED": "Their own opinions.",
+        "GOLD_PARAPHRASED": "Their own opinions.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "How their day went.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "What they've been doing.",
         "PLAUSIBLE_DIFF_CONTEXT": "What their investments are worth.",
@@ -694,7 +694,7 @@
       "question": "What might cause your partner to feel less important and resentful?",
       "answer_options": {
         "GOLD_ORIGINAL": "If you don't clarify your stance.",
-        "GOLD_PARAPHASED": "If you don't explain your position.",
+        "GOLD_PARAPHRASED": "If you don't explain your position.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "If you keep the relationship hidden from your parents.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "If you dismiss their concerns about your parents.",
         "PLAUSIBLE_DIFF_CONTEXT": "If you regularly cancel plans to see your friends.",
@@ -745,7 +745,7 @@
       "question": "When should you interpret changes in your parents’ expressions and tone?",
       "answer_options": {
         "GOLD_ORIGINAL": "In the conversation.",
-        "GOLD_PARAPHASED": "During the discussion.",
+        "GOLD_PARAPHRASED": "During the discussion.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "In a later disagreement.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "During a private talk afterward.",
         "PLAUSIBLE_DIFF_CONTEXT": "During a theatrical rehearsal.",
