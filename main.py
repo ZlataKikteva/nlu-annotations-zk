@@ -284,6 +284,9 @@ elif st.session_state.user_id:
     if utils.authenticate_id("example_task", st.session_state.user_id):
          available_pages["Example Task"] = [example_start_page, example_qualification_page, example_annotation_page]
 
+    if utils.authenticate_id("explicitations_qa_task", st.session_state.user_id):
+             available_pages["Explicitations QA Task"] = [explicitations_qa_start_page, explicitations_qa_qualification_page, explicitations_qa_annotation_page]
+
     # if utils.authenticate_id("big_ambisentence_task", st.session_state.user_id):
     #     available_pages["Ambiguous Sentence Task"] = [big_ambisentence_start_page, big_ambisentence_qualification_page, big_ambisentence_annotation_page]
 
