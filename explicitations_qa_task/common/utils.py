@@ -14,18 +14,31 @@ NONE_TEXT = "None of the above"
 def check_if_qualified(annotations: dict):
     """
     Checks if the user's annotations are enough to pass the qualification test.
+    The annotator fails if they ticked:
+      - the implausible option in 2 or more items, or
+      - the plausible-in-a-different-context option in 5 or more items.
 
     :param annotations: User annotations, should have a 'qualification' key.
     """
-    qualification_questions = read_json_from_file(TASK_INFO["explicitations_qa_task"]["qualification_filepath"])
+    max_implausible = 2
+    max_diff_context = 5
+    max_none = 10
 
-    needed_score = 2
-    score = 0
-    for question_id in qualification_questions:
-        if qualification_questions[question_id]["correct_answer"] == annotations["qualification"][int(question_id)-1]["checkbox"]:
-            score += 1
-    return score >= needed_score
+    implausible_count = 0
+    diff_context_count = 0
+    none_count = 0
+    for item in annotations.get("qualification", []):
+        selected = item.get("selected", [])
+        if "IMPLAUSIBLE" in selected:
+            implausible_count += 1
+        if "PLAUSIBLE_DIFF_CONTEXT" in selected:
+            diff_context_count += 1
+        if NONE_OPTION in selected:
+            none_count += 1
 
+    return (implausible_count < max_implausible
+            and diff_context_count < max_diff_context
+            and none_count < max_none)
 def get_options(question: dict, index: int) -> list:
     """
     Returns the answer options (chosen gold option plus non-gold options and the none of the above).
