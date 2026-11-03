@@ -30,7 +30,15 @@ else:
     question, checkbox, text_input, next_button = explicitations_qa_utils.print_annotation_schema("qualification", index)
 
     samples = utils.read_json_from_file(utils.TASK_INFO["explicitations_qa_task"]["qualification_filepath"])
-    annotation = {"sentence": question["sentence"], "checkbox": checkbox, "textinput": text_input}
+    annotation = {
+        "id": question["id"],
+        "sentence": question["sentence_1"],
+        "question": question["generated"]["question"],
+        "answer_version": explicitations_qa_utils.ANSWER_VERSION,
+        "options_order": [label for label, _ in explicitations_qa_utils.get_options(question, index)],
+        "selected": checkbox,
+        "textinput": text_input,
+    }
 
     if next_button:
         utils.handle_next_button(annotation, index, samples, "qualification", explicitations_qa_utils.check_if_qualified)
