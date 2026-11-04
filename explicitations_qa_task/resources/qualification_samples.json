@@ -1,113 +1,11 @@
 {
   "1": {
-    "id": "eYYk73AVbK",
-    "article_name": "Start_a_Text_Conversation_with_a_Girl.txt",
-    "sentence_1": "Flirting can be cute, but can also be annoying or off-putting.",
-    "sentence_2": "Flirting can be cute, but can also be annoying or off-putting <if done at the wrong time>.",
-    "context_before": "If she doesn’t seem interested (i.e., taking forever to respond, responding rarely, or sending trite, one-word texts), stop texting her. If she doesn’t want to talk to you, you’re wasting your time. Find some other cute girl to text :)\n *",
-    "context_after": "While flirting, pay close attention to her responses. If she is sending flirty messages back and responding quickly, this is a good sign. If she seems disinterested or even a little worried, slow down and go back to casual conversation.",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      6,
-      2
-    ],
-    "Confidence Distribution": [
-      0,
-      1,
-      7
-    ],
-    "categories_majority_vote": [
-      "Reasoning"
-    ],
-    "categories_distribution": [
-      3,
-      4,
-      1,
-      0
-    ],
-    "generated": {
-      "question": "Under what circumstances might flirting come across as annoying or off-putting?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "If done at the wrong time.",
-        "GOLD_PARAPHRASED": "If it happens at an inappropriate moment.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "If the messages are overly forward.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "If you keep flirting despite her disinterest.",
-        "PLAUSIBLE_DIFF_CONTEXT": "If it happens during a job interview.",
-        "IMPLAUSIBLE": "If a penguin grades your pickup lines."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0b845a49305d1829006ae47455070487d2927fb0fdb4c27fcc",
-      "attempts": 1,
-      "input_tokens": 1693,
-      "cached_tokens": 0,
-      "output_tokens": 387,
-      "reasoning_tokens": 238,
-      "reasoning_summary": "**Considering contexts for messages**\n\nI need to think through different contexts that might influence the interpretation of messages. For instance, I could use scenarios like if the messages are overly forward or if someone keeps flirting despite disinterest. Those seem plausible! However, I need to avoid contexts like if it's during a job interview, since that feels a bit too serious. Also, if I say something like \"If a penguin grades your pickup lines,\" that gets bizarre fast!",
-      "generated_at": "2026-10-30T10:41:32.261126+00:00"
-    }
-  },
-  "2": {
-    "id": "_hjozl8Cx4",
-    "article_name": "Not_Worry_when_You're_in_Trouble_at_School.txt",
-    "sentence_1": "If you get in trouble a lot, your teacher might be very strict.",
-    "sentence_2": "If you get in trouble a lot, your teacher might be very strict <with your punishment>.",
-    "context_before": "* Unfortunatly you may not be able to chose the teacher who will punish you, if your lucky you may get a nice teacher, but on the other hand a stict teacher may not care what you say and give you a harsh punishment anyway. \n \n \n *",
-    "context_after": "",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      8,
-      0
-    ],
-    "Confidence Distribution": [
-      0,
-      0,
-      8
-    ],
-    "categories_majority_vote": [
-      "Context"
-    ],
-    "categories_distribution": [
-      6,
-      4,
-      3,
-      0
-    ],
-    "generated": {
-      "question": "What might your teacher be very strict about if you get in trouble a lot?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "With your punishment.",
-        "GOLD_PARAPHRASED": "With the penalty you receive.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "With your classroom behavior.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "With your apologies afterward.",
-        "PLAUSIBLE_DIFF_CONTEXT": "With your essay formatting.",
-        "IMPLAUSIBLE": "With your invisible dragon's curfew."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0b7f303ea3d5b1a9006ae4745ced8087d28a386ed467354f62",
-      "attempts": 1,
-      "input_tokens": 1639,
-      "cached_tokens": 1531,
-      "output_tokens": 336,
-      "reasoning_tokens": 200,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:41:38.421581+00:00"
-    }
-  },
-  "3": {
-    "id": "0phtNKhUMF",
-    "article_name": "Get_Rid_of_Blackheads_Naturally.txt",
-    "sentence_1": "Apply tea tree oil.",
-    "sentence_2": "Apply tea tree oil <to kill bacteria>.",
-    "context_before": "### Treating Blackheads\n \n 1.",
-    "context_after": "Tea tree oil can be purchased at any drug store and will kill bacteria on your face. Find a 5% tea tree oil gel. Use it once per day to start cleaning up blackheads.  2. Use bentonite clay.",
+    "id": "g7cLZRyhNd",
+    "article_name": "Get_Rid_of_Forehead_Acne.txt",
+    "sentence_1": "You can also get Vitamin D through natural sunlight.",
+    "sentence_2": "You can also get Vitamin D through natural sunlight, <as this triggers your body to produce the vitamin>.",
+    "context_before": "* Foods high in Vitamin A include vegetables, like sweet potato, spinach and other dark leafy greens, carrots, pumpkin, broccoli, red peppers, summer squash; fruit such as cantaloupe, mangoes, and apricots; legumes, meat, liver, and fish. \n     * Foods high in Vitamin D include fish, like salmon, tuna, mackerel, and cod liver oil, eggs, mushrooms, and oysters. Many foods are also fortified with vitamin D.\n *",
+    "context_after": "Spean about 10-20 minutes outside a day. If your skin is darker, spend more time in the sun.    * You can also take a D3 supplement.",
     "topic": "youth",
     "majority_vote": "Implicit",
     "label_distribution": [
@@ -120,45 +18,96 @@
       8
     ],
     "categories_majority_vote": [
-      "Context"
+      "Reasoning"
     ],
     "categories_distribution": [
-      5,
-      2,
+      3,
       4,
+      2,
       0
     ],
     "generated": {
-      "question": "What is the purpose of applying tea tree oil?",
+      "question": "How can natural sunlight help you get Vitamin D?",
       "answer_options": {
-        "GOLD_ORIGINAL": "To kill bacteria.",
-        "GOLD_PARAPHRASED": "To eliminate germs.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "To reduce excess oil.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "To soothe irritated skin.",
-        "PLAUSIBLE_DIFF_CONTEXT": "To repel mosquitoes.",
-        "IMPLAUSIBLE": "To make blackheads sing opera."
+        "GOLD_ORIGINAL": "It triggers your body to produce the vitamin.",
+        "GOLD_PARAPHRASED": "It prompts your body to make the vitamin.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "It helps your body absorb the vitamin from food.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "It keeps your body from breaking down the vitamin.",
+        "PLAUSIBLE_DIFF_CONTEXT": "It helps vitamin-rich crops grow in your garden.",
+        "IMPLAUSIBLE": "It teaches your shadow to prepare the vitamin."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_039414b0e528adf3006ae47462cc7c87d2a983b6bd3cd3c0b1",
+      "response_id": "resp_012f9611d16f73d2006aeb4650186087d296c1831e0a162fa3",
       "attempts": 1,
-      "input_tokens": 1632,
+      "input_tokens": 1720,
       "cached_tokens": 1531,
-      "output_tokens": 268,
-      "reasoning_tokens": 142,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:41:42.406835+00:00"
+      "output_tokens": 431,
+      "reasoning_tokens": 277,
+      "reasoning_summary": "**Clarifying vitamin D and sunlight**\n\nI need to stick to the JSON options object for examples, using six options. It's important not to repeat words. For the question about how sunlight helps us get Vitamin D, I could say, \"It triggers your body to produce the vitamin,\" and rephrase it as, \"It prompts your body to make the vitamin.\" I want to ensure my options are plausible and contextually fitting. Saying, \"It helps your body absorb vitamin D from food,\" works well in context, while the idea about shadows cooking vitamin D feels off.\n\n**Examining sunlight and vitamin D**\n\nI’m considering how sunlight exposure helps with vitamin D. One option could be, \"It prevents your body from breaking down vitamin D,\" or another like, \"It delivers vitamin D directly through your skin.\" For context, spending 10-20 minutes outside will fit. I could also mention how sunlight helps vitamin-D-rich crops grow, though that feels less relevant since the question focuses on bodily effects. It's tricky to balance plausible options with the right context!",
+      "generated_at": "2026-11-04T14:51:03.197127+00:00"
     }
   },
-  "4": {
-    "id": "yqk7_mUAf4",
-    "article_name": "Maintain_a_Relationship_over_the_Summer.txt",
-    "sentence_1": "It freaks out the parents and maybe the girl too.",
-    "sentence_2": "It freaks out the parents and maybe the girl too <merely because she's with her parents>.",
-    "context_before": "## Section::::Warnings. \n \n When you go to her house, don't do the whole \"touchy touchy\" close to each other every single second thing.",
-    "context_after": "",
+  "2": {
+    "id": "EgrK7XQYHC",
+    "article_name": "Change_Schools_in_the_Middle_of_the_School_Year.txt",
+    "sentence_1": "Each time you come, try talking or sitting with a different group of people.",
+    "sentence_2": "Each time you come, try talking or sitting with a different group of people <so that you can determine who is genuinely nice or just is faking>.",
+    "context_before": "They can either accept your idea, or deny it, but don't give up; keep on trying. \n 6. During lunch, just take your food and sit with a group of people, and start talking.",
+    "context_after": "Just talk about regular stuff.  7. Warm up to the people in your class, and then branch out to others. On your first day, aim to know a certain number of people.",
+    "topic": "youth",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Why should you talk or sit with a different group each time?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "So that you can determine who is genuinely nice or just is faking.",
+        "GOLD_PARAPHASED": "So you can tell who is truly kind and who is only pretending.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "So you can get to know as many classmates as possible.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "So you can find people who share your interests.",
+        "PLAUSIBLE_DIFF_CONTEXT": "So you can compare what the different groups eat for lunch.",
+        "IMPLAUSIBLE": "So you can crown a new lunch-table monarch each day."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0ec4a650b96717e1006aeb4397002487d29bcb44bd1df1ada0",
+      "attempts": 1,
+      "input_tokens": 1527,
+      "cached_tokens": 0,
+      "output_tokens": 350,
+      "reasoning_tokens": 175,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:39:26.188629+00:00"
+    }
+  },
+  "3": {
+    "id": "73Ie-wIiYV",
+    "article_name": "Deal_with_Rumors_and_Drama.txt",
+    "sentence_1": "An initial approach to dealing with a rumor is to prevent it from upsetting your daily routine.",
+    "sentence_2": "An initial approach to dealing with a rumor is to prevent it from upsetting your daily routine <and your sense of safety>.",
+    "context_before": "Your safety is first and foremost when it comes to dealing with rumors. There will be times when it is best to turn the other cheek and disregard them. Other times you will need to get involved.",
+    "context_after": "* If someone approaches you and says, “Did you hear that _____ is saying that you are _______?”     * You can say something like, “Well, I know I didn’t do that so I’m not going to let it upset me.” \n     * Some rumors will work their way toward a resolution without you taking any action.",
     "topic": "youth",
     "majority_vote": "Implicit",
     "label_distribution": [
@@ -174,42 +123,93 @@
       "Context"
     ],
     "categories_distribution": [
-      4,
+      5,
       3,
       1,
       0
     ],
     "generated": {
-      "question": "Why might the girl feel uncomfortable with constant physical closeness?",
+      "question": "Besides your daily routine, what should you keep a rumor from upsetting?",
       "answer_options": {
-        "GOLD_ORIGINAL": "Merely because she's with her parents.",
-        "GOLD_PARAPHRASED": "Simply because she's around her mom and dad.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Because she prefers to take things slowly.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Because she dislikes frequent physical affection.",
-        "PLAUSIBLE_DIFF_CONTEXT": "Because she's at a crowded school dance.",
-        "IMPLAUSIBLE": "Because she thinks hugs summon space aliens."
+        "GOLD_ORIGINAL": "Your sense of safety.",
+        "GOLD_PARAPHRASED": "Your feeling of security.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Your relationships with friends.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Your confidence in yourself.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Your chances of winning an election.",
+        "IMPLAUSIBLE": "Your pet dragon’s flight schedule."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_0fe6803a6c2f5223006ae47466f4c087d2a4219192978debd8",
+      "response_id": "resp_0af3d04164a2a5d3006aeb465795fc87d2ae2ca7d0b35c100a",
       "attempts": 1,
-      "input_tokens": 1618,
+      "input_tokens": 1698,
       "cached_tokens": 1531,
-      "output_tokens": 427,
-      "reasoning_tokens": 280,
+      "output_tokens": 308,
+      "reasoning_tokens": 173,
       "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:41:49.751085+00:00"
+      "generated_at": "2026-11-04T14:51:08.165962+00:00"
+    }
+  },
+  "4": {
+    "id": "gMFAX-aZnY",
+    "article_name": "Talk_to_a_Parent_About_a_Bad_Grade_on_Your_Report_Card.txt",
+    "sentence_1": "You like to relax or have fun after school instead of doing your homework.",
+    "sentence_2": "You like to relax or have fun after school instead of doing your homework <and studying for tests>.",
+    "context_before": "* You find the teacher boring and fall asleep in class. \n *",
+    "context_after": "* You don’t like the subject matter, so you don’t pay attention.     * You understand the material pretty well, but you have test anxiety that drags down your test scores. \n     *",
+    "topic": "youth",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      4,
+      3,
+      0
+    ],
+    "generated": {
+      "question": "Besides doing your homework, what do you put off when you choose to relax or have fun after school?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Studying for tests.",
+        "GOLD_PARAPHRASED": "Preparing for exams.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Finishing assigned reading.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Completing extra-credit work.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Practicing for the school play.",
+        "IMPLAUSIBLE": "Teaching algebra to your pet hamster."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_09f4a215f38eab38006aeb465c3bb087d28e40cd0b3a6cad78",
+      "attempts": 1,
+      "input_tokens": 1640,
+      "cached_tokens": 1531,
+      "output_tokens": 423,
+      "reasoning_tokens": 281,
+      "reasoning_summary": "**Considering after-school activities**\n\nI'm thinking about after-school options like completing extra credit work or practicing for the school play. Teaching calculus to a pet hamster sounds pretty silly! It makes me wonder what else the user avoids when they want to relax or have fun after school. Could it really be anything? Studying for tests is definitely one thing that comes to mind. It's interesting how we find ways to balance work with relaxation!",
+      "generated_at": "2026-11-04T14:51:14.157367+00:00"
     }
   },
   "5": {
-    "id": "c8KT6x5moZ",
-    "article_name": "Get_Rid_of_Boy_Troubles.txt",
-    "sentence_1": "Put your social media on private.",
-    "sentence_2": "Put your social media on private <if he's still pursuing you>.",
-    "context_before": "This might feel harsh, especially if you think he’s a good guy but you just don’t return his feelings. Remember that you’re also doing this so you don’t lead him on, which is painful but best for both of you. \n 3.",
-    "context_after": "If he continues to bother and even harass you, it’s time to block him on social media, or put your settings on private. If he’s been texting or calling you, block his number. You want to cut off any way he has of getting in touch with you or having access to your life.  4. Avoid him if possible.",
+    "id": "o_ChpZXF5W",
+    "article_name": "Convince_Your_Parents_to_Let_You_Have_a_Party.txt",
+    "sentence_1": "Allow your parents to make suggestions, and make them know that you are grateful for their help.",
+    "sentence_2": "Allow your parents to make suggestions, and make them know that you are grateful for their help <even if you do n't like it>.",
+    "context_before": "* Stress the fact that there will be no alcohol and no drugs. Make sure they know that if any are brought in, they will have to leave and take it with them. \n *",
+    "context_after": "* Make sure your parents are in the house at all times, but ask them please to stay in another room but to be available if you need help.   * Tell your guests that your parents will be at home, and if they have a problem with it, then tell them not to come. \n   * HAVE FUN!",
     "topic": "youth",
     "majority_vote": "Implicit",
     "label_distribution": [
@@ -217,259 +217,55 @@
       2
     ],
     "Confidence Distribution": [
-      0,
-      0,
-      8
+      1,
+      1,
+      6
     ],
     "categories_majority_vote": [
       "Context"
     ],
     "categories_distribution": [
-      5,
-      3,
+      4,
       2,
+      1,
       0
     ],
     "generated": {
-      "question": "When should you put your social media on private?",
+      "question": "When should you still thank your parents for their help?",
       "answer_options": {
-        "GOLD_ORIGINAL": "If he's still pursuing you.",
-        "GOLD_PARAPHRASED": "If he keeps trying to get close to you.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "If his friends start contacting you.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "If he starts sharing your posts publicly.",
-        "PLAUSIBLE_DIFF_CONTEXT": "If you're applying for a new job.",
-        "IMPLAUSIBLE": "If his pet hamster asks to follow you."
+        "GOLD_ORIGINAL": "Even if you don't like it.",
+        "GOLD_PARAPHRASED": "Even if you're unhappy with it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Even if they insist on strict rules.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Even if their suggestions change your plans.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Even if they cannot attend the party.",
+        "IMPLAUSIBLE": "Even if they turn into dancing llamas."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_0aed8b0709d6da4b006ae4746e207887d29f34f42aeb4ed1f0",
+      "response_id": "resp_0643c290ce3accb1006aeb4662370887d2928937645e35b271",
       "attempts": 1,
-      "input_tokens": 1702,
+      "input_tokens": 1696,
       "cached_tokens": 1531,
-      "output_tokens": 365,
-      "reasoning_tokens": 220,
-      "reasoning_summary": "**Considering social media privacy**\n\nI need to rephrase the question about putting social media on private without repeating words. I could ask, \"Under what circumstances should you make your accounts private?\" A fitting example could be, \"If he's still pursuing you,\" which I might paraphrase as, \"If he keeps trying to get close to you.\" Situations like consistent commenting on your posts or sharing your photos could be relevant. However, talking about absurd examples, like training pigeons to read your posts, feels out of place.\n\n**Identifying plausible scenarios**\n\nI want to distinguish plausible situations regarding social media privacy. For instance, one scenario is, \"If he sends you unwanted messages,\" which indicates someone pursuing you, but maybe I could say, \"If his friends start contacting you,\" as a distinct possibility. Another scenario could be, \"If strangers begin viewing your profile,\" though it’s not an ideal fit. Ideally, I might prefer, \"If he starts sharing your posts publicly.\" Meanwhile, mentioning something silly like \"If his pet hamster asks to follow you\" feels completely implausible.",
-      "generated_at": "2026-10-30T10:41:57.469058+00:00"
+      "output_tokens": 419,
+      "reasoning_tokens": 274,
+      "reasoning_summary": "**Considering gratitude expression**\n\nI need to format my response with six options for the question: \"When should you show gratitude for your parents' help?\" One answer could be, \"Even if you don't like it,\" which suggests gratitude despite feeling unsure. I might rephrase this to: \"Even if you aren't happy with it.\" Another plausible point could be, \"Only when their advice improves the situation.\" I'll work on drafting more options to capture different perspectives!\n\n**Exploring gratitude scenarios**\n\nI'm examining how to phrase responses to the question, \"Under what circumstances should you still express gratitude for your parents' help?\" One answer could be, \"When they help enforce the rules,\" which focuses on their guidance. However, another option could be, \"Even if they disagree with your plans.\" I want to keep the original phrase \"Even if you don't like it,\" just correcting the spacing for clarity. This question aims to capture the nuances of gratitude in different contexts.",
+      "generated_at": "2026-11-04T14:51:21.093617+00:00"
     }
   },
   "6": {
-    "id": "YVU3AS41h1",
-    "article_name": "Convince_Your_Parents_to_Let_You_Do_Anything.txt",
-    "sentence_1": "Explaining your case in a well thought-out manner may help your parents feel more comfortable.",
-    "sentence_2": "Explaining your case in a well thought-out manner may help your parents feel more comfortable, <because you will seem mature and knowledgeable about what you want>.",
-    "context_before": "## Steps\n \n 1. Research your topic. Make sure you know what you are asking for, so when your parents have a question you will have a factual answer.",
-    "context_after": "2. Have sources. If you want to spend the night at someone's house, make sure your parents have access to your friend's house number. If you want a body piercing or tattoo, have the number of the establishment or some reliable websites about the practice.   3.",
+    "id": "BGtPtMtzrE",
+    "article_name": "Stop_Your_Mom_from_Snooping_in_Your_Room.txt",
+    "sentence_1": "You could also buy a safe.",
+    "sentence_2": "You could also buy a safe, <using their credit card, of course>.",
+    "context_before": "* If you don't want your parents to see personal objects of yours (a note from a friend, bad test grade, ect.) find a hiding place. Perhaps your friend would hide them for you.",
+    "context_after": "* You could also ask your parents WHY after you got proof of them sneaking in your room.   * Be calm, cool, and collected when talking to them. the 3 Cs!\n   * GOOD LUCK!!!!",
     "topic": "youth",
-    "majority_vote": "Implicit",
+    "majority_vote": "New Information",
     "label_distribution": [
-      7,
-      1
-    ],
-    "Confidence Distribution": [
-      1,
-      0,
-      7
-    ],
-    "categories_majority_vote": [
-      "Reasoning"
-    ],
-    "categories_distribution": [
-      4,
-      6,
-      1,
-      0
-    ],
-    "generated": {
-      "question": "Why might explaining your case thoughtfully make your parents feel more comfortable?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "Because you will seem mature and knowledgeable about what you want.",
-        "GOLD_PARAPHRASED": "Because you will appear responsible and well-informed about what you are requesting.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Because you will give them time to consider your request without pressure.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Because you will show that you have considered their concerns.",
-        "PLAUSIBLE_DIFF_CONTEXT": "Because you will show that you have completed your school assignment.",
-        "IMPLAUSIBLE": "Because you will convince them that your goldfish wrote the speech."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0acfd870775fb130006ae47475d7a487d28ba832dc54f4f699",
-      "attempts": 1,
-      "input_tokens": 1686,
-      "cached_tokens": 1531,
-      "output_tokens": 384,
-      "reasoning_tokens": 209,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:42:05.637041+00:00"
-    }
-  },
-  "7": {
-    "id": "_Vlg7QDfCT",
-    "article_name": "Take_Classes_While_Battling_Depression.txt",
-    "sentence_1": "Even though it can be uncomfortable, it is important your instructors know.",
-    "sentence_2": "Even though it can be uncomfortable, it is important your instructors know <about your situation>.",
-    "context_before": "If you are concerned about your professors knowing about your depression, look into the confidentiality rules within your school about accommodations. It is possible that due to confidentiality, the department may not be allowed to disclose what the accommodations are for, only that you qualify for them. \n 2. Notify your professors.",
-    "context_after": "One of the challenges for providing care for students is that the teachers or university are often not aware of the students' struggles. If you successfully apply for accommodations, your professor will be notified of your status and you won't need to discuss it with them past asking if they were notified. Once your professors are aware of you accommodations they may be able to help by giving you more time on assignments or extra help along the way.    *",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      8,
-      0
-    ],
-    "Confidence Distribution": [
-      0,
       0,
       8
-    ],
-    "categories_majority_vote": [
-      "Context"
-    ],
-    "categories_distribution": [
-      7,
-      3,
-      1,
-      0
-    ],
-    "generated": {
-      "question": "What is it important for your instructors to know, even if telling them feels uncomfortable?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "Your situation.",
-        "GOLD_PARAPHRASED": "Your circumstances.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Your accommodation status.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Your difficulties with coursework.",
-        "PLAUSIBLE_DIFF_CONTEXT": "Your plans to change majors.",
-        "IMPLAUSIBLE": "Your pet dragon's exam schedule."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0ac82b9c3d05c42b006ae4747e01ac87d28cf1efb1ba97ba1a",
-      "attempts": 1,
-      "input_tokens": 1729,
-      "cached_tokens": 1531,
-      "output_tokens": 420,
-      "reasoning_tokens": 288,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:42:13.417820+00:00"
-    }
-  },
-  "8": {
-    "id": "mw-qmRSJor",
-    "article_name": "Get_a_Kiss_on_the_First_Date.txt",
-    "sentence_1": "wait until the date is over and that would be a perfect moment to give him or her thanks and would be expecting a kiss",
-    "sentence_2": "wait until the date is over and that would be a perfect moment to give him or her thanks and would be expecting a kiss <and they would be ready because they are expecting it>",
-    "context_before": "personality MATTERS...if you act crazy he will surely not kiss you at all but if you act normal cute and a little bit shy he will think that you are a cool person to hang out with and will SURELY ask if he can kiss you\n   5. make eye contact wil bring tension in both of ya'll and would want top kiss each other just try it\n   6. take a ment pill or a gum and when you are ready make a move and he will smell your breath and will aim for your lips surely\n 7.",
-    "context_after": "",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      7,
-      1
-    ],
-    "Confidence Distribution": [
-      0,
-      0,
-      8
-    ],
-    "categories_majority_vote": [
-      "Reasoning"
-    ],
-    "categories_distribution": [
-      2,
-      5,
-      2,
-      1
-    ],
-    "generated": {
-      "question": "Why might the end of the date be a good time to initiate a kiss?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "They would be ready because they are expecting it.",
-        "GOLD_PARAPHRASED": "They would be prepared because they anticipate it.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "They would feel more comfortable after spending time together.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "They would be standing close while saying goodbye.",
-        "PLAUSIBLE_DIFF_CONTEXT": "They would have just finished watching a movie together.",
-        "IMPLAUSIBLE": "They would have received permission from a committee of pigeons."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0abdc4cff2b3a3fc006ae47485d57c87d2a4b7ed10fc9e9c4f",
-      "attempts": 1,
-      "input_tokens": 1717,
-      "cached_tokens": 1531,
-      "output_tokens": 447,
-      "reasoning_tokens": 284,
-      "reasoning_summary": "**Rephrasing a question**\n\nI need to rephrase the question to avoid the words “ready” and “expecting.” I could ask, “Why is the end of the date a good time to initiate a kiss?” instead of using the original phrasing. I've got a few alternatives in mind, like “They would be relaxed after spending time together” or “They would be pleased to receive your thanks.” I’m considering if there are more plausible options while keeping the length similar.\n\n**Exploring context for a question**\n\nI’m thinking about different contexts for why the end of a date might be a good time to initiate a kiss. In one context, I could say, “They would feel closer after spending time together,” and in another, “They would be standing close while saying goodbye.” I need to avoid unrelated phrases like “brushing their teeth.” Instead, saying, “They would have finished watching the movie” feels more relevant. I want to keep the original meaning but express it stylishly.",
-      "generated_at": "2026-10-30T10:42:22.559014+00:00"
-    }
-  },
-  "9": {
-    "id": "n3kScYMMPL",
-    "article_name": "Be_Eccentric_or_Eclectic_as_a_Teen.txt",
-    "sentence_1": "They are not followers.",
-    "sentence_2": "They are not followers <by any means>.",
-    "context_before": "7. Realize that if you are female that most likely you will not follow societies expectations of being a girl or woman. Eccentric women tend to be more outspoken and strongly independent.",
-    "context_after": "8. Realize that if you are male that most likely you will not follow societies expectations of being a boy or man. Eccentric men tend to not be very macho.   9. Stay curious about everything and everyone.",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      7,
-      1
-    ],
-    "Confidence Distribution": [
-      0,
-      1,
-      7
-    ],
-    "categories_majority_vote": [
-      "Context"
-    ],
-    "categories_distribution": [
-      4,
-      3,
-      1,
-      0
-    ],
-    "generated": {
-      "question": "To what extent are eccentric women described as followers?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "Not by any means.",
-        "GOLD_PARAPHRASED": "Not in any respect.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Only when they trust someone else's judgment.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Only when established rules require it.",
-        "PLAUSIBLE_DIFF_CONTEXT": "Only when choosing fashionable outfits.",
-        "IMPLAUSIBLE": "Only when marching behind royal penguins."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_04e0731f191202b9006ae4748eee8c87d2a6ced8442eb56ea0",
-      "attempts": 1,
-      "input_tokens": 1661,
-      "cached_tokens": 1531,
-      "output_tokens": 479,
-      "reasoning_tokens": 343,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:42:31.977851+00:00"
-    }
-  },
-  "10": {
-    "id": "CIp4rrlehe",
-    "article_name": "Decorate_Your_Graduation_Cap.txt",
-    "sentence_1": "This allows your stencil to have a smoother edge and prevents bleeding after painting.",
-    "sentence_2": "This allows your stencil to have a smoother edge and prevents bleeding <into the rest of your cap> after painting.",
-    "context_before": "This allows you to skip both the drawing and cutting of your stencil. Another option is to print your desired image directly onto your paper, so it only needs be cut. \n * Up your stencil game by laminating your paper before cutting.",
-    "context_after": "2. Stick the stencil onto your grad cap. Lie up where you want your stencil to be placed and play with different locations. Once you’ve decided on the spot, tape the stencil down taut against your cap.",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      7,
-      1
     ],
     "Confidence Distribution": [
       0,
@@ -478,50 +274,154 @@
     ],
     "categories_majority_vote": [
       "Context",
-      "Reasoning"
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
     ],
     "categories_distribution": [
-      4,
-      4,
-      3,
+      0,
+      0,
+      0,
       0
     ],
     "generated": {
-      "question": "Where does laminating the stencil help prevent paint from bleeding?",
+      "question": "How could you pay for the safe?",
       "answer_options": {
-        "GOLD_ORIGINAL": "Into the rest of your cap.",
-        "GOLD_PARAPHRASED": "Onto other parts of your graduation hat.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Onto the paper stencil itself.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Onto the surface beneath your cap.",
-        "PLAUSIBLE_DIFF_CONTEXT": "Onto the surrounding canvas.",
-        "IMPLAUSIBLE": "Into a secret paint dimension."
+        "GOLD_ORIGINAL": "Using their credit card, of course.",
+        "GOLD_PARAPHASED": "With your parents’ charge card, naturally.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "With your own savings.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "With money borrowed from a friend.",
+        "PLAUSIBLE_DIFF_CONTEXT": "With a company expense account.",
+        "IMPLAUSIBLE": "With a suitcase of moon rocks."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_0dd55626565614ef006ae4749863dc87d29a4af94f49cd9a31",
+      "response_id": "resp_0162955c1a42a010006aeb439e5b7887d2b9a0f31f30cd122a",
       "attempts": 1,
-      "input_tokens": 1680,
-      "cached_tokens": 1531,
-      "output_tokens": 453,
-      "reasoning_tokens": 311,
-      "reasoning_summary": "**Interpreting paint bleeding**\n\nI'm pondering where laminating the stencil prevents paint from bleeding after painting. I shouldn't repeat \"into the rest of your cap,\" so maybe I can phrase it as \"onto other areas of your graduation hat.\" I think it’s sufficient to ask where a smoother edge stops the paint from spreading. I could also mention areas like \"onto the stencil's printed design\" or \"under the tape holding the stencil down.\" Making sure things are clear and grammatically sound is important!\n\n**Evaluating paint bleed contexts**\n\nI'm considering different contexts for where paint might bleed. I'm coming up with the idea of bleeding onto the stencil paper or even onto the wearer's hair, which is plausible. Other phrases like \"onto the nearby canvas\" don’t really fit well since it’s not about canvas painting. I want to avoid absurd examples, like \"into a secret paint dimension.\" Instead, I could ask, \"Where is the paint kept from bleeding?\" I have some solid options now!",
-      "generated_at": "2026-10-30T10:42:39.361820+00:00"
+      "input_tokens": 1514,
+      "cached_tokens": 1379,
+      "output_tokens": 281,
+      "reasoning_tokens": 144,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:39:31.713445+00:00"
     }
   },
-  "11": {
-    "id": "e5X7ZH9InV",
-    "article_name": "Open_Up_to_Your_Parents.txt",
-    "sentence_1": "Parents may have their own reactions and start to give advice or provide feedback.",
-    "sentence_2": "Parents may have their own reactions and start to give advice or provide feedback <before you've finished speaking>.",
-    "context_before": "For example, if you want to open up to your parents about a something they may disapprove of (like having a boyfriend or girlfriend), think about how they might take it, and plan to talk about it in a way that may be better received. \n 3. Ask them to listen.",
-    "context_after": "If you want to talk to your parents in an open way, ask them to really listen to you before you start a conversation. Say that it’s important to you and that you don’t want to be interrupted or given advice.    * Say, “I want to be open with you, and for me to feel comfortable talking to you, I need you to listen. Please hear me out.”",
+  "7": {
+    "id": "dOvwfhJB_d",
+    "article_name": "Comfort_Your_Sister_when_She_Is_Crying.txt",
+    "sentence_1": "Give your sister a hug.",
+    "sentence_2": "Give your sister a hug <or a cuddle>.",
+    "context_before": "### After a Loss\n \n 1.",
+    "context_after": "* This will help comfort her and show her you care about her during this difficult time. Hug her until she finishes crying, or until she wants to talk about it.   2. Talk about her feelings if she wants to. \n     * Don't force her to talk about anything.",
     "topic": "youth",
     "majority_vote": "Implicit",
     "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      4,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Besides a hug, what physical gesture could you offer your sister?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "A cuddle.",
+        "GOLD_PARAPHRASED": "A snuggle.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A gentle hand squeeze.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A reassuring pat on the back.",
+        "PLAUSIBLE_DIFF_CONTEXT": "A celebratory high-five.",
+        "IMPLAUSIBLE": "A penguin-style flipper salute."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0caf0f2f620df5e7006aeb466976c487d29bab574b0a551a8b",
+      "attempts": 1,
+      "input_tokens": 1641,
+      "cached_tokens": 1531,
+      "output_tokens": 289,
+      "reasoning_tokens": 156,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:51:25.384393+00:00"
+    }
+  },
+  "8": {
+    "id": "n51V4OWCE-",
+    "article_name": "Report_Criminal_Activity.txt",
+    "sentence_1": "See the crime happen or be tipped off by another person who has",
+    "sentence_2": "See the crime happen or be tipped off by another person who has <seen it happen>.",
+    "context_before": "## Steps\n \n 1. 1",
+    "context_after": "2. 2 Look at the person and if already involved interact with the suspect as if you are ok with what is going on   3. 3 As soon as you are out of sight, earshot, and you are comfortable talking out loud call 911 and calmly report the situation\n   4. 4 Follow the police instructions and stay out of physical interactions with the person\n   5. 5 Always be cautious and kwow that the police are on your side, the good side",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
       5,
-      3
+      3,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "What has the person who tips you off done?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Seen it happen.",
+        "GOLD_PARAPHRASED": "Witnessed it occur.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Heard it being planned.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Found evidence afterward.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Read about it online.",
+        "IMPLAUSIBLE": "Seen a potato commit it."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0b6576c932afb640006aeb466d764887d2ac52c72c66ed4ed4",
+      "attempts": 1,
+      "input_tokens": 1697,
+      "cached_tokens": 1531,
+      "output_tokens": 313,
+      "reasoning_tokens": 186,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:51:29.730850+00:00"
+    }
+  },
+  "9": {
+    "id": "ibiHeQW5B5",
+    "article_name": "Walk_Away_from_a_Married_Man.txt",
+    "sentence_1": "Or, try online dating to meet someone new.",
+    "sentence_2": "Or, try online dating to meet someone new <after your initial grieving process is over>.",
+    "context_before": "Shake up your daily life by filling the holes where your married man used to be. Set some new goals, such as trying a new fitness activity or redecorating your home. Join a new club so you can connect with new people.",
+    "context_after": "* Switching up some aspects of your routine helps you maintain some distance from the married man. It also helps you build new memories on your own.   3. Change your phone number or block his. To truly cut ties, get a new phone number so he can no longer reach you.",
+    "topic": "youth",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      3,
+      5
     ],
     "Confidence Distribution": [
       0,
@@ -532,43 +432,145 @@
       "Reasoning"
     ],
     "categories_distribution": [
-      1,
-      3,
+      0,
       2,
+      1,
       0
     ],
     "generated": {
-      "question": "When might parents start giving advice or feedback?",
+      "question": "When should you try online dating to meet someone new?",
       "answer_options": {
-        "GOLD_ORIGINAL": "Before you've finished speaking.",
-        "GOLD_PARAPHRASED": "While you're still talking.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Once you've asked for their opinion.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "After they've thought about what you said.",
-        "PLAUSIBLE_DIFF_CONTEXT": "When they see your report card.",
-        "IMPLAUSIBLE": "When a talking pineapple calls on them."
+        "GOLD_ORIGINAL": "After your initial grieving process is over.",
+        "GOLD_PARAPHASED": "Once your first period of mourning has ended.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Once you've settled into a new routine.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "After you've cut off contact with him.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Once your spouse agrees to an open relationship.",
+        "IMPLAUSIBLE": "After your toaster approves your dating profile."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_00e9214286dbf843006ae4749fbe5487d2a182f16841f393df",
+      "response_id": "resp_09c90c56b9e54aa8006aeb43a3c91887d29fb340c3df2991e0",
       "attempts": 1,
-      "input_tokens": 1725,
-      "cached_tokens": 1531,
-      "output_tokens": 387,
-      "reasoning_tokens": 251,
+      "input_tokens": 1538,
+      "cached_tokens": 1379,
+      "output_tokens": 551,
+      "reasoning_tokens": 403,
       "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:42:46.594761+00:00"
+      "generated_at": "2026-11-04T14:39:39.249995+00:00"
+    }
+  },
+  "10": {
+    "id": "4b_yJcB6qp",
+    "article_name": "Dry_Out_a_Pimple.txt",
+    "sentence_1": "Once of the best ways to combat pimples is to dry them out.",
+    "sentence_2": "Once of the best ways to combat pimples is to dry them out, <which means removing the oils that cause them>.",
+    "context_before": "## Timestamp::::2015-12-14T14:11:50Z\n \n Many people have problems with pimples and acne. If you often find yourself with pimples, you can treat them yourself.",
+    "context_after": "There are many ways you can do this at home.",
+    "topic": "youth",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      3,
+      5
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      0,
+      3,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "What does drying out pimples involve?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Removing the oils that cause them.",
+        "GOLD_PARAPHASED": "Getting rid of the oils responsible for them.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Reducing the redness around them.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Clearing away dead skin cells.",
+        "PLAUSIBLE_DIFF_CONTEXT": "Applying a moisturizing lotion to them.",
+        "IMPLAUSIBLE": "Training them to use miniature towels."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_088a6f4c71094e19006aeb43ab608c87d2bc41dea7b4b9c664",
+      "attempts": 1,
+      "input_tokens": 1491,
+      "cached_tokens": 1379,
+      "output_tokens": 300,
+      "reasoning_tokens": 161,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:39:43.827080+00:00"
+    }
+  },
+  "11": {
+    "id": "J1A6IC3Zfz",
+    "article_name": "Run_a_Homeowners'_Association.txt",
+    "sentence_1": "Remember that a homeowners' association can be a good marketing and sales tool for prospective buyers.",
+    "sentence_2": "Remember that a homeowners' association can be a good marketing and sales tool for prospective buyers <in your community>.",
+    "context_before": "## Tips\n \n *",
+    "context_after": "Offer to help real estate agents and developers during open houses and make yourself available to answer any questions.  * Be welcoming to new homeowners. The HOA can play a role in making new neighbors feel welcome in the community. Announce their arrival in newsletters or websites, and introduce yourself after they move in.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      5,
+      2,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Where are the prospective buyers looking to purchase a home?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "In your community.",
+        "GOLD_PARAPHRASED": "In your neighborhood.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "In a neighboring development.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "In a nearby town.",
+        "PLAUSIBLE_DIFF_CONTEXT": "In a distant vacation resort.",
+        "IMPLAUSIBLE": "In an underwater mermaid palace."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_047897eb518b9881006aeb4671ce9c87d2b82ae96c48d43258",
+      "attempts": 1,
+      "input_tokens": 1652,
+      "cached_tokens": 1531,
+      "output_tokens": 331,
+      "reasoning_tokens": 202,
+      "reasoning_summary": "**Revising housing options**\n\nI’m trying to come up with six options for where prospective buyers might look to purchase a home, even though the instruction says five. I need to avoid the words “community” and “your.” For example, I could say, “Where are these prospective buyers looking to purchase a home?” \n\nI might consider options like “In a neighboring community” or “In the developer's new subdivision.” \n\nI want to keep it relevant while still being creative and concise. I'll note the differences in phrasing to ensure clarity.",
+      "generated_at": "2026-11-04T14:51:36.071632+00:00"
     }
   },
   "12": {
-    "id": "79Sep5u4jF",
-    "article_name": "Hang_Out_with_Friends_on_a_School_Night.txt",
-    "sentence_1": "Try making everyone put their phones into a basket for the duration of the game.",
-    "sentence_2": "Try making everyone put their phones into a basket for the duration of the game <so everyone is present>.",
-    "context_before": "You could even keep a running score from week to week to see who the ultimate winner is at the end of a semester or the school year. \n * It can be fun to get off your phone and focus on the game in front of you.",
-    "context_after": "3. <a href=\"Direct%2C%20Act%2C%20and%20Create%20a%20Good%20Movie%20%28Kids%20and%20Teens%29\">Make a movie</a> together using your phones. You could remake a favorite scene from a movie, or even do a parody of something you’ve seen on TV recently. Or, try <a href=\"Write%20Movie%20Scripts\">writing an original script</a> and directing your friends in a movie of your own design.",
-    "topic": "youth",
+    "id": "t2yqvkgdbF",
+    "article_name": "Advertise_Small_Businesses.txt",
+    "sentence_1": "Take photos of your work, inventory, or building.",
+    "sentence_2": "Take photos of your work, inventory, or building <for promotional use>.",
+    "context_before": "If you sell items, don’t overlook the benefits of Instagram! You can post photos of your most popular or unique items. \n 5.",
+    "context_after": "Let your products or services speak for themselves! Whenever you complete a job, finish a new project, or get new inventory, snap a few well-lit photos. You can post your photos on social media, your website, or share them with potential customers as examples of your work.    *",
+    "topic": "business",
     "majority_vote": "Implicit",
     "label_distribution": [
       7,
@@ -585,45 +587,45 @@
     "categories_distribution": [
       5,
       4,
-      0,
+      2,
       0
     ],
     "generated": {
-      "question": "What is the purpose of putting the players’ phones in a basket during the game?",
+      "question": "What should you use the photos of your work, inventory, or building for?",
       "answer_options": {
-        "GOLD_ORIGINAL": "So everyone is present.",
-        "GOLD_PARAPHRASED": "So all players are attentive.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "So nobody can look up answers.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "So nobody interrupts play with calls.",
-        "PLAUSIBLE_DIFF_CONTEXT": "So the phones can charge together.",
-        "IMPLAUSIBLE": "So the basket can learn the rules."
+        "GOLD_ORIGINAL": "For promotional use.",
+        "GOLD_PARAPHRASED": "For marketing purposes.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "For tracking inventory changes.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "For planning future projects.",
+        "PLAUSIBLE_DIFF_CONTEXT": "For documenting an insurance claim.",
+        "IMPLAUSIBLE": "For teaching your building to juggle."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_078b17bd05aaefdd006ae474a6f8bc87d2b0bff37d00130586",
+      "response_id": "resp_03c0c0db35236c23006aeb4678218c87d2b17004ec48be8c57",
       "attempts": 1,
-      "input_tokens": 1752,
+      "input_tokens": 1667,
       "cached_tokens": 1531,
-      "output_tokens": 318,
-      "reasoning_tokens": 174,
+      "output_tokens": 306,
+      "reasoning_tokens": 171,
       "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:42:51.274788+00:00"
+      "generated_at": "2026-11-04T14:51:40.472551+00:00"
     }
   },
   "13": {
-    "id": "6z6Lz_xQ5v",
-    "article_name": "Make_Friends_As_an_Introvert.txt",
-    "sentence_1": "Many people love the opportunity to talk about themselves, and may respond by asking you back.",
-    "sentence_2": "Many people love the opportunity to talk about themselves <and what they think>, and may respond by asking you back.",
-    "context_before": "Having an example to work off of can give you some clues about what to do in social settings. \n * An open-ended question like \"How are you?\" can be effective, especially with an acquaintance, someone you know, but not particularly well.",
-    "context_after": "4. Go to social events. New friends are very unlikely to just present themselves at your door, so you're going to need to find them. Look for social events and accept invitations, even if don't always feel like going.",
+    "id": "moWqEWf1jI",
+    "article_name": "Get_Rid_of_Blackheads_When_Your_Skin_is_Sensitive.txt",
+    "sentence_1": "Simply combine equal parts of raw honey and cinnamon powder.",
+    "sentence_2": "Simply combine equal parts of raw honey and cinnamon powder <or a few drops of cinnamon oil>.",
+    "context_before": "4. Use a honey-cinnamon cleanser. Another natural cure some people have had luck with is a raw honey-cinnamon mixture.",
+    "context_after": "Rub it on your face. Once you've thoroughly rubbed it in, cover it with a light cotton strip or a thick paper towel. Leave it for about 5 minutes before pulling the strip off and rinsing.    *",
     "topic": "youth",
-    "majority_vote": "Implicit",
+    "majority_vote": "New Information",
     "label_distribution": [
-      7,
-      1
+      1,
+      7
     ],
     "Confidence Distribution": [
       0,
@@ -631,46 +633,98 @@
       8
     ],
     "categories_majority_vote": [
-      "Reasoning"
+      "Context",
+      "Background Knowledge"
     ],
     "categories_distribution": [
-      5,
-      6,
+      1,
       0,
+      1,
       0
     ],
     "generated": {
-      "question": "Besides themselves, what do many people enjoy talking about?",
+      "question": "What could you use in place of the powdered ingredient?",
       "answer_options": {
-        "GOLD_ORIGINAL": "What they think.",
-        "GOLD_PARAPHRASED": "Their own opinions.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "How their day went.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "What they've been doing.",
-        "PLAUSIBLE_DIFF_CONTEXT": "What their investments are worth.",
-        "IMPLAUSIBLE": "What their socks whisper at night."
+        "GOLD_ORIGINAL": "A few drops of cinnamon oil.",
+        "GOLD_PARAPHASED": "Several drops of oil from cinnamon.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A few drops of tea tree oil.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A small amount of aloe vera gel.",
+        "PLAUSIBLE_DIFF_CONTEXT": "A dash of vanilla extract.",
+        "IMPLAUSIBLE": "A few drops of dragon tears."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_01da7301aaec5980006ae474aba9e887d29b85c721dffe0420",
+      "response_id": "resp_0b04ee1eac5ac454006aeb43b00b5c87d28ee6b690eaaf3b1f",
       "attempts": 1,
-      "input_tokens": 1684,
-      "cached_tokens": 1531,
-      "output_tokens": 373,
-      "reasoning_tokens": 244,
-      "reasoning_summary": "**Generating conversation topics**\n\nI need to come up with six options based on the question: \"Besides themselves, what do many people enjoy talking about?\" Initially, I'm thinking about a way to rephrase \"what they think\" into \"their opinions\" or \"what they believe.\" Then, I can consider ideas like \"what they've been doing\" or \"what their friends are doing.\" I could also explore \"what they plan to buy,\" but maybe something funny like \"what their houseplants dream about\" could work too.",
-      "generated_at": "2026-10-30T10:42:57.722405+00:00"
+      "input_tokens": 1503,
+      "cached_tokens": 1379,
+      "output_tokens": 483,
+      "reasoning_tokens": 342,
+      "reasoning_summary": "**Rephrasing spice options**\n\nI need to avoid the phrase \"or a few drops of cinnamon oil\" when addressing the question: \"What can you use instead of the powdered spice in the honey mixture?\" I'll focus on paraphrasing options like \"A small amount of cinnamon essential oil,\" which might be more specific. I could also consider alternatives such as \"a pinch of ground nutmeg,\" \"a little lemon juice,\" or even \"a spoonful of baking soda\" for a different context.\n\n**Considering ingredient replacements**\n\nI think a honey facial cleanser could incorporate alternatives like \"a splash of milk\" or \"a teaspoon of vanilla extract,\" but those may not work if I'm targeting a cleanse. Options like \"a little tea tree oil\" or \"a small amount of aloe vera gel\" seem plausible, though tea tree oil might irritate some faces. For my question, \"What can replace the cinnamon powder?\" I need to avoid repeating \"cinnamon\" directly. Instead, I could ask, \"What could you use in place of the powdered ingredient?\"\n\n**Exploring oil alternatives**\n\nI think I’ve got it! For \"A few drops of cinnamon oil,\" I might paraphrase it as \"Several drops of oil from cinnamon.\" That makes sense. Similar options could be \"A few drops of tea tree oil,\" which is close yet different, or \"A small amount of aloe vera gel.\" However, saying something like \"A dash of vanilla extract\" seems absurd. Then there's the humorous idea of \"A few drops of dragon tears,\" which is definitely implausible! The oil alternative doesn't need to comply with the same grammatical form, though.",
+      "generated_at": "2026-11-04T14:39:55.832231+00:00"
     }
   },
   "14": {
-    "id": "bqgFNk1x1V",
-    "article_name": "Be_in_a_Relationship_Without_Your_Parents_Knowing.txt",
-    "sentence_1": "Your partner may feel less important and bring resentment to your relationship.",
-    "sentence_2": "Your partner may feel less important and bring resentment to your relationship <if you do n't clarify your stance>.",
-    "context_before": "2. Communicate with your partner. If you want to pursue your relationship despite knowing that your parents will disapprove, let your partner know why you think this is the right course of action.",
-    "context_after": "The longer you hide, the more difficult it is going to be.  3. Consider the opinions of your parents. It may be difficult to hear negative opinions about someone you care about but sometimes your parents may have a better perspective on long term outcomes. Depending on your dynamic with your parents, they may have trouble articulating their disapproval.",
-    "topic": "youth",
+    "id": "7d4fHfgieC",
+    "article_name": "Freeze_a_Credit_Card.txt",
+    "sentence_1": "To prevent overspending, you can freeze your credit card in ice.",
+    "sentence_2": "To prevent overspending, you can freeze your credit card in ice <to make it hard for you to access and use>.",
+    "context_before": "## Timestamp::::2017-12-11T02:44:44Z\n \n Credit cards are a great way to build your credit and cover unexpected expenses, but they can also be a major temptation. If you’re a big shopper or are going through a tough time financially, your credit card may be burning a hole in your pocket.",
+    "context_after": "If you are worried about your credit, you may want to <a href=\"Freeze%20Your%20Credit\">freeze your credit</a> <or a href=\"Prevent%20Credit%20Card%20Fraud\">prevent credit card fraud</a>.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      4,
+      6,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Why freeze your credit card in ice to prevent overspending?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To make it hard for you to access and use.",
+        "GOLD_PARAPHRASED": "To make it difficult for you to reach and use.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To give yourself time to reconsider a purchase.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To keep it out of sight while shopping.",
+        "PLAUSIBLE_DIFF_CONTEXT": "To protect it from heat damage.",
+        "IMPLAUSIBLE": "To teach your credit card to ice-skate."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0bcec85cab1382e5006aeb467c8c9487d280f7a88f25d11697",
+      "attempts": 1,
+      "input_tokens": 1713,
+      "cached_tokens": 1531,
+      "output_tokens": 440,
+      "reasoning_tokens": 284,
+      "reasoning_summary": "**Exploring credit card freezing**\n\nI'm trying to come up with six options for a schema based on the question, \"Why might freezing your credit card in ice prevent overspending?\" I think the main idea is that it makes it hard to access and use. I can paraphrase that as, \"To make it difficult to get to and use.\" \n\nOne plausible context could be that it gives you time to rethink a purchase, which is distinct but related to the main point. Let's generate a few more options around this.\n\n**Analyzing freezing credit cards**\n\nI'm generating alternatives about why freezing a credit card in ice can help prevent overspending. One idea is, \"To keep it out of sight while shopping,\" which is a different context. I also noted, \"To protect it from heat damage,\" but that seems odd. \n\nIt’s interesting to play with the grammatical angle, like asking why freezing the card helps. I could also suggest, \"To preserve it for a future purchase,\" or \"To keep it cool in hot weather,\" though that last one's not great.",
+      "generated_at": "2026-11-04T14:51:46.784308+00:00"
+    }
+  },
+  "15": {
+    "id": "YAJtG-j9zy",
+    "article_name": "Live_Mortgage_Free.txt",
+    "sentence_1": "Make an extra annual payment each year.",
+    "sentence_2": "Make an extra annual payment each year <if you can>.",
+    "context_before": "* You might choose to eat out less, for example, or switch to a cheaper phone plan. \n 6.",
+    "context_after": "Divide your monthly payment by 12 and save that amount each month. At the end of every year, plan to pay double the amount you normally would just for that month. This will pad your mortgage with an additional payment to quicken the process of paying it off.",
+    "topic": "business",
     "majority_vote": "Implicit",
     "label_distribution": [
       6,
@@ -678,91 +732,42 @@
     ],
     "Confidence Distribution": [
       0,
-      1,
-      7
+      0,
+      8
     ],
     "categories_majority_vote": [
       "Reasoning"
     ],
     "categories_distribution": [
-      3,
-      4,
-      3,
-      0
-    ],
-    "generated": {
-      "question": "What might cause your partner to feel less important and resentful?",
-      "answer_options": {
-        "GOLD_ORIGINAL": "If you don't clarify your stance.",
-        "GOLD_PARAPHRASED": "If you don't explain your position.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "If you keep the relationship hidden from your parents.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "If you dismiss their concerns about your parents.",
-        "PLAUSIBLE_DIFF_CONTEXT": "If you regularly cancel plans to see your friends.",
-        "IMPLAUSIBLE": "If you ask them to marry a talking toaster."
-      }
-    },
-    "meta": {
-      "model": "gpt-6-sol",
-      "reasoning_effort": "medium",
-      "response_id": "resp_0a46211034555ad8006ae474b2173487d294a1b3b2bc3e8ca7",
-      "attempts": 1,
-      "input_tokens": 1696,
-      "cached_tokens": 1531,
-      "output_tokens": 298,
-      "reasoning_tokens": 145,
-      "reasoning_summary": null,
-      "generated_at": "2026-10-30T10:43:02.760531+00:00"
-    }
-  },
-  "15": {
-    "id": "4Vx66iowKq",
-    "article_name": "Deal_With_Mean_Parents.txt",
-    "sentence_1": "Keep eye contact with your parents so you can see how their facial expressions and tone of voice changes and what that means.",
-    "sentence_2": "Keep eye contact with your parents so you can see how their facial expressions and tone of voice changes and what that means <in the conversation>.",
-    "context_before": "You can still disagree with certain things that your parents say, but save those points in your mind for a good time to bring up disagreements later. Keep focusing on their feelings while they are talking. \n * Pay attention to the tone of their voice and their body language while they talk.",
-    "context_after": "4. Be patient while they talk. Sometimes people use talking to help them make sense of their feelings. And sometimes they may have to pause to think about what they want to say.",
-    "topic": "youth",
-    "majority_vote": "Implicit",
-    "label_distribution": [
-      7,
-      1
-    ],
-    "Confidence Distribution": [
-      0,
-      0,
-      8
-    ],
-    "categories_majority_vote": [
-      "Context"
-    ],
-    "categories_distribution": [
+      2,
       5,
-      4,
-      0,
+      1,
       0
     ],
     "generated": {
-      "question": "When should you interpret changes in your parents’ expressions and tone?",
+      "question": "Under what condition should you make an extra annual payment?",
       "answer_options": {
-        "GOLD_ORIGINAL": "In the conversation.",
-        "GOLD_PARAPHRASED": "During the discussion.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "In a later disagreement.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "During a private talk afterward.",
-        "PLAUSIBLE_DIFF_CONTEXT": "During a theatrical rehearsal.",
-        "IMPLAUSIBLE": "During a debate with a talking toaster."
+        "GOLD_ORIGINAL": "If you can.",
+        "GOLD_PARAPHRASED": "If you're able to.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If your lender requires it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If your interest rate rises.",
+        "PLAUSIBLE_DIFF_CONTEXT": "If your membership is up for renewal.",
+        "IMPLAUSIBLE": "If your mortgage starts singing."
       }
     },
     "meta": {
       "model": "gpt-6-sol",
       "reasoning_effort": "medium",
-      "response_id": "resp_0872e8c073658ab2006ae474b7224887d29e4e23498e599cf9",
+      "response_id": "resp_034431365dd2e236006aeb4682d83c87d2936423dddd13de1e",
       "attempts": 1,
-      "input_tokens": 1688,
+      "input_tokens": 1655,
       "cached_tokens": 1531,
-      "output_tokens": 409,
-      "reasoning_tokens": 277,
-      "reasoning_summary": "**Considering context in communication**\n\nThe question is about when changes in parents' expressions and tone carry meaning. I think there are significant moments, like during a disagreement or in a private conversation afterward. It’s interesting to think about how these changes express feelings. There's also the absurd example of a theatrical rehearsal or a debate with a talking toaster, but those don’t quite fit. I wonder if paraphrasing “in a conversation” as “during the discussion” works well.",
-      "generated_at": "2026-10-30T10:43:10.125760+00:00"
+      "output_tokens": 319,
+      "reasoning_tokens": 186,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-04T14:51:51.371981+00:00"
     }
   }
 }
+
+

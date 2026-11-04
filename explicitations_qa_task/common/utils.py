@@ -39,6 +39,7 @@ def check_if_qualified(annotations: dict):
     return (implausible_count < max_implausible
             and diff_context_count < max_diff_context
             and none_count < max_none)
+
 def get_options(question: dict, index: int) -> list:
     """
     Returns the answer options (chosen gold option plus non-gold options and the none of the above).
