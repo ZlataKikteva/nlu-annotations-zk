@@ -82,10 +82,10 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     # Context and target sentence (sentence_1 = without the explicitation)
     st.markdown("#### Target sentence in context")
     if question.get("context_before"):
-        st.markdown(f"**Context before:** <span style='color:gray'>{question['context_before']}</span>", unsafe_allow_html=True)
+        st.markdown(f" <span style='color:gray'> **Context before:** {question['context_before']}</span>", unsafe_allow_html=True)
     st.markdown(f"**Target sentence:** {question['sentence_1']}")
     if question.get("context_after"):
-        st.markdown(f"**Context after:** <span style='color:gray'>{question['context_after']}</span>", unsafe_allow_html=True)
+        st.markdown(f"<span style='color:gray'>**Context after:** {question['context_after']}</span>", unsafe_allow_html=True)
  
     st.markdown("#### Question")
     st.write(question["generated"]["question"])
