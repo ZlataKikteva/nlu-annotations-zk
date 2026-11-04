@@ -42,8 +42,8 @@ def check_if_qualified(annotations: dict):
 
 def get_options(question: dict, index: int) -> list:
     """
-    Returns the answer options (chosen gold option plus non-gold options and the none of the above).
-    Options are shuffled, none of the above always last.
+    Returns the answer options (chosen gold option plus non-gold options and the none can be inferred).
+    Options are shuffled, none can be inferred always last.
     Seeded with index to ensure consistent order across reruns.
     """
     answer_options = question["generated"]["answer_options"]
@@ -92,6 +92,9 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
  
     st.markdown("#### Question")
     st.write(question["generated"]["question"])
+    if not (q.startswith("I ") or q[:2].isupper()):
+        q = q[0].lower() + q[1:]
+    st.write(f"According to the target sentence and given the context, {q}")
  
     # Display the input widgets: one checkbox per option, so several can be selected.
     # String keys with subtask, index and label keep every widget unique.
