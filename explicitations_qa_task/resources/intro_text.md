@@ -1,6 +1,11 @@
-# Implied material question-answering task
+# Sentence interpretation task
 
 ### Task overview
 
-You will see a sentence from WikiHow and short context before and after the sentence. You will then see a question addressing some aspect of this sentence and several answer options. You will select one or more answer options which are implied by the sentence. If none of the answer options are implied, you can choose "None of the above". 
+You will see a sentence from WikiHow, with short context before and after it. Then you will see a question about some aspect of this sentence and several answer options. 
 
+Select every answer option that you believe the writer implied in the instruction sentence. Ask yourself: Did the writer mean this when they wrote the instruction?
+
+You can select one of several options. If none of the options is communicated by the sentence, select "None of the above".
+
+There are no right or wrong answers. To proceed to the study, select "Qualification" in the sidebar on the right. 
