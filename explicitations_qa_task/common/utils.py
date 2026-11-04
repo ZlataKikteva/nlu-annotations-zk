@@ -91,7 +91,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
         st.markdown(f"<span style='color:gray'>**Context after:** {question['context_after']}</span>", unsafe_allow_html=True)
  
     st.markdown("#### Question")
-    st.write(question["generated"]["question"])
+    q = question["generated"]["question"]
     if not (q.startswith("I ") or q[:2].isupper()):
         q = q[0].lower() + q[1:]
     st.write(f"According to the target sentence and given the context, {q}")
