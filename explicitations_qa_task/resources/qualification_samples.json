@@ -81,7 +81,7 @@
       "question": "Why should you talk or sit with a different group each time?",
       "answer_options": {
         "GOLD_ORIGINAL": "So that you can determine who is genuinely nice or just is faking.",
-        "GOLD_PARAPHASED": "So you can tell who is truly kind and who is only pretending.",
+        "GOLD_PARAPHRASED": "So you can tell who is truly kind and who is only pretending.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "So you can get to know as many classmates as possible.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "So you can find people who share your interests.",
         "PLAUSIBLE_DIFF_CONTEXT": "So you can compare what the different groups eat for lunch.",
@@ -288,7 +288,7 @@
       "question": "How could you pay for the safe?",
       "answer_options": {
         "GOLD_ORIGINAL": "Using their credit card, of course.",
-        "GOLD_PARAPHASED": "With your parents’ charge card, naturally.",
+        "GOLD_PARAPHRASED": "With your parents’ charge card, naturally.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "With your own savings.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "With money borrowed from a friend.",
         "PLAUSIBLE_DIFF_CONTEXT": "With a company expense account.",
@@ -441,7 +441,7 @@
       "question": "When should you try online dating to meet someone new?",
       "answer_options": {
         "GOLD_ORIGINAL": "After your initial grieving process is over.",
-        "GOLD_PARAPHASED": "Once your first period of mourning has ended.",
+        "GOLD_PARAPHRASED": "Once your first period of mourning has ended.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Once you've settled into a new routine.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "After you've cut off contact with him.",
         "PLAUSIBLE_DIFF_CONTEXT": "Once your spouse agrees to an open relationship.",
@@ -492,7 +492,7 @@
       "question": "What does drying out pimples involve?",
       "answer_options": {
         "GOLD_ORIGINAL": "Removing the oils that cause them.",
-        "GOLD_PARAPHASED": "Getting rid of the oils responsible for them.",
+        "GOLD_PARAPHRASED": "Getting rid of the oils responsible for them.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Reducing the redness around them.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Clearing away dead skin cells.",
         "PLAUSIBLE_DIFF_CONTEXT": "Applying a moisturizing lotion to them.",
@@ -646,7 +646,7 @@
       "question": "What could you use in place of the powdered ingredient?",
       "answer_options": {
         "GOLD_ORIGINAL": "A few drops of cinnamon oil.",
-        "GOLD_PARAPHASED": "Several drops of oil from cinnamon.",
+        "GOLD_PARAPHRASED": "Several drops of oil from cinnamon.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "A few drops of tea tree oil.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "A small amount of aloe vera gel.",
         "PLAUSIBLE_DIFF_CONTEXT": "A dash of vanilla extract.",
