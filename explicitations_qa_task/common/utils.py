@@ -83,7 +83,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     st.markdown("#### Target sentence in context")
     if question.get("article_name"):
         article_title = question["article_name"].removesuffix(".txt").replace("_", " ")
-        st.markdown(f"**Article:** {article_title}")
+        st.markdown(f"<span style='color:gray'> **Article:** {article_title}</span>", unsafe_allow_html=True)
     if question.get("context_before"):
         st.markdown(f" <span style='color:gray'> **Context before:** {question['context_before']}</span>", unsafe_allow_html=True)
     st.markdown(f"**Target sentence:** {question['sentence_1']}")
