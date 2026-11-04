@@ -364,8 +364,8 @@
     "article_name": "Report_Criminal_Activity.txt",
     "sentence_1": "See the crime happen or be tipped off by another person who has",
     "sentence_2": "See the crime happen or be tipped off by another person who has <seen it happen>.",
-    "context_before": "## Steps\n \n 1. 1",
-    "context_after": "Look at the person and if already involved interact with the suspect as if you are ok with what is going on. As soon as you are out of sight, earshot, and you are comfortable talking out loud call 911 and calmly report the situation. Follow the police instructions and stay out of physical interactions with the person. Always be cautious and kwow that the police are on your side, the good side",
+    "context_before": "Steps:",
+    "context_after": "1. Look at the person and if already involved interact with the suspect as if you are ok with what is going on. As soon as you are out of sight, earshot, and you are comfortable talking out loud call 911 and calmly report the situation. Follow the police instructions and stay out of physical interactions with the person. Always be cautious and kwow that the police are on your side, the good side",
     "topic": "business",
     "majority_vote": "Implicit",
     "label_distribution": [

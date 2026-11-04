@@ -13,9 +13,10 @@ st.session_state.page = "explicitations_qa_task_qualification_page_sample" + str
 # user qualification of -1 or 1 mean that the test was already attempted
 user_qualification = user_repository.get_qualification()
 if user_qualification == 1:
-    st.markdown("\n## You have successfully completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
+    #st.markdown("\n## You have successfully completed the qualification test. \n\n Select **Annotation** on the navigation bar to your left to do some annotating.")
+    st.markdown("\n## You have successfully completed the qualification test. \n\n Thank you for your time!")
 elif user_qualification == -1:
-    st.markdown("\n## You have already attempted the qualification test. \n\n Unfortunately, you did not pass the qualification test. Contact us if you want to try again.")
+    st.markdown("\n## Unfortunately, you did not pass the qualification test. Thank you for your time! Contact us if you want to try again.")
 
 else:
     # get index of sample

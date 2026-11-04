@@ -8,7 +8,7 @@ ANSWER_VERSION = "GOLD_PARAPHRASED"
  
 GOLD_KEYS = ["GOLD_ORIGINAL", "GOLD_PARAPHRASED"]
 NONE_OPTION = "NONE_OF_THE_ABOVE"
-NONE_TEXT = "None of the above"
+NONE_TEXT = "None can be inferred from the target sentence"
 
 
 def check_if_qualified(annotations: dict):
