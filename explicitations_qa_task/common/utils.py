@@ -76,14 +76,18 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
  
     question = samples[str(index)]
     # display the "Sample 1/5" thing
-    display_progress(key=subtask)
+    # display_progress(key=subtask)
+    st.write(f"**Sample {index}/{len(samples)}**")
  
     # Context and target sentence (sentence_1 = without the explicitation)
-    st.markdown("#### Text")
+    st.markdown("#### Target sentence in context")
     if question.get("context_before"):
+        st.caption("**Context before**")
         st.markdown(f"<span style='color:gray'>{question['context_before']}</span>", unsafe_allow_html=True)
+    st.caption("**Target sentence**")
     st.markdown(f"**{question['sentence_1']}**")
     if question.get("context_after"):
+        st.caption("**Context after**")
         st.markdown(f"<span style='color:gray'>{question['context_after']}</span>", unsafe_allow_html=True)
  
     st.markdown("#### Question")

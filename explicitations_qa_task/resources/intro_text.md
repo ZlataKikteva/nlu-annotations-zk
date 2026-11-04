@@ -8,4 +8,4 @@ Select every answer option that you believe the writer implied in the instructio
 
 You can select one of several options. If none of the options is communicated by the sentence, select "None of the above".
 
-There are no right or wrong answers. To proceed to the study, select "Qualification" in the sidebar on the right. 
+There are no right or wrong answers. To proceed to the study, select "Qualification" in the sidebar on the left. 
