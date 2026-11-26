@@ -9,7 +9,7 @@ ANSWER_VERSION = "GOLD_PARAPHRASED"
  
 GOLD_KEYS = ["GOLD_ORIGINAL", "GOLD_PARAPHRASED"]
 NONE_OPTION = "NONE_OF_THE_ABOVE"
-NONE_TEXT = "None can be inferred from the target sentence"
+NONE_TEXT = "None can be inferred from the target sentence."
 
 
 def check_if_qualified(annotations: dict):
@@ -57,6 +57,7 @@ def clean_text(text: str) -> str:
     """Put text on one line and stop Streamlit from reading symbols in it as formatting."""
     text = " ".join((text or "").split())   # remove line breaks and extra spaces
     text = html.escape(text, quote=False)   # show <, > and & as plain characters
+    text = " ".join(word for word in text.split() if word != "*")  # drop wikiHow bullet markers
     for symbol in ["\\", "*", "_", "$", "#", "`"]:
         text = text.replace(symbol, "\\" + symbol)  # e.g. * would start italics, $ would start a formula
     return text
@@ -86,7 +87,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     question = samples[str(index)]
     # display the "Sample 1/5" thing
     # display_progress(key=subtask)
-    
+
     # count only this annotator's group, e.g. "Sample 3/15" instead of "Sample 18/30"
     grouping = st.session_state.user[3]
     group_keys = [k for k, s in samples.items() if "grouping" not in s or s["grouping"] == grouping]
@@ -101,11 +102,11 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
 
     passage = []
     if question.get("context_before"):
-        passage.append(f"<span style='color:gray'>{clean_text(question['context_before'])}</span>")
+        passage.append(clean_text(question["context_before"]))
     passage.append(f"<b>{clean_text(question['sentence_1'])}</b>")  # sentence_1 = without the explicitation
     if question.get("context_after"):
-        passage.append(f"<span style='color:gray'>{clean_text(question['context_after'])}</span>")
-    st.markdown(" ".join(passage), unsafe_allow_html=True)
+        passage.append(clean_text(question["context_after"]))
+    st.markdown(" ".join(passage), unsafe_allow_html=True
  
     st.markdown("#### Question")
     q = question["generated"]["question"]

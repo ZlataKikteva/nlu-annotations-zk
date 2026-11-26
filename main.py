@@ -43,13 +43,13 @@ example_annotation_page = st.Page(
 
 # Explicitation QA Task Pages 
 explicitations_qa_start_page = st.Page(
-    "explicitations_qa_task/pages/introduction_page.py", title="Introduction", icon="📜", url_path="explicitations_qa_task_introduction"
+    "explicitations_qa_task/pages/introduction_page.py", title="Introduction", icon="📖", url_path="explicitations_qa_task_introduction"
 )
-explicitations_qa_qualification_page = st.Page(
-    "explicitations_qa_task/pages/qualification_page.py", title="Qualification", icon="🔑"
-)
+#explicitations_qa_qualification_page = st.Page(
+#    "explicitations_qa_task/pages/qualification_page.py", title="Qualification", icon="🔑"
+#)
 explicitations_qa_annotation_page = st.Page(
-    "explicitations_qa_task/pages/annotation_page.py", title="Annotation", icon="🏭"
+    "explicitations_qa_task/pages/annotation_page.py", title="Annotation", icon="✏️"
 )
 
 
