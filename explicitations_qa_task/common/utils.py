@@ -112,7 +112,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     q = question["generated"]["question"]
     if not (q.startswith("I ") or q[:2].isupper()):
         q = q[0].lower() + q[1:]
-    st.write(f"According to the target sentence and given the context, {q}")
+    st.write(f"According to the target sentence and given the context, **{q}**")
  
     # Display the input widgets: radio so only one option can be selected at a time
     st.markdown("#### Select one answer")
