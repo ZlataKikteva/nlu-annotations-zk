@@ -23,14 +23,14 @@ if not st.session_state.user_id:
 
 else:
     st.markdown("""
-    # Welcome!
+    ## Welcome!
                 
     This is the annotation website for the Natural Language Understanding Research Group at the University of Technology Nuremberg.
 
-    ## Are you here for annotation?
+    ## Are you here for the **Sentence interpretation task**?
                 
     **You have successfully logged in as an annotator.**  
-    Click on the items in the leftside menu to start the task.
+    To start, open **Introduction** in the sidebar on the left and read the instructions. Then go to **Annotation** to begin the task.
     """)
 
     #if s := st.selectbox("Set curr user qualification (debug)", options=[-1, 0, 1, 2, 3, 4], #index=None):
