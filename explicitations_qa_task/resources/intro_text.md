@@ -18,7 +18,7 @@ The texts in this survey are unedited excerpts from wikiHow, so they may contain
 
 If you sell items, don't overlook the benefits of Instagram! You can post photos of your most popular or unique items. **Take photos of your work, inventory, or building.** Let your products or services speak for themselves! Whenever you complete a job, finish a new project, or get new inventory, snap a few well-lit photos. You can post your photos on social media, your website, or share them with potential customers as examples of your work.
 
-Question: According to the target sentence and given the context, what should you use the photos of your work, inventory, or building for?
+**Question:** According to the target sentence and given the context, what should you use the photos of your work, inventory, or building for?
 
 - For tracking inventory changes.
 - For marketing purposes. ✅
@@ -26,7 +26,7 @@ Question: According to the target sentence and given the context, what should yo
 - For planning future projects.
 - None can be inferred from the target sentence.
 
-"For marketing purposes" can most directly be inferred: the article is about advertising, and the text suggests posting the photos on social media or sharing them with potential customers. 
+The most fitting answer here is "For marketing purposes": the article is about advertising, and the text suggests posting the photos on social media or sharing them with potential customers. 
 
 ### Example 2
 
@@ -34,7 +34,7 @@ Question: According to the target sentence and given the context, what should yo
 
 Use a honey-cinnamon cleanser. Another natural cure some people have had luck with is a raw honey-cinnamon mixture. **Simply combine equal parts of raw honey and cinnamon powder.** Rub it on your face. Once you've thoroughly rubbed it in, cover it with a light cotton strip or a thick paper towel. Leave it for about 5 minutes before pulling the strip off and rinsing.
 
-Question: According to the target sentence and given the context, what could you use in place of the powdered ingredient?
+**Question:** According to the target sentence and given the context, what could you use in place of the powdered ingredient?
 
 - A small amount of aloe vera gel.
 - A few drops of cinnamon oil.
@@ -42,7 +42,7 @@ Question: According to the target sentence and given the context, what could you
 - A few drops of tea tree oil.
 - None can be inferred from the target sentence. ✅
 
-The text says to mix honey with cinnamon powder, but it does not mention anything that could replace the powder. Cinnamon oil may sound like a natural alternative, but that idea comes from general knowledge, not from the text. 
+The most fitting answer here is "None can be inferred from the target sentence": The text says to mix honey with cinnamon powder, but it does not mention anything that could replace the powder. Cinnamon oil may sound like a natural alternative, but that idea comes from general knowledge, not from the text. 
 
 ## Start
 
