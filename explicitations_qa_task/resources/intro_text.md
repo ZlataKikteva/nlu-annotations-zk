@@ -21,7 +21,7 @@ If you sell items, don't overlook the benefits of Instagram! You can post photos
 Question: According to the target sentence and given the context, what should you use the photos of your work, inventory, or building for?
 
 - For tracking inventory changes.
-- ✅ For marketing purposes.
+- For marketing purposes. ✅
 - For entering your shop in a beauty pageant.
 - For planning future projects.
 - None can be inferred from the target sentence.
@@ -40,7 +40,7 @@ Question: According to the target sentence and given the context, what could you
 - A few drops of cinnamon oil.
 - A few drops of dragon tears.
 - A few drops of tea tree oil.
-- ✅ None can be inferred from the target sentence.
+- None can be inferred from the target sentence. ✅
 
 The text says to mix honey with cinnamon powder, but it does not mention anything that could replace the powder. Cinnamon oil may sound like a natural alternative, but that idea comes from general knowledge, not from the text. 
 
