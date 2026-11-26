@@ -64,13 +64,14 @@ def authenticate_user(user_id: str) -> str:
 # user_id = st.text_input("Please enter the 8-digit User ID (password) you received:", max_chars=100) # commented out for non-prolific study
 user_id = st.text_input("Please enter the 8-character code you received:", max_chars=100) 
     # check if user id is the secret admin password
-if authenticate_admin(user_id):
-    log_in(user_id, as_admin=True)
-elif task := authenticate_user(user_id):
-    log_in(user_id, task=task)
-else:
+if user_id:
+    if authenticate_admin(user_id):
+        log_in(user_id, as_admin=True)
+    elif task := authenticate_user(user_id):
+        log_in(user_id, task=task)
+    else:
     # st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you.")
-    st.write("The entered code does not exist. Please only enter the 8-character code (not name!) for the **Sentence interpretation task** that you received.")
+        st.write("The entered code does not exist. Please only enter the 8-character code (not name!) for the **Sentence interpretation task** that you received.")
         
 #st.markdown("""\n\n## Where is my ID?
 
