@@ -1,6 +1,6 @@
 # Sentence interpretation task
 
-### Task overview
+## Task overview
 
 You will see a short text from a wikiHow article, together with the article title. One sentence in the text, the target sentence, is shown in bold; the rest of the text and the article title are considered to be context. You will see a question about the target sentence and several answer options. 
 
@@ -44,6 +44,6 @@ Question: According to the target sentence and given the context, what could you
 
 The text says to mix honey with cinnamon powder, but it does not mention anything that could replace the powder. Cinnamon oil may sound like a natural alternative, but that idea comes from general knowledge, not from the text. 
 
-### Start
+## Start
 
 There are no right or wrong answers. To proceed to the study, select "Annotation" in the sidebar on the left.
