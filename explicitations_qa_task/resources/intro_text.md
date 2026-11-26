@@ -8,7 +8,7 @@ In total, there are 15 questions to answer, which should take about 25-30 minute
 
 Select one answer option that best matches what can be inferred from the sentence in the given context. Ask yourself: what did the writer most likely mean when they wrote the instruction?
 
-More than one option may seem possible; choose the one that can most directly be inferred from the sentence in the given context. If none of the options is communicated by the sentence, select "None can be inferred from the target sentence".
+More than one option may seem possible; choose the one that can most directly be inferred from the sentence in the given context. There are no right or wrong answers. If none of the options is communicated by the sentence, select "None can be inferred from the target sentence".
 
 The texts in this survey are unedited excerpts from wikiHow, so they may contain some grammatical or spelling errors. Do not let these affect your judgments.
 
@@ -46,4 +46,4 @@ The most fitting answer here is "None can be inferred from the target sentence":
 
 ## Start
 
-There are no right or wrong answers. To proceed to the study, select "Annotation" in the sidebar on the left.
+To proceed to the study, select "Annotation" in the sidebar on the left.
