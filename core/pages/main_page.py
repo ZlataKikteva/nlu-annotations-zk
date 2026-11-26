@@ -24,12 +24,13 @@ if not st.session_state.user_id:
 else:
     st.markdown("""
     ## Welcome!
+
+    **You have successfully logged in as an annotator.**  
                 
     This is the annotation website for the Natural Language Understanding Research Group at the University of Technology Nuremberg.
 
-    ## Are you here for the **Sentence interpretation task**?
-                
-    **You have successfully logged in as an annotator.**  
+    ## Are you here for the Sentence interpretation task?
+
     To start, open **Introduction** in the sidebar on the left and read the instructions. Then go to **Annotation** to begin the task.
     """)
 
