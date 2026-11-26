@@ -793,8 +793,8 @@
     "article_name": "Find_and_Train_a_Sheltered_Puppy.txt",
     "sentence_1": "Before deciding it is best to observe the dog to see it's personality.",
     "sentence_2": "Before deciding it is best to observe the dog to see it's personality <and how it acts towards other people>.",
-    "context_before": "If you want him/her to be a friend or if you want to make it a watchdog, in most cases, you can observe the puppy and be able to tell his/her personality. To do this pay attention to how your puppy acts towards people.<br><br>\n 2. Decide what type of dog you want your puppy to be, maybe a family pet or a watch dog.",
-    "context_after": "<br><br>  3. If you're puppy is unwell take him/her to the nearest vet. See if your puppy needs vaccines or any other treatment needed. While at the vet you can get your pet micro chipped which is important for when your dog gets lost.<br><br>   4.",
+    "context_before": "If you want him/her to be a friend or if you want to make it a watchdog, in most cases, you can observe the puppy and be able to tell his/her personality. To do this pay attention to how your puppy acts towards people.\n 2. Decide what type of dog you want your puppy to be, maybe a family pet or a watch dog.",
+    "context_after": "3. If you're puppy is unwell take him/her to the nearest vet. See if your puppy needs vaccines or any other treatment needed. While at the vet you can get your pet micro chipped which is important for when your dog gets lost.4.",
     "topic": "pets",
     "majority_vote": "Implicit",
     "label_distribution": [
