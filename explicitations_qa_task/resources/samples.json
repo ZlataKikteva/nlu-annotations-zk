@@ -85,7 +85,7 @@
       "answer_options": {
         "GOLD_ORIGINAL": "A classic masculine look.",
         "GOLD_PARAPHRASED": "A traditional manly appearance.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "A polished professional appearance.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A friendly, approachable appearance.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "A modest, understated appearance.",
         "IMPLAUSIBLE": "A regal penguin appearance."
       }
@@ -188,7 +188,7 @@
       "question": "What should consumers approach with great caution?",
       "answer_options": {
         "GOLD_ORIGINAL": "This process.",
-        "GOLD_PARAPHRASED": "The procedure.",
+        "GOLD_PARAPHRASED": "This way of getting cash.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "A new credit card application.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "An unpaid credit card balance.",
         "IMPLAUSIBLE": "A credit card's secret dragon-training program."
@@ -297,8 +297,8 @@
       "answer_options": {
         "GOLD_ORIGINAL": "To build your network.",
         "GOLD_PARAPHRASED": "To grow your connections.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "To gain more subscribers.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "To make videos together.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To get feedback on your videos.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To learn new editing skills.",
         "IMPLAUSIBLE": "To impress your houseplants."
       }
     },
@@ -454,7 +454,7 @@
         "GOLD_ORIGINAL": "To complete the sale.",
         "GOLD_PARAPHRASED": "To finalize the transaction.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "To verify your identity.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "To update the broker’s records.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To qualify for a refund.",
         "IMPLAUSIBLE": "To enroll the PSL in cooking school."
       }
     },
@@ -504,7 +504,7 @@
       "question": "Besides ticks, what should you check for while brushing your dog?",
       "answer_options": {
         "GOLD_ORIGINAL": "Other parasites.",
-        "GOLD_PARAPHRASED": "Additional parasitic pests.",
+        "GOLD_PARAPHRASED": "Other pests.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "Areas of irritated skin.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "Knots in its fur.",
         "IMPLAUSIBLE": "Hidden treasure maps."
@@ -715,7 +715,7 @@
       "question": "Why should you call your dentist right away if these symptoms appear?",
       "answer_options": {
         "GOLD_ORIGINAL": "As you may need emergency medical attention.",
-        "GOLD_PARAPHRASED": "Because you might require urgent medical care.",
+        "GOLD_PARAPHRASED": "As you may require urgent medical care.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "As you may need a prescription for antibiotics.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "As you may need a dental X-ray.",
         "IMPLAUSIBLE": "As your teeth may be hosting a secret concert."
@@ -767,7 +767,7 @@
       "question": "Under what condition should you put on makeup?",
       "answer_options": {
         "GOLD_ORIGINAL": "If you want to wear some.",
-        "GOLD_PARAPHRASED": "If you choose to use it.",
+        "GOLD_PARAPHRASED": "If you wish to use it.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "If you are going to a special event.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "If your parents allow it.",
         "IMPLAUSIBLE": "If your toothbrush asks for a makeover."
@@ -794,7 +794,7 @@
     "sentence_1": "Before deciding it is best to observe the dog to see it's personality.",
     "sentence_2": "Before deciding it is best to observe the dog to see it's personality <and how it acts towards other people>.",
     "context_before": "If you want him/her to be a friend or if you want to make it a watchdog, in most cases, you can observe the puppy and be able to tell his/her personality. To do this pay attention to how your puppy acts towards people.\n 2. Decide what type of dog you want your puppy to be, maybe a family pet or a watch dog.",
-    "context_after": "3. If you're puppy is unwell take him/her to the nearest vet. See if your puppy needs vaccines or any other treatment needed. While at the vet you can get your pet micro chipped which is important for when your dog gets lost.4.",
+    "context_after": "3. If you're puppy is unwell take him/her to the nearest vet. See if your puppy needs vaccines or any other treatment needed. While at the vet you can get your pet micro chipped which is important for when your dog gets lost.",
     "topic": "pets",
     "majority_vote": "Implicit",
     "label_distribution": [
@@ -819,7 +819,7 @@
       "question": "Besides its personality, what else should you consider before deciding?",
       "answer_options": {
         "GOLD_ORIGINAL": "How it acts towards other people.",
-        "GOLD_PARAPHRASED": "How it behaves around others.",
+        "GOLD_PARAPHRASED": "How it behaves around people.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "How quickly it learns new commands.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "How much daily exercise it needs.",
         "IMPLAUSIBLE": "How expertly it juggles tennis balls."
@@ -872,7 +872,7 @@
       "answer_options": {
         "GOLD_ORIGINAL": "To help with number recognition.",
         "GOLD_PARAPHRASED": "To help them identify numbers.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "To help them learn different colors.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To keep them busy and calm.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "To help them practice holding crayons.",
         "IMPLAUSIBLE": "To help the numbers learn to dance."
       }
@@ -975,7 +975,7 @@
       "question": "What might the lump-in-your-throat sensation be like?",
       "answer_options": {
         "GOLD_ORIGINAL": "It can feel uncomfortable.",
-        "GOLD_PARAPHRASED": "It may feel unpleasant.",
+        "GOLD_PARAPHRASED": "It can feel unpleasant.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "It can feel like choking.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "It can feel like dryness.",
         "IMPLAUSIBLE": "It can feel like a tiny marching band."
@@ -1026,13 +1026,13 @@
       0
     ],
     "generated": {
-      "question": "What is the development time line intended to cover?",
+      "question": "What should the development time line be for?",
       "answer_options": {
         "GOLD_ORIGINAL": "The product.",
-        "GOLD_PARAPHRASED": "The software offering.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "The team's training.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "The software launch.",
-        "IMPLAUSIBLE": "The office goldfish's birthday."
+        "GOLD_PARAPHRASED": "For what you are building.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "For the team's training.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "For the marketing campaign.",
+        "IMPLAUSIBLE": "For the office goldfish's birthday."
       }
     },
     "meta": {
@@ -1055,7 +1055,7 @@
     "article_name": "Enter_the_Get_to_Know_Contest_(Canadians).txt",
     "sentence_1": "The point is to get out into nature!",
     "sentence_2": "The point <of this contest> is to get out into nature!",
-    "context_before": "Tips\n \n   * Take unique photos. \n * It doesn't matter whether or not you win.",
+    "context_before": "Tips: Take unique photos. \n * It doesn't matter whether or not you win.",
     "context_after": "",
     "topic": "hobbies",
     "majority_vote": "Implicit",
@@ -1078,12 +1078,12 @@
       0
     ],
     "generated": {
-      "question": "What is intended to get people out into nature?",
+      "question": "What activity is intended to get you out into nature?",
       "answer_options": {
         "GOLD_ORIGINAL": "This contest.",
         "GOLD_PARAPHRASED": "This competition.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Taking unique photos.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "The chance to win a prize.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A guided hiking tour.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A family camping trip.",
         "IMPLAUSIBLE": "A squirrel's driving test."
       }
     },
@@ -1237,7 +1237,7 @@
       "question": "What kind of look should contrasting your shirt with your shorts or skirt create?",
       "answer_options": {
         "GOLD_ORIGINAL": "An outfit with summer vibes.",
-        "GOLD_PARAPHRASED": "A look with a summery feel.",
+        "GOLD_PARAPHRASED": "An outfit with a summery feel.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "An outfit with a sporty feel.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "An outfit with a polished look.",
         "IMPLAUSIBLE": "An outfit fit for a moon landing."
@@ -1289,7 +1289,7 @@
       "question": "What specific option must you tell your landlord you plan to pursue?",
       "answer_options": {
         "GOLD_ORIGINAL": "To use the repair and deduct remedy.",
-        "GOLD_PARAPHRASED": "To exercise the fix-and-rent-offset option.",
+        "GOLD_PARAPHRASED": "To repair it yourself and deduct the cost.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "To request a temporary reduction in rent.",
         "PLAUSIBLE_GIVEN_CONTEXT_2": "To ask for a transfer to another unit.",
         "IMPLAUSIBLE": "To turn the apartment into a pirate ship."
@@ -1343,11 +1343,11 @@
     "generated": {
       "question": "Besides preferring not to complain by phone, what do you need to file a complaint online?",
       "answer_options": {
-        "GOLD_ORIGINAL": "You have a tracking number.",
-        "GOLD_PARAPHRASED": "You have a mail tracking code.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "You have a mailing receipt.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "You have the sender’s address.",
-        "IMPLAUSIBLE": "You have a confession from a pigeon."
+        "GOLD_ORIGINAL": "A tracking number.",
+        "GOLD_PARAPHRASED": "A tracking code.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A mailing receipt.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A sender’s address.",
+        "IMPLAUSIBLE": "A confession from a pigeon."
       }
     },
     "meta": {
@@ -1396,9 +1396,9 @@
       "question": "What could you use instead of a pizza cutter to cut the dough into strips?",
       "answer_options": {
         "GOLD_ORIGINAL": "A kitchen knife.",
-        "GOLD_PARAPHRASED": "A cooking knife.",
+        "GOLD_PARAPHRASED": "A regular knife.",
         "PLAUSIBLE_GIVEN_CONTEXT_1": "A pair of kitchen scissors.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "A bench scraper.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A dough scraper.",
         "IMPLAUSIBLE": "A tiny lawn mower."
       }
     },
@@ -1449,10 +1449,10 @@
       "question": "Who might share these doubts and frustrations?",
       "answer_options": {
         "GOLD_ORIGINAL": "Many other people looking for love feel the same way.",
-        "GOLD_PARAPHRASED": "Numerous others seeking romance have similar feelings.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "Many married couples feel the same way.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "Many professional matchmakers feel the same way.",
-        "IMPLAUSIBLE": "Many tap-dancing refrigerators feel the same way."
+        "GOLD_PARAPHRASED": "Many others seeking romance have similar feelings.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Many married couples have similar feelings.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Many professional matchmakers have similar feelings.",
+        "IMPLAUSIBLE": "Many tap-dancing refrigerators have similar feelings."
       }
     },
     "meta": {
@@ -1501,13 +1501,13 @@
       0
     ],
     "generated": {
-      "question": "What serious consequence can the mouth problems linked to secondhand smoke have?",
+      "question": "What consequence can the mouth problems linked to secondhand smoke have?",
       "answer_options": {
         "GOLD_ORIGINAL": "They can even lead to oral or throat cancer.",
         "GOLD_PARAPHRASED": "They may even result in mouth or throat cancer.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "They can eventually require extensive dental treatment.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "They can sometimes cause persistent bad breath.",
-        "IMPLAUSIBLE": "They can turn your teeth into tiny radios."
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "They may eventually require extensive dental treatment.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "They may sometimes cause persistent bad breath.",
+        "IMPLAUSIBLE": "They may turn your teeth into tiny radios."
       }
     },
     "meta": {
@@ -1556,9 +1556,9 @@
       "question": "When should you try different positions for the feet braces?",
       "answer_options": {
         "GOLD_ORIGINAL": "If you're not comfortable.",
-        "GOLD_PARAPHRASED": "If you don't feel at ease.",
-        "PLAUSIBLE_GIVEN_CONTEXT_1": "If your legs are longer.",
-        "PLAUSIBLE_GIVEN_CONTEXT_2": "If the thigh brace leaves too much space.",
+        "GOLD_PARAPHRASED": "If it doesn't feel right.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If you're paddling in rough water.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If you want to paddle faster.",
         "IMPLAUSIBLE": "If your kayak starts tap-dancing."
       }
     },
