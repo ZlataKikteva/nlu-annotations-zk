@@ -183,7 +183,7 @@ def read_json_from_file(path: str) -> dict:
     :return: dictionary object
     """
     # TODO Error handling
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.loads(f.read())
     
 def generate_random_string(size=8, chars=string.ascii_uppercase + string.digits):

@@ -25,7 +25,8 @@ def log_in(user_id: str, task=None, as_admin=False) -> None:
 
     user = user_repository.get_user(target_id)
     if not user:
-        prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200)
+        #prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please tell us your Prolific ID!", max_chars=200) # commented out for the non-Prolific study
+        prolific_id = st.text_input("This appears to be your first time on this website. Before you continue, please enter the 8-character code you received.", max_chars=200)
 
         consent_checkbox = st.checkbox("I consent to my annotations being compiled into datasets for open-source research. All annotations will be anonymized.")
 
@@ -60,17 +61,23 @@ def authenticate_user(user_id: str) -> str:
             return task
         
 
-user_id = st.text_input("Please enter the 8-digit User ID (password) you received:", max_chars=100)
-if user_id:
+    # user_id = st.text_input("Please enter the 8-digit User ID (password) you received:", max_chars=100) # commented out for non-prolific study
+    user_id = st.text_input("Please enter the 8-character code you received:", max_chars=100) 
     # check if user id is the secret admin password
     if authenticate_admin(user_id):
         log_in(user_id, as_admin=True)
     elif task := authenticate_user(user_id):
         log_in(user_id, task=task)
     else:
-        st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you.")
+        # st.write("The entered ID does not exist. Please only enter the 8 digit password (not name!) that was sent to you.")
+        st.write("The entered code does not exist. Please only enter the 8-character code (not name!) for the **Sentence interpretation task** that you received.")
         
+#st.markdown("""\n\n## Where is my ID?
+
+# If you came here from Prolific, it likely opened this website in a new window. If you go back to the Prolific window, you will see your credentials: a username and a password. The username is not that important. Simply use the password directly to log in.
+#""")
+
 st.markdown("""\n\n## Where is my ID?
 
-If you came here from Prolific, it likely opened this website in a new window. If you go back to the Prolific window, you will see your credentials: a username and a password. The username is not that important. Simply use the password directly to log in.
+ You received an 8-character code for the **Sentence interpretation task**. Please use it to log into the annotation study. 
 """)

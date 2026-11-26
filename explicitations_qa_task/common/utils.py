@@ -106,7 +106,7 @@ def print_annotation_schema(subtask: str, index: int) -> tuple:
     passage.append(f"<b>{clean_text(question['sentence_1'])}</b>")  # sentence_1 = without the explicitation
     if question.get("context_after"):
         passage.append(clean_text(question["context_after"]))
-    st.markdown(" ".join(passage), unsafe_allow_html=True
+    st.markdown(" ".join(passage), unsafe_allow_html=True)
  
     st.markdown("#### Question")
     q = question["generated"]["question"]
