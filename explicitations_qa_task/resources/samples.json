@@ -1,0 +1,1580 @@
+{
+  "1": {
+    "id": "g_3ijdwd0q",
+    "article_name": "Pay_with_a_Credit_Card_on_Venmo_on_Android.txt",
+    "sentence_1": "Tap the box just above the green confirmation button.",
+    "sentence_2": "Tap the box just above the green confirmation button <to change the payment method>.",
+    "context_before": "If your bank account or credit card are not attached and your Venmo balance won’t cover the transaction, you can add that information here. \n     * If you have a Venmo balance and a linked bank account or card, you can choose which payment method to use.\n 7.",
+    "context_after": "This will usually say \"Venmo,\" unless you've previously used a different payment method.  8. Select a payment method. Venmo will use your Venmo balance by default and cover the rest of your payment using your bank account or credit card if your Venmo balance doesn't cover the whole payment.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      3,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Why should you tap the box just above the green confirmation button?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To change the payment method.",
+        "GOLD_PARAPHRASED": "To switch the payment option.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To review the transaction details.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To check your available balance.",
+        "IMPLAUSIBLE": "To summon a dancing penguin."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_06ab25e47e3fa852006b06ec0088c487d2b21bba749b3ef2e5",
+      "attempts": 1,
+      "input_tokens": 1591,
+      "cached_tokens": 1422,
+      "output_tokens": 239,
+      "reasoning_tokens": 117,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:09:08.221111+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "2": {
+    "id": "dhXUGkYIbK",
+    "article_name": "Dress_for_a_Job_Fair.txt",
+    "sentence_1": "Choose a button-up, collared shirt.",
+    "sentence_2": "Choose a button-up, collared shirt <for a classic masculine look>.",
+    "context_before": "* Dress pants should hit right above or right on top of your shoes, but no longer. Have your pants hemmed to the proper length to ensure a sharp, put-together appearance. \n 2.",
+    "context_after": "Light-colored and white shirts look the most formal, but you may also opt for a subtle pattern to help camouflage lint, pet hair, or minor spills during the fair. Even if it’s warm, most recruiters recommend long-sleeved options.    * Don’t forget to tuck in your shirt. Loose shirttails can make you look disheveled and unprofessional.",
+    "topic": "work",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      4,
+      4
+    ],
+    "categories_majority_vote": [
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
+    ],
+    "categories_distribution": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "generated": {
+      "question": "What kind of appearance is the button-up, collared shirt intended to create?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "A classic masculine look.",
+        "GOLD_PARAPHRASED": "A traditional manly appearance.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A polished professional appearance.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A modest, understated appearance.",
+        "IMPLAUSIBLE": "A regal penguin appearance."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0776c1cacbd1939f006b06eca8156c87d2bfdd9cefcdd236b8",
+      "attempts": 1,
+      "input_tokens": 1444,
+      "cached_tokens": 1277,
+      "output_tokens": 265,
+      "reasoning_tokens": 143,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:54.803627+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 0
+  },
+  "3": {
+    "id": "y692oE9XlA",
+    "article_name": "Avoid_Being_a_Toxic_Parent.txt",
+    "sentence_1": "However, a perhaps more common form of abuse is verbal abuse.",
+    "sentence_2": "However, a perhaps more common form of abuse is verbal abuse, <which toxic parents are often guilty of using>.",
+    "context_before": "Abuse is perhaps the worse thing that can happen to a child. The obvious forms of abuse are physical and sexual abuse. Both of these forms of abuse constitute completely unacceptable forms of behavior for a parent.",
+    "context_after": "This occurs whenever you say something to your child that harms their sense of self-worth or play mind games aimed at putting you in control of your child’s emotions. This type of abuse may not leave physical signs that the abuse happened, but it certainly leaves emotional scars that may afflict your child for the rest of your life.    * If you suspect a child you know is being abused verbally, physically, or sexually, it is your responsibility to contact the authorities even if you feel like it is not your place to get involved.",
+    "topic": "family",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      1,
+      1,
+      6
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      2,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "Who commonly engages in verbal abuse?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Toxic parents are often guilty of using it.",
+        "GOLD_PARAPHRASED": "Harmful parents frequently engage in it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "School bullies frequently engage in it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Older siblings frequently engage in it.",
+        "IMPLAUSIBLE": "Pet goldfish frequently engage in it."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0ebf1c8885e713c8006b06ec4b810087d289f7d4c7a37ce2fe",
+      "attempts": 1,
+      "input_tokens": 1625,
+      "cached_tokens": 1422,
+      "output_tokens": 379,
+      "reasoning_tokens": 252,
+      "reasoning_summary": "**Considering abusive behaviors**\n\nI need to rephrase questions about abusive behavior without implying specifics. For example, instead of using terms like \"toxic parents,\" I can say, \"Who is often responsible for this kind of abuse?\" Paraphrasing is essential, so I might say, \"Harmful parents frequently engage in it.\" I should also think about other groups like teachers or school bullies as plausible examples. However, mentioning something absurd like \"pet goldfish\" isn't helpful.\n\n**Rephrasing abusive behavior questions**\n\nI need to refine the question without relying on repeated or implied words. Instead of saying, \"Who often resorts to this form of abuse?\" I could rephrase it to \"Who commonly engages in verbal abuse?\" This captures the essence without redundancy. I should also consider alternative phrasing like \"Which individuals frequently resort to this type of abuse?\" while being cautious not to use words that overlap too much with the original. It's all about finding that balance!",
+      "generated_at": "2026-11-25T14:10:24.927708+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "4": {
+    "id": "qNyYXpZ_zv",
+    "article_name": "Cash_Out_a_Credit_Card_Balance.txt",
+    "sentence_1": "Consumers should be very wary, however.",
+    "sentence_2": "Consumers should be very wary <of this process>, however.",
+    "context_before": "## Timestamp::::2016-09-19T01:43:07Z\n \n Cashing out a credit card balance—more commonly called a credit card cash advance—is one way to get your hands on cash that’s otherwise unavailable.",
+    "context_after": "Credit card cash advances are one of the most expensive financial products there are, and the cost of the cash advance can multiply over time. If you’re considering a cash advance, you’ll need to know not only how to go about getting one, but also how to weigh the pitfalls of and alternatives to cash advances.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      2,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "What should consumers approach with great caution?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "This process.",
+        "GOLD_PARAPHRASED": "The procedure.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A new credit card application.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "An unpaid credit card balance.",
+        "IMPLAUSIBLE": "A credit card's secret dragon-training program."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0bc0f114a123c355006b06ec0b22e487d2919652d1cee154db",
+      "attempts": 1,
+      "input_tokens": 1578,
+      "cached_tokens": 1422,
+      "output_tokens": 485,
+      "reasoning_tokens": 372,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:09:19.600298+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "5": {
+    "id": "yfv778yLz3",
+    "article_name": "Prevent_Muscle_Cramps_During_Exercise.txt",
+    "sentence_1": "It is important to note that stretches should be dynamic (moving through a range of motion) and not static (lengthening the muscle and holding while you are at rest).",
+    "sentence_2": "It is important to note that stretches should be dynamic (moving through a range of motion) and not static (lengthening the muscle and holding while you are at rest, <which should be done after you finish working out>).",
+    "context_before": "Follow this with some slow sit-ups, side bends, or push-ups.\n 2. <a href=\"Stretch\">Stretch</a> the muscles you plan to exercise. If you're doing light, casual exercise, additional stretching typically isn't necessary following a warm up; however, before engaging in strength training or vigorous activity, do active stretching to engage the active muscle groups.",
+    "context_after": "Static stretching can lead to injury and impede your performance.    * For example, if you're going for a run, you want to stretch your leg muscles, particularly your hamstrings, calves, and quads. Try hip circles, walking lunges, butt kicks, and legs swings.",
+    "topic": "health",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      0,
+      8
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
+    ],
+    "categories_distribution": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "At what point in an exercise routine is static stretching appropriate?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "After you finish working out.",
+        "GOLD_PARAPHRASED": "Once your exercise session is over.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Before you begin warming up.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Between sets of strength training.",
+        "IMPLAUSIBLE": "When your sneakers start giving speeches."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0130b2fbf835aacf006b06ec94c4b887d290b803aaf84cd4b6",
+      "attempts": 1,
+      "input_tokens": 1488,
+      "cached_tokens": 1277,
+      "output_tokens": 302,
+      "reasoning_tokens": 180,
+      "reasoning_summary": "**Considering static stretching timing**\n\nI’m thinking about the question “When should you do static stretching?” and I want to avoid extra words like “which should be done after you finish working out.” Instead, I’m aiming for something like, “At what point in your exercise routine is static stretching appropriate?” The original would be “After you finish working out,” but I could paraphrase that to “Once your exercise session is over.” I’m also brainstorming plausible alternatives, like “Before you begin your warm-up” or “During breaks between sets.”",
+      "generated_at": "2026-11-25T14:11:36.725729+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 0
+  },
+  "6": {
+    "id": "tcJkZDeAmk",
+    "article_name": "Get_Verified_on_YouTube.txt",
+    "sentence_1": "Collaborate with other YouTubers.",
+    "sentence_2": "Collaborate with other YouTubers <to build your network>.",
+    "context_before": "* If your channel is music related, consider having concert tickets as a prize. \n 6.",
+    "context_after": "Reach out to other YouTubers that you like and that have a similar number of subscribers as you. Ask if the 2 of you can work together by giving each other shout outs on your videos and asking your subscribers to follow them and vice versa. When you message them, try saying, “Hey I’m a big fan of yours. Check out my channel.",
+    "topic": "computer",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      4,
+      4
+    ],
+    "categories_majority_vote": [
+      "Reasoning",
+      "Background Knowledge"
+    ],
+    "categories_distribution": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "Why should you collaborate with other YouTubers?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To build your network.",
+        "GOLD_PARAPHRASED": "To grow your connections.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To gain more subscribers.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To make videos together.",
+        "IMPLAUSIBLE": "To impress your houseplants."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_04624b364ca71b94006b06ec8ce5ac87d2abd7c78b297c4b4b",
+      "attempts": 1,
+      "input_tokens": 1418,
+      "cached_tokens": 0,
+      "output_tokens": 199,
+      "reasoning_tokens": 85,
+      "reasoning_summary": "**Considering collaboration reasons**\n\nI’m thinking about why someone might want to collaborate with other YouTubers. A good answer could be “to build your network” or “to expand your connections.” Gaining more subscribers is plausible too. The idea of creating videos together clearly fits. On the other hand, saying \"to train your pet goldfish\" seems off-topic, and “to teach your camera to dance” is just silly. I want to distinguish between expanding a network and gaining subscribers here.",
+      "generated_at": "2026-11-25T14:11:28.267412+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 0
+  },
+  "7": {
+    "id": "JvRNFfAF_7",
+    "article_name": "Create_a_Budget_Spreadsheet.txt",
+    "sentence_1": "You will be surprised at how easy it is to keep your finances in line.",
+    "sentence_2": "You will be surprised at how easy it is to keep your finances in line <with this tool>.",
+    "context_before": "## Timestamp::::2010-12-31T17:38:38Z\n \n Create a budget spreadsheet to help you control your expenses.",
+    "context_after": "You can use this budget spreadsheet as a guide to pay off bills, save money for retirement or just exist until the next paycheck without getting into debt. Either way, you will find you are closer to financial freedom than ever before.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      3,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "What can help you keep your finances in line?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "This tool.",
+        "GOLD_PARAPHRASED": "This spreadsheet.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A banking app.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A financial adviser.",
+        "IMPLAUSIBLE": "A dancing pineapple."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0084b633173732ef006b06ebfa7f8887d2a35fd6b53a75fc90",
+      "attempts": 1,
+      "input_tokens": 1550,
+      "cached_tokens": 0,
+      "output_tokens": 329,
+      "reasoning_tokens": 223,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:09:01.906359+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "8": {
+    "id": "IH2AMi-cH2",
+    "article_name": "Trademark_a_Phrase.txt",
+    "sentence_1": "If you find no other company using your name as their own mark, you may still want to hire a trademark attorney to ensure that your search was accurate.",
+    "sentence_2": "If you find no other company using your name as their own mark, you may still want to hire a trademark attorney to ensure that your search was accurate <and sufficiently complete>.",
+    "context_before": "Consider hiring a Trademark Attorney. You will have a good idea of whether another person has already trademarked your phrase or something very close to it after you have finished conducting your search. If you find that someone else is using a phrase similar or identical to your phrase and you still want to use the phrase yourself, consider hiring a trademark attorney to help you with the rest of the process.",
+    "context_after": "",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      2,
+      3,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Besides accuracy, what might a trademark attorney check about your search?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "That it was sufficiently complete.",
+        "GOLD_PARAPHRASED": "That it was thorough enough.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "That it used the right databases.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "That it was conducted recently enough.",
+        "IMPLAUSIBLE": "That it pleased the trademark goblins."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_070b25d6c48e0b50006b06ec1d5c6487d2ab4a1137eeb50039",
+      "attempts": 1,
+      "input_tokens": 1569,
+      "cached_tokens": 1422,
+      "output_tokens": 353,
+      "reasoning_tokens": 228,
+      "reasoning_summary": "**Exploring search quality aspects**\n\nI'm considering the question about what an attorney might verify besides accuracy in their search. It's definitely essential that the search is thorough, but maybe factors like relevance, comprehensiveness, and timeliness also play a role. I should think about the importance of documentation and transparency in the search process. Let's explore what qualities ensure that the search holds up well under scrutiny, making it reliable for trademark issues. There’s a lot to consider here!",
+      "generated_at": "2026-11-25T14:09:38.219294+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "9": {
+    "id": "9EseBU2RsH",
+    "article_name": "Sell_a_Personal_Seat_License.txt",
+    "sentence_1": "Complete any necessary paperwork.",
+    "sentence_2": "Complete any necessary paperwork <to complete the sale>.",
+    "context_before": "Once you receive a bid that looks good to you, you can accept it. The online broker will then remove the listing. \n 4.",
+    "context_after": "The broker will probably have you fill out paperwork so that you can complete the transfer of the PSL. You should keep a copy of all paperwork and return it promptly. Mail it certified mail, return receipt requested so that you will know when it has been received.    *",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      3,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Why should you fill out the necessary paperwork?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To complete the sale.",
+        "GOLD_PARAPHRASED": "To finalize the transaction.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To verify your identity.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To update the broker’s records.",
+        "IMPLAUSIBLE": "To enroll the PSL in cooking school."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_024034239810643a006b06ec265c0887d29fc05f216285c76f",
+      "attempts": 1,
+      "input_tokens": 1549,
+      "cached_tokens": 1422,
+      "output_tokens": 220,
+      "reasoning_tokens": 103,
+      "reasoning_summary": "**Considering paraphrase options**\n\nI need to find a phrase that conveys \"to complete the sale\" but avoids using those exact words. I'm thinking, \"Why should you fill out any necessary paperwork?\" can be answered in different ways. I could say, \"To finalize the transaction,\" or \"To confirm your identity.\" Maybe even \"To update the broker's records.\" But suggesting, \"To enroll the PSL in a cooking class,\" seems absurd. I'll keep it within a similar length and structure for coherence.",
+      "generated_at": "2026-11-25T14:09:45.462614+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "10": {
+    "id": "nvkwcaWC1b",
+    "article_name": "Groom_a_Puppy.txt",
+    "sentence_1": "Brush smoothly and slowly so that you can check for ticks.",
+    "sentence_2": "Brush smoothly and slowly so that you can check for ticks <or other parasites>.",
+    "context_before": "## Tips\n \n   * It is best to groom your dog in the evening because hopefully it will be calmer then and stay more still. \n *",
+    "context_after": "",
+    "topic": "pets",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      1,
+      2,
+      5
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      3,
+      5,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Besides ticks, what should you check for while brushing your dog?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Other parasites.",
+        "GOLD_PARAPHRASED": "Additional parasitic pests.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Areas of irritated skin.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Knots in its fur.",
+        "IMPLAUSIBLE": "Hidden treasure maps."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_042fe2627baa904d006b06ec3c3abc87d2939ad6e0da43b057",
+      "attempts": 1,
+      "input_tokens": 1502,
+      "cached_tokens": 1422,
+      "output_tokens": 301,
+      "reasoning_tokens": 187,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:10:08.820316+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "11": {
+    "id": "a-Jurhqexk",
+    "article_name": "Evaluate_Your_Business_Idea.txt",
+    "sentence_1": "It is not enough just to have an idea.",
+    "sentence_2": "It is not enough just to have an idea <for a business>.",
+    "context_before": "Are you aiming for a teenage market? Senior citizens? Working families?",
+    "context_after": "You need to know that your business will have customers, and you need to identify them.    * One way to clarify your customer base is to conduct needs surveys. You might hire a professional market analyst to conduct a widespread survey, either online or by mail. Or you can choose a much less costly route and conduct some oral surveys yourself, just by approaching people at a mall, grocery store or train depot.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      7,
+      2,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "What does the idea concern?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "A business.",
+        "GOLD_PARAPHRASED": "A commercial venture.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A customer survey.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "An advertising campaign.",
+        "IMPLAUSIBLE": "A tap-dancing octopus."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_001194eba5c5e89f006b06ec10b71087d28c5d4a34f3d4da86",
+      "attempts": 1,
+      "input_tokens": 1566,
+      "cached_tokens": 1422,
+      "output_tokens": 518,
+      "reasoning_tokens": 412,
+      "reasoning_summary": "**Clarifying business ideas**\n\nI’m considering the question, “What kind of idea is not enough to have on its own?” My first thought is that an idea for a business qualifies. I’ll look at different ways to phrase that: something like “For a company” or perhaps “For a customer survey.” I might also think about other contexts, like “For a marketing campaign.” However, suggesting “For training a tap-dancing octopus” seems a bit out there! I'll keep it all roughly the same length.\n\n**Refining business questions**\n\nI’m trying to clarify if “company” is too narrow compared to “business.” I thought of alternatives like “For a commercial venture,” but I also need to explore questions like, “What is the idea for?” That feels straightforward. However, I want to avoid repeating “for a business.” Maybe I could rephrase it as, “What sort of venture does the idea relate to?” I should also consider: “What is the purpose of the idea mentioned?” That might work without being too awkward!\n\n**Adjusting business phrasing**\n\nI think saying “for a business” feels awkward, especially since it repeats “for.” I want to avoid that, so I’m considering alternatives like, “What is the idea intended for?” or “What kind of idea is being discussed?” Though, those still lead back to “A business.” Another good question I might use is, “What is the idea related to?” Changing it to “A commercial venture” works too. I could also phrase it as, “What does the idea concern?” as a solid option!",
+      "generated_at": "2026-11-25T14:09:29.219620+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "12": {
+    "id": "P3vMfuuP07",
+    "article_name": "Bring_Your_Parents_to_the_UK.txt",
+    "sentence_1": "Both parents must apply at the same time if they are both still alive.",
+    "sentence_2": "Both parents must apply at the same time if they are both still alive <and still married>.",
+    "context_before": "Also, they must not be able to get this care where they are living right now, which includes not having any relatives there who can provide that support. Exceptions may be made if care is not affordable. \n *",
+    "context_after": "3. See to it that you have the funds to support your parents for 5 years. In other words, you'll need to show you have sufficient income to provide continuing support for your relatives. You must not use public funds to provide this support.",
+    "topic": "travel",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      0,
+      8
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
+    ],
+    "categories_distribution": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Besides both being alive, what condition requires the parents to apply at the same time?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "They are still married.",
+        "GOLD_PARAPHRASED": "They remain spouses.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "They live together.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "They both need care.",
+        "IMPLAUSIBLE": "They own a dragon."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_01ff6ef1a465174a006b06ec9fc27087d2887e99392f4278a4",
+      "attempts": 1,
+      "input_tokens": 1424,
+      "cached_tokens": 1277,
+      "output_tokens": 206,
+      "reasoning_tokens": 88,
+      "reasoning_summary": "**Rephrasing the question**\n\nI need to avoid repeating \"and still married\" in the question. Instead of asking, \"Besides both being alive, what condition requires both parents to apply at the same time?\" I can consider: \"They remain spouses,\" which is a straightforward paraphrase. Other possible options could be, \"They live in the same household\" or \"They both need financial support.\" I'll skip the absurd option about \"jointly owning a pet dragon,\" since it's not really relevant. I'll make sure the question maintains the same length.",
+      "generated_at": "2026-11-25T14:11:47.360684+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 0
+  },
+  "13": {
+    "id": "5y9z2-xpAM",
+    "article_name": "Be_a_Travel_Agent.txt",
+    "sentence_1": "These organizations also give you access to job boards and travel school directories.",
+    "sentence_2": "These organizations also give you access to job boards and travel school directories, <if you're looking for career rejuvenation>.",
+    "context_before": "You can sometimes work out a mutual-referral agreement with another agent in order to collect referral fees. \n 6. Join an organization. Professional organizations, such as the American Society of Travel Agents (ASTA) provide support, further education and training opportunities, resources, networking opportunities, travel tools such as packing lists and itinerary help, publication access, evaluation services, invitations to seminars, expos and summits, scholarships for students and salary tools.",
+    "context_after": "",
+    "topic": "travel",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      0,
+      3,
+      5
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      4,
+      2,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "When might the job boards and travel school directories be especially useful?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "If you're looking for career rejuvenation.",
+        "GOLD_PARAPHRASED": "If you're seeking to refresh your professional life.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If you're recruiting agents for your agency.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If you're comparing tuition at travel schools.",
+        "IMPLAUSIBLE": "If you're teaching your suitcase to become a pilot."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0a7f9c2b0603ac3b006b06ec59d00887d290228fcb584879d4",
+      "attempts": 1,
+      "input_tokens": 1569,
+      "cached_tokens": 1422,
+      "output_tokens": 336,
+      "reasoning_tokens": 202,
+      "reasoning_summary": "**Rephrasing career questions**\n\nI’m looking to craft a question that implies career rejuvenation. I could ask, \"When might access to job boards and travel school directories be useful?\" It seems relevant if someone is looking to rejuvenate their career or revive their professional life. This could apply when searching for a new employer or interested in training workshops. However, it would be silly if the context was about training a suitcase to book flights. I’ll try to keep the question concise!\n\n**Formulating career questions**\n\nI need to create a question about career rejuvenation. A strong option could be, \"Under what circumstances might these organizations' job boards and travel school directories be helpful?\" This question works if someone is recruiting agents for their agency or comparing tuition at travel schools. However, it would be pretty implausible if I said they were teaching their suitcase to become a pilot! I'll make sure to keep it relevant and engaging!",
+      "generated_at": "2026-11-25T14:10:39.977963+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "14": {
+    "id": "3nH9286dET",
+    "article_name": "Stop_Tooth_Nerve_Pain.txt",
+    "sentence_1": "If you develop any signs of pain, bad breath, difficulty swallowing, jaw, gum or mouth swelling, or fever, call your dentist right away.",
+    "sentence_2": "If you develop any signs of pain, bad breath, difficulty swallowing, jaw, gum or mouth swelling, or fever, call your dentist right away, <as you may need emergency medical attention>.",
+    "context_before": "However, if these approaches do not provide relief within one to two days, call your dentist for professional treatment. Your condition may be severe and require medical treatment. \n *",
+    "context_after": "3. Get a dental exam. When you go to the dentist, your dentist will do an exam. At first, the dentist will perform a complete exam and possibly take x-rays to look for new cavities, cracked or broken tooth enamel, or broken teeth.",
+    "topic": "health",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      3,
+      4,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "Why should you call your dentist right away if these symptoms appear?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "As you may need emergency medical attention.",
+        "GOLD_PARAPHRASED": "Because you might require urgent medical care.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "As you may need a prescription for antibiotics.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "As you may need a dental X-ray.",
+        "IMPLAUSIBLE": "As your teeth may be hosting a secret concert."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_093269a4fe462996006b06ec41ed1087d2b781115cfef85fbe",
+      "attempts": 1,
+      "input_tokens": 1582,
+      "cached_tokens": 1422,
+      "output_tokens": 357,
+      "reasoning_tokens": 222,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:10:13.078856+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 0
+  },
+  "15": {
+    "id": "j1l0M0pfl8",
+    "article_name": "Get_Ready_for_Church_(Girls).txt",
+    "sentence_1": "Last but not least put on your make up.",
+    "sentence_2": "Last but not least put on your make up <if you want to wear some>.",
+    "context_before": "ALWAYS brush you teeth BEFORE you put on your cloths so you wont drop toothpaste on what your wearing!!! \n   5. Then you need to get dressed\n 6.",
+    "context_after": "Depending on you age is how dark your make up needs to be the younger the lighter",
+    "topic": "philosophy",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Under what condition should you put on makeup?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "If you want to wear some.",
+        "GOLD_PARAPHRASED": "If you choose to use it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If you are going to a special event.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If your parents allow it.",
+        "IMPLAUSIBLE": "If your toothbrush asks for a makeover."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_00c4b4c6724392c7006b06ec99d80087d2a254e28cb7eaf05e",
+      "attempts": 1,
+      "input_tokens": 1382,
+      "cached_tokens": 1277,
+      "output_tokens": 279,
+      "reasoning_tokens": 155,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:40.048411+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 0
+  },
+  "16": {
+    "id": "d7W_IPyUTo",
+    "article_name": "Find_and_Train_a_Sheltered_Puppy.txt",
+    "sentence_1": "Before deciding it is best to observe the dog to see it's personality.",
+    "sentence_2": "Before deciding it is best to observe the dog to see it's personality <and how it acts towards other people>.",
+    "context_before": "If you want him/her to be a friend or if you want to make it a watchdog, in most cases, you can observe the puppy and be able to tell his/her personality. To do this pay attention to how your puppy acts towards people.<br><br>\n 2. Decide what type of dog you want your puppy to be, maybe a family pet or a watch dog.",
+    "context_after": "<br><br>  3. If you're puppy is unwell take him/her to the nearest vet. See if your puppy needs vaccines or any other treatment needed. While at the vet you can get your pet micro chipped which is important for when your dog gets lost.<br><br>   4.",
+    "topic": "pets",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      5,
+      2,
+      2,
+      0
+    ],
+    "generated": {
+      "question": "Besides its personality, what else should you consider before deciding?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "How it acts towards other people.",
+        "GOLD_PARAPHRASED": "How it behaves around others.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "How quickly it learns new commands.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "How much daily exercise it needs.",
+        "IMPLAUSIBLE": "How expertly it juggles tennis balls."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_019b050355b306dc006b06ec382efc87d29b3d20c225a99060",
+      "attempts": 1,
+      "input_tokens": 1620,
+      "cached_tokens": 1422,
+      "output_tokens": 361,
+      "reasoning_tokens": 235,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:10:03.052796+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "17": {
+    "id": "uy_-N1vtjB",
+    "article_name": "Teach_Counting.txt",
+    "sentence_1": "Color in numbers with younger kids.",
+    "sentence_2": "Color in numbers with younger kids <to help with number recognition>.",
+    "context_before": "Let them rearrange them from smallest to biggest. \n     * Once the child gets down 1-5, try 1-10 and 1-20.\n 5.",
+    "context_after": "Draw the numbers in bubble letters on a piece of paper. Color in the numbers with different colors along with the child. As you do, say what numbers you're coloring, such as \"I'm coloring number 4 red.\"    * As they get a bit older, write the letters out and have them trace or copy them.",
+    "topic": "family",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      2,
+      1,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Why should you color in numbers with younger kids?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To help with number recognition.",
+        "GOLD_PARAPHRASED": "To help them identify numbers.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To help them learn different colors.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To help them practice holding crayons.",
+        "IMPLAUSIBLE": "To help the numbers learn to dance."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0cad7b702156ad9c006b06ec9d278487d2826b2b0fca74d779",
+      "attempts": 1,
+      "input_tokens": 1426,
+      "cached_tokens": 1277,
+      "output_tokens": 205,
+      "reasoning_tokens": 83,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:42.668931+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 1
+  },
+  "18": {
+    "id": "fQ-nsP9ByP",
+    "article_name": "Save_Streaming_Video.txt",
+    "sentence_1": "Click on a video.",
+    "sentence_2": "Click on a video <to select it>.",
+    "context_before": "Search for a video. Use the search bar at the top of the screen to type in the title or description of a video. \n 3.",
+    "context_after": "Do so to select a video you'd like to download.  4. Copy the URL for the video. Do so by clicking in the search bar at the top of the browser, clicking on Edit in the menu bar, then clicking on Select All.",
+    "topic": "computer",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      2,
+      7,
+      3,
+      0
+    ],
+    "generated": {
+      "question": "Why should you click on a video?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To select it.",
+        "GOLD_PARAPHRASED": "To choose it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To start playing it.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To view its details.",
+        "IMPLAUSIBLE": "To teach it to juggle."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0d0fbb3c5eaebfa3006b06ec33cde487d2b6e6cfbf1a579d77",
+      "attempts": 1,
+      "input_tokens": 1546,
+      "cached_tokens": 1422,
+      "output_tokens": 228,
+      "reasoning_tokens": 117,
+      "reasoning_summary": "**Rewording video-related questions**\n\nI need to make sure I don’t repeat the phrase \"to select it.\" For the question \"What does clicking on a video accomplish?\" saying something like \"to select it\" is too direct. A better paraphrase could be \"to start playing it\" or \"to open its details page.\" The idea of \"to turn it into a dancing pineapple\" definitely isn't plausible. I can also ask \"Why should you click on a video?\" to explore more options.",
+      "generated_at": "2026-11-25T14:09:59.067507+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "19": {
+    "id": "X8QBjL0l9Y",
+    "article_name": "Not_Cry_at_a_Funeral.txt",
+    "sentence_1": "When you cry, the muscle at the back of your throat opens up and makes your throat feel as if it has a lump in it.",
+    "sentence_2": "When you cry, the muscle at the back of your throat opens up and makes your throat feel as if it has a lump in it, <which can feel uncomfortable>.",
+    "context_before": "You can even count your breaths if you want to really distract yourself from any sad feelings. \n 2. Sip water to get rid of the lump in your throat.",
+    "context_after": "Taking sips of water will help get rid of the lump, and you’ll gain better control of your crying.    * Plan ahead and bring a small bottle of water with you if you think you might cry during the funeral.   3. Relax your facial muscles to help stop frowning. Your facial muscles become tense when you cry, and it’s natural for you to frown beforehand.",
+    "topic": "family",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Background Knowledge"
+    ],
+    "categories_distribution": [
+      1,
+      4,
+      7,
+      0
+    ],
+    "generated": {
+      "question": "What might the lump-in-your-throat sensation be like?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "It can feel uncomfortable.",
+        "GOLD_PARAPHRASED": "It may feel unpleasant.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "It can feel like choking.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "It can feel like dryness.",
+        "IMPLAUSIBLE": "It can feel like a tiny marching band."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_099208d1c515c4de006b06ec523cdc87d285d4f16110d9b876",
+      "attempts": 1,
+      "input_tokens": 1604,
+      "cached_tokens": 1422,
+      "output_tokens": 356,
+      "reasoning_tokens": 235,
+      "reasoning_summary": "**Rephrasing uncomfortable sensations**\n\nI need to rephrase the question to avoid any uncomfortable implications. Instead of saying \"which can feel uncomfortable,\" I'll ask, \"What is the sensation of a lump in your throat like?\" The response could be, \"It can feel uncomfortable.\" I also want to express this as \"It may make swallowing or speaking difficult.\" For a humorous angle, how about something funny like, \"It may make you speak fluent dolphin\"? Ultimately, I'm pondering, \"How might this lump-in-your-throat sensation affect you?\"\n\n**Reformulating the question**\n\nI think the better question would be, \"What is the lump-in-your-throat sensation like?\" Some plausible answers might be, \"It can feel like choking,\" or \"It can feel like a dry throat.\" For something absurd, how about, \"It can feel like a tiny marching band\"? The key takeaway could be, \"It can feel uncomfortable,\" or I could paraphrase it as \"It may feel unpleasant.\" A solid question to consider could be, \"How might the lump-in-your-throat sensation be experienced?\" I plan to provide a JSON object in the response format.",
+      "generated_at": "2026-11-25T14:10:32.690643+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "20": {
+    "id": "ZI4sKLWbAI",
+    "article_name": "Start_a_Software_Company.txt",
+    "sentence_1": "Create a development time line.",
+    "sentence_2": "Create a development time line <for the product>.",
+    "context_before": "9. Develop your software product. \n *",
+    "context_after": "Allot a reasonable amount of time to the development of your software product. A complicated data management system may take much longer to develop than a simple mobile phone application.    * Oversee the development process. Facilitate clear communication between you and your development team to ensure that everyone is operating under the same product vision.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning",
+      "Background Knowledge"
+    ],
+    "categories_distribution": [
+      5,
+      5,
+      5,
+      0
+    ],
+    "generated": {
+      "question": "What is the development time line intended to cover?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "The product.",
+        "GOLD_PARAPHRASED": "The software offering.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "The team's training.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "The software launch.",
+        "IMPLAUSIBLE": "The office goldfish's birthday."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_09f7840332811e28006b06ec2d926487d29b1ac84112e7cf70",
+      "attempts": 1,
+      "input_tokens": 1539,
+      "cached_tokens": 1422,
+      "output_tokens": 417,
+      "reasoning_tokens": 307,
+      "reasoning_summary": "**Clarifying development timelines**\n\nI’m considering the question: “What is the development timeline meant to plan?” The clear answer is “the product.” I could also think about alternatives like the development team or specific efforts that need a timeline. I’m wondering, “What does the timeline cover?” Again, I conclude it refers to the product itself. Striking options include short phrases like “the software offering” or “the software launch.” However, it definitely doesn't include something implausible, like “the office goldfish's birthday.” I want to ensure my wording reflects these ideas clearly.",
+      "generated_at": "2026-11-25T14:09:54.577619+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "21": {
+    "id": "xZfhINfsE0",
+    "article_name": "Enter_the_Get_to_Know_Contest_(Canadians).txt",
+    "sentence_1": "The point is to get out into nature!",
+    "sentence_2": "The point <of this contest> is to get out into nature!",
+    "context_before": "## Tips\n \n   * Take unique photos. \n * It doesn't matter whether or not you win.",
+    "context_after": "",
+    "topic": "hobbies",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      8,
+      3,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "What is intended to get people out into nature?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "This contest.",
+        "GOLD_PARAPHRASED": "This competition.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Taking unique photos.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "The chance to win a prize.",
+        "IMPLAUSIBLE": "A squirrel's driving test."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_05de3d8f20a9078d006b06ec73238087d2ade1b25e3161a76b",
+      "attempts": 1,
+      "input_tokens": 1491,
+      "cached_tokens": 1422,
+      "output_tokens": 395,
+      "reasoning_tokens": 284,
+      "reasoning_summary": "**Rephrasing contest questions**\n\nI need to avoid repeating the phrase \"of this contest\" and instead ask about the main purpose associated with it. The question could be “What is the activity's main purpose?” or “What is meant to get you out into nature?” Instead of saying \"of this contest,\" I could paraphrase it to \"This competition\" or \"this contest.\" I’m also considering potential answers like \"Taking unique photos\" or even humorous suggestions like \"A squirrel's driving test.\" It's a bit tricky, but I'm refining my approach!\n\n**Clarifying photography contest description**\n\nIt seems like saying \"photo-taking activity\" overlaps with the contest but has a different meaning. Phrases like \"a nature photography trip\" or \"a photography class\" sound plausible, but the contest implies winning photos. I could use \"the photo challenge\" as a paraphrase for the contest. The concepts of \"the act of taking unique photos\" and \"the prize for winning\" are distinct. So the question could be, \"What is intended to get people out into nature?\" This contest fits that idea!",
+      "generated_at": "2026-11-25T14:11:05.511189+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "22": {
+    "id": "Q2Md3buYTi",
+    "article_name": "Pack_for_Great_Wolf_Lodge.txt",
+    "sentence_1": "Knowing how to pack is important, so that you can have the best time possible",
+    "sentence_2": "Knowing how to pack is important, so that you can have the best time possible <with your entire group>.",
+    "context_before": "Great Wolf Lodge is a chain of resorts located throughout the United States. It’s a popular family destination, given the fact that it contains a water park, arcade, and a host of other activities. However, it’s enjoyed by others as well.",
+    "context_after": "",
+    "topic": "travel",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      8,
+      0
+    ],
+    "Confidence Distribution": [
+      0,
+      4,
+      4
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      4,
+      1,
+      3,
+      0
+    ],
+    "generated": {
+      "question": "Who is meant to benefit from knowing how to pack?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Your entire group.",
+        "GOLD_PARAPHRASED": "Everyone traveling with you.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Only the children in your family.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "The other guests at the resort.",
+        "IMPLAUSIBLE": "A troupe of tap-dancing otters."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0a7e39195cbda408006b06ec611b8487d290c9eae5f53af4db",
+      "attempts": 1,
+      "input_tokens": 1529,
+      "cached_tokens": 1422,
+      "output_tokens": 494,
+      "reasoning_tokens": 373,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:10:45.009581+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "23": {
+    "id": "HWyoyZSiFe",
+    "article_name": "Use_Sugar_Scrub.txt",
+    "sentence_1": "Choose one with skin-replenishing ingredients like hyaluronic acid, coconut or avocado oil, glycerin, or essential oils.",
+    "sentence_2": "Choose one with skin-replenishing ingredients like hyaluronic acid, coconut or avocado oil, glycerin, or essential oils <if your skin is prone to dehydration>.",
+    "context_before": "* Turbinado sugar (also known as raw sugar) tends to have larger particles so if you see it as an ingredient, be aware that it’s a rougher scrub. \n 2. Pick a hydrating scrub if you have very dry skin. While sugar is naturally a humectant (meaning it locks in moisture), some scrubs are more moisturizing than others.",
+    "context_after": "3. Select a scent based on aromatherapy properties. Look for scrubs that include essential oils to match your needs. For example, if you're stressed out, a lavender scent is calming.",
+    "topic": "style",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      2,
+      0,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "When should you choose a scrub with skin-replenishing ingredients?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "If your skin is prone to dehydration.",
+        "GOLD_PARAPHRASED": "If your skin tends to dry out.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If your skin is prone to irritation.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If your skin produces excess oil.",
+        "IMPLAUSIBLE": "If your skin attracts wandering penguins."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_00532bcb3d2aee09006b06ecaf9a8c87d29ece5d5c6fedc47e",
+      "attempts": 1,
+      "input_tokens": 1459,
+      "cached_tokens": 1277,
+      "output_tokens": 320,
+      "reasoning_tokens": 190,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:12:02.301055+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 1
+  },
+  "24": {
+    "id": "u9aOu4Odce",
+    "article_name": "Style_Old_Skool_Vans.txt",
+    "sentence_1": "Contrast your shirt with your shorts or skirt.",
+    "sentence_2": "Contrast your shirt with your shorts or skirt <for an outfit with summer vibes>.",
+    "context_before": "* As everything goes with black and white Vans, choose a pair of shorts or a skirt that fits well, is comfortable to wear, and that you like the look of. It’s very difficult to go wrong!\n 3.",
+    "context_after": "If you went for a brightly-colored pair of shorts or a skirt, stick with a light-colored, pastel, or even white shirt to balance out your style. Alternately, if your shorts or skirt is a little more muted, add a bright pop of color with a vibrant t-shirt or blouse.    * Avoid matching the color of your shirt with the color of your shorts or skirt, as this will normally make your outfit blend together a little too much. If you opt for an outfit that’s all 1 color, pick a shirt, skirt, or pair of shorts that are patterned in some way to break it up a little.",
+    "topic": "style",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      2,
+      6
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      0,
+      2,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "What kind of look should contrasting your shirt with your shorts or skirt create?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "An outfit with summer vibes.",
+        "GOLD_PARAPHRASED": "A look with a summery feel.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "An outfit with a sporty feel.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "An outfit with a polished look.",
+        "IMPLAUSIBLE": "An outfit fit for a moon landing."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_065540c63c5d804c006b06ecabe86487d28ca62249e8c6fcd4",
+      "attempts": 1,
+      "input_tokens": 1501,
+      "cached_tokens": 1277,
+      "output_tokens": 296,
+      "reasoning_tokens": 167,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:58.469190+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 1
+  },
+  "25": {
+    "id": "Gj4PhyODJB",
+    "article_name": "Take_Action_Against_Lease_Violations.txt",
+    "sentence_1": "Before you make the repairs yourself and deduct the costs from your rent payment, you must notify your landlord of your intentions and give them an opportunity to fix the problem.",
+    "sentence_2": "Before you make the repairs yourself and deduct the costs from your rent payment, you must notify your landlord of your intentions <to use the repair and deduct remedy> and give them an opportunity to fix the problem.",
+    "context_before": "You will end up paying 100 out-of-pocket. \n 5. Inform your landlord of the needed repairs.",
+    "context_after": "Whenever you give notice to your landlord, it should be in writing. The letter should contain a detailed description of the defect and the repairs that are required. Make sure you sign and date the letter and keep a copy for your own records.    * Send the completed letter to your landlord through the mail or deliver a copy to them in person.",
+    "topic": "business",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      7,
+      1
+    ],
+    "Confidence Distribution": [
+      0,
+      0,
+      8
+    ],
+    "categories_majority_vote": [
+      "Context"
+    ],
+    "categories_distribution": [
+      4,
+      3,
+      2,
+      1
+    ],
+    "generated": {
+      "question": "What specific option must you tell your landlord you plan to pursue?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "To use the repair and deduct remedy.",
+        "GOLD_PARAPHRASED": "To exercise the fix-and-rent-offset option.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "To request a temporary reduction in rent.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "To ask for a transfer to another unit.",
+        "IMPLAUSIBLE": "To turn the apartment into a pirate ship."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0ffb59bbf59fdec1006b06ec055f6087d2a21b0d61c233ae70",
+      "attempts": 1,
+      "input_tokens": 1590,
+      "cached_tokens": 1422,
+      "output_tokens": 487,
+      "reasoning_tokens": 352,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:09:14.016577+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "26": {
+    "id": "Dx6Qe7RHeV",
+    "article_name": "Report_Mail_Theft.txt",
+    "sentence_1": "If you do not want to complain by phone, you can file a complaint online.",
+    "sentence_2": "If you do not want to complain by phone <and you have a tracking number>, you can file a complaint online.",
+    "context_before": "Be prepared with your notes so that you can provide the person with relevant information. \n 2. File a complaint with the Postal Service online.",
+    "context_after": "Visit the Postal Service’s “Email Us” page at https://prd2faq.usps.com/faq/iq/usps/request.do?forward=emailUs.    * Under Inquiry Type, select “Problem.” Then, under Customer Service, select “Support” and “Mail Theft” from the respective drop-down boxes.     * Next, select the type of mail stolen.",
+    "topic": "garden",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      0,
+      8
+    ],
+    "Confidence Distribution": [
+      0,
+      2,
+      6
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
+    ],
+    "categories_distribution": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "Besides preferring not to complain by phone, what do you need to file a complaint online?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "You have a tracking number.",
+        "GOLD_PARAPHRASED": "You have a mail tracking code.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "You have a mailing receipt.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "You have the sender’s address.",
+        "IMPLAUSIBLE": "You have a confession from a pigeon."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0dcd2d4fb1789ab5006b06eca4782487d28bd2e778e552cb47",
+      "attempts": 1,
+      "input_tokens": 1439,
+      "cached_tokens": 1277,
+      "output_tokens": 335,
+      "reasoning_tokens": 204,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:50.957407+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 1
+  },
+  "27": {
+    "id": "4Sy6IK0max",
+    "article_name": "Make_Whole_Wheat_Pasta.txt",
+    "sentence_1": "Use a pizza cutter to cut out long, thin strips of dough.",
+    "sentence_2": "Use a pizza cutter <or a kitchen knife> to cut out long, thin strips of dough.",
+    "context_before": "Remove the dough from the bowl and roll it out with a well-floured rolling pin until it is approximately 1/8 in. (0.3cm) thick. \n 12.",
+    "context_after": "13. Put a large pot of water over high heat on the stove and allow it to come to a rapid boil.   14. Insert the fresh pasta noodles into the pot when the water is boiling, and allow them to cook for about 4 to 5 minutes. \n   15.",
+    "topic": "food",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      0,
+      1,
+      7
+    ],
+    "categories_majority_vote": [
+      "Background Knowledge"
+    ],
+    "categories_distribution": [
+      2,
+      3,
+      4,
+      0
+    ],
+    "generated": {
+      "question": "What could you use instead of a pizza cutter to cut the dough into strips?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "A kitchen knife.",
+        "GOLD_PARAPHRASED": "A cooking knife.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "A pair of kitchen scissors.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "A bench scraper.",
+        "IMPLAUSIBLE": "A tiny lawn mower."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_019a25009cebefc7006b06ec4631b487d2becb676ae9b36b23",
+      "attempts": 1,
+      "input_tokens": 1577,
+      "cached_tokens": 1422,
+      "output_tokens": 412,
+      "reasoning_tokens": 295,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:10:18.384919+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "28": {
+    "id": "Orlz0W7The",
+    "article_name": "Find_Love_at_50.txt",
+    "sentence_1": "You're not alone in feeling like it's difficult, or making excuses.",
+    "sentence_2": "You're not alone in feeling like it's difficult, or making excuses, <as many other people looking for love feel the same way>.",
+    "context_before": "You may also think that you're \"too old\" to find love, or that there is \"no one good to date at my age.\" Having the right mindset, and being open to new things is the first step in the right direction. \n *",
+    "context_after": "In a recent poll of single people who are 50+, about 40% of the respondents said that other priorities were just more important than finding love. And 25% of respondents stated that process what just \"too difficult where you're 50+.\"  2. Prioritize love in your life.",
+    "topic": "relationship",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      1,
+      0,
+      7
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      3,
+      3,
+      1,
+      0
+    ],
+    "generated": {
+      "question": "Who might share these doubts and frustrations?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "Many other people looking for love feel the same way.",
+        "GOLD_PARAPHRASED": "Numerous others seeking romance have similar feelings.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "Many married couples feel the same way.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "Many professional matchmakers feel the same way.",
+        "IMPLAUSIBLE": "Many tap-dancing refrigerators feel the same way."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_00bd39a5ff21e37b006b06ec661e9887d297515dbec337079d",
+      "attempts": 1,
+      "input_tokens": 1594,
+      "cached_tokens": 1422,
+      "output_tokens": 432,
+      "reasoning_tokens": 299,
+      "reasoning_summary": "**Rephrasing questions about love**\n\nI need to ensure that I’m avoiding repetition in my wording, especially with the question \"Who else might share these doubts and frustrations?\" I want to steer clear of phrases like \"as many other people looking for love feel the same way.\" \n\nI could say something like \"Numerous others seeking romance experience similar feelings.\" Let's think of alternatives too, like \"Your friends who found partners.\" But I shouldn't go too far asking about \"time-traveling penguins” since that sounds implausible!\n\n**Exploring shared feelings in love**\n\nI’m considering who might share doubts and frustrations around love. The original suggestion, \"Many other people looking for love feel the same way,\" is solid, but I want alternatives too. \n\nI could say \"Single adults focused on other priorities may relate,\" or even \"Your friends in long-term relationships might feel similarly.\" Another option could be \"Many professional matchmakers share these feelings.\" Obviously, I want to avoid silly ideas, like \"tap-dancing refrigerators,\" and stick to plausible choices!",
+      "generated_at": "2026-11-25T14:10:52.082382+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  },
+  "29": {
+    "id": "7aJ5L3R-nx",
+    "article_name": "Improve_Childhood_Dental_Habits.txt",
+    "sentence_1": "Also, if you need yet another reason to quit smoking, research indicates that secondhand smoke may contribute to tooth decay and other mouth problems.",
+    "sentence_2": "Also, if you need yet another reason to quit smoking, research indicates that secondhand smoke may contribute to tooth decay and other mouth problems, <which can even lead to oral or throat cancer>.",
+    "context_before": "If you don’t set a good example when it comes to taking care of your teeth, you will have a far more difficult time convincing your kids how important it is for them. \n     * Beyond simply being a good role model by brushing regularly and visiting the dentist, a parent with poor dental health is more likely to transmit tooth-harming bacteria when sharing food, drinks, utensils, or even kisses. \n *",
+    "context_after": "2. Establish a “dental home” early on. The term “dental home” refers to a home setting where good dental care is prioritized and practiced by the entire family, with the assistance of a dental professional. It’s never too late to make your home a “dental home,” but the sooner, the better.     *",
+    "topic": "health",
+    "majority_vote": "New Information",
+    "label_distribution": [
+      0,
+      8
+    ],
+    "Confidence Distribution": [
+      1,
+      0,
+      7
+    ],
+    "categories_majority_vote": [
+      "Context",
+      "Reasoning",
+      "Background Knowledge",
+      "Other"
+    ],
+    "categories_distribution": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "What serious consequence can the mouth problems linked to secondhand smoke have?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "They can even lead to oral or throat cancer.",
+        "GOLD_PARAPHRASED": "They may even result in mouth or throat cancer.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "They can eventually require extensive dental treatment.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "They can sometimes cause persistent bad breath.",
+        "IMPLAUSIBLE": "They can turn your teeth into tiny radios."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_03e42cf9ade7b0eb006b06ec915d7487d2be85b39b8ab59dae",
+      "attempts": 1,
+      "input_tokens": 1503,
+      "cached_tokens": 1277,
+      "output_tokens": 267,
+      "reasoning_tokens": 130,
+      "reasoning_summary": null,
+      "generated_at": "2026-11-25T14:11:31.661977+00:00"
+    },
+    "item_type": "new information",
+    "grouping": 1
+  },
+  "30": {
+    "id": "tomrezJojL",
+    "article_name": "Sit_in_a_Kayak.txt",
+    "sentence_1": "The feet braces will adjust the curvature of your thighs, so try different positions.",
+    "sentence_2": "The feet braces will adjust the curvature of your thighs, so try different positions <if you're not comfortable>.",
+    "context_before": "Put your feet against these and push them down further if your legs are longer. You will hear them click into place once you push them to your desired length. Simply release the pressure on the feet braces to let them retract upwards again.",
+    "context_after": "* You should have about of space between your thigh and the thigh brace when the feet braces are properly adjusted.   8. Push yourself into the water when you're ready. Once you have your paddle and you're comfortable in the seat, use your hands and body weight to shimmy the kayak towards the water. You may need to take several pushes until the water takes the weight off the kayak.",
+    "topic": "sports",
+    "majority_vote": "Implicit",
+    "label_distribution": [
+      6,
+      2
+    ],
+    "Confidence Distribution": [
+      1,
+      2,
+      5
+    ],
+    "categories_majority_vote": [
+      "Reasoning"
+    ],
+    "categories_distribution": [
+      3,
+      6,
+      0,
+      0
+    ],
+    "generated": {
+      "question": "When should you try different positions for the feet braces?",
+      "answer_options": {
+        "GOLD_ORIGINAL": "If you're not comfortable.",
+        "GOLD_PARAPHRASED": "If you don't feel at ease.",
+        "PLAUSIBLE_GIVEN_CONTEXT_1": "If your legs are longer.",
+        "PLAUSIBLE_GIVEN_CONTEXT_2": "If the thigh brace leaves too much space.",
+        "IMPLAUSIBLE": "If your kayak starts tap-dancing."
+      }
+    },
+    "meta": {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "response_id": "resp_0ed89c56e199d209006b06ec6d357087d2b8d2b2c19e64650e",
+      "attempts": 1,
+      "input_tokens": 1603,
+      "cached_tokens": 1422,
+      "output_tokens": 338,
+      "reasoning_tokens": 214,
+      "reasoning_summary": "**Considering foot brace positions**\n\nThe question \"When should you try different positions for the foot braces?\" raises a couple of interesting points. First, it makes sense to consider moving them if your legs are longer. Second, if the thigh brace leaves too much space, adjusting for comfort could be necessary. And then there's the absurd suggestion of trying new positions if your kayak starts tap-dancing — definitely not a serious consideration! So, I've got some good and amusing ideas here!",
+      "generated_at": "2026-11-25T14:10:58.020462+00:00"
+    },
+    "item_type": "implicit",
+    "grouping": 1
+  }
+}

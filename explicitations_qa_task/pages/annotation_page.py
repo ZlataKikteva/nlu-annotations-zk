@@ -10,14 +10,22 @@ st.session_state.page = "explicitations_qa_task_annotation_page_sample" + str(st
 
 samples = utils.read_json_from_file(utils.TASK_INFO["explicitations_qa_task"]["annotation_filepath"])
 
-
-if user_repository.get_qualification() != 1:
-    st.write("## You must pass qualification before starting annotation. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
-elif user_repository.check_if_done(st.session_state.user_id):
+# skipping qualification and done check
+#if user_repository.get_qualification() != 1:
+#    st.write("## You must pass qualification before starting annotation. \n\n Select **Qualification** in the navigation bar to your left to try the qualification test.")
+#elif user_repository.check_if_done(st.session_state.user_id):
+if user_repository.check_if_done(st.session_state.user_id):
     st.write("## You have finished annotation. \n\nThank you for your time!")
 else:
  
     index = int(st.session_state.progress)
+
+    # start on the first item of this annotator's group
+    grouping = st.session_state.user[3]
+    current = samples.get(str(index), {})
+    if "grouping" in current and current["grouping"] != grouping:
+        index = utils.skip_to_next_sample(index - 1, samples, grouping)
+        st.session_state.progress = index
  
     back_button = st.button(label="Back", key=10 * index + 7)
  
